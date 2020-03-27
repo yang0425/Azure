@@ -1,26 +1,16 @@
 ### Question 1
 
-HOTSPOT
-
-You have an Azure subscription named Subscription1. Subscription1 contains the resources in the following
-
-table:
+You have an Azure subscription named Subscription1. Subscription1 contains the resources in the following table:
 
 ![](image/image-2.webp)
 
-VNet1 is in RG1. VNet2 is in RG2. There is no connectivity between VNet1 and VNet2. An administrator
+VNet1 is in RG1. VNet2 is in RG2. There is no connectivity between VNet1 and VNet2.
 
-named Admin1 creates an Azure virtual machine VM1 in RG1. VM1 uses a disk named Disk1 and connects
-
-to VNet1. Admin1 then installs a custom application in VM1.
+An administrator named Admin1 creates an Azure virtual machine VM1 in RG1. VM1 uses a disk named Disk1 and connects to VNet1. Admin1 then installs a custom application in VM1.
 
 You need to move the custom application to VNet2. The solution must minimize administrative effort.
 
 Which two actions should you perform? To answer, select the appropriate options in the answer area.
-
-NOTE: Each correct selection is worth one point.
-
-Hot Area:
 
 ![](image/image-3.webp)
 
@@ -28,15 +18,11 @@ Hot Area:
 
 ### Question 2
 
-You have an Azure subscription named Subscription1 that is used by several departments at your
-
-company. Subscription1 contains the resources in the following table.
+You have an Azure subscription named Subscription1 that is used by several departments at your company. Subscription1 contains the resources in the following table.
 
 ![](image/image-5.webp)
 
-Another administrator deploys a virtual machine named VM1 and an Azure Storage account named
-
-Storage2 by using a single Azure Resource Manager template.
+Another administrator deploys a virtual machine named VM1 and an Azure Storage account named Storage2 by using a single Azure Resource Manager template.
 
 You need to view the template used for the deployment.
 
@@ -54,17 +40,11 @@ From the Azure Portal, for which blade can you view the template that was used f
 
 ### Question 3
 
-You have two subscriptions named Subscription1 and Subscription2. Each subscription is associated to a
+You have two subscriptions named Subscription1 and Subscription2. Each subscription is associated to a different Azure AD tenant.
 
-different Azure AD tenant.
+Subscription1 contains a virtual network named VNet1. VNet1 contains an Azure virtual machine named VM1 and has an IP address space of 10.0.0.0/16.
 
-Subscription1 contains a virtual network named VNet1. VNet1 contains an Azure virtual machine named
-
-VM1 and has an IP address space of 10.0.0.0/16.
-
-Subscription2 contains a virtual network named VNet2. Vnet2 contains an Azure virtual machine named
-
-VM2 and has an IP address space of 10.10.0.0/24.
+Subscription2 contains a virtual network named VNet2. Vnet2 contains an Azure virtual machine named VM2 and has an IP address space of 10.10.0.0/24.
 
 You need to connect VNet1 to VNet2.
 
@@ -84,15 +64,9 @@ What should you do first?
 
 You have an Azure Active Directory (Azure AD) tenant.
 
-You have an existing Azure AD conditional access policy named Policy1. Policy1 enforces the use of Azure
+You have an existing Azure AD conditional access policy named Policy1. Policy1 enforces the use of Azure AD-joined devices when members of the Global Administrators group authenticate to Azure AD from untrusted locations.
 
-AD-joined devices when members of the Global Administrators group authenticate to Azure AD from
-
-untrusted locations.
-
-You need to ensure that members of the Global Administrators group will also be forced to use multi-factor
-
-authentication when authenticating from untrusted locations.
+You need to ensure that members of the Global Administrators group will also be forced to use multi-factor authentication when authenticating from untrusted locations.
 
 What should you do?
 
@@ -108,21 +82,13 @@ What should you do?
 
 ### Question 5
 
-HOTSPOT
-
 You plan to deploy five virtual machines to a virtual network subnet.
 
 Each virtual machine will have a public IP address and a private IP address.
 
 Each virtual machine requires the same inbound and outbound security rules.
 
-What is the minimum number of network interfaces and network security groups that you require? To
-
-answer, select the appropriate options in the answer area.
-
-NOTE: Each correct selection is worth one point.
-
-Hot Area:
+What is the minimum number of network interfaces and network security groups that you require? To answer, select the appropriate options in the answer area.
 
 ![](image/image-11.webp)
 
@@ -136,9 +102,7 @@ VM1 is in a resource group named RG1.
 
 VM1 runs services that will be used to deploy resources to RG1.
 
-You need to ensure that a service running on VM1 can manage the resources in RG1 by using the identity
-
-of VM1.
+You need to ensure that a service running on VM1 can manage the resources in RG1 by using the identity of VM1.
 
 What should you do first?
 
@@ -154,11 +118,7 @@ What should you do first?
 
 ### Question 7
 
-HOTSPOT
-
-You have an Azure subscription named Subscription1. Subscription1 contains the virtual networks in the
-
-following table:
+You have an Azure subscription named Subscription1. Subscription1 contains the virtual networks in the following table:
 
 ![](image/image-13.webp)
 
@@ -174,29 +134,17 @@ You add the peerings in the following table:
 
 For each of the following statements, select Yes if the statement is true. Otherwise, select No.
 
-NOTE: Each correct selection is worth one point.
-
-Hot Area:
-
 ![](image/image-16.webp)
 
 [See the answer](#answer-7)
 
 ### Question 8
 
-HOTSPOT
-
 You have an Azure Active Directory (Azure AD) tenant.
 
-You need to create a conditional access policy that requires all users to use multi-factor authentication
-
-when they access the Azure portal.
+You need to create a conditional access policy that requires all users to use multi-factor authentication when they access the Azure portal.
 
 Which three settings should you configure? To answer, select the appropriate settings in the answer area.
-
-NOTE: Each correct selection is worth one point.
-
-Hot Area:
 
 ![](image/image-18.webp)
 
@@ -204,13 +152,9 @@ Hot Area:
 
 ### Question 9
 
-You configure Azure AD Connect for Azure Active Directory Seamless Single Sign-On (Azure AD Seamless
+You configure Azure AD Connect for Azure Active Directory Seamless Single Sign-On (Azure AD Seamless SSO) for an on-premises network.
 
-SSO) for an on-premises network.
-
-Users report that when they attempt to access myapps.microsoft.com, they are prompted multiple times to
-
-sign in and are forced to use an account name that ends with onmicrosoft.com.
+Users report that when they attempt to access myapps.microsoft.com, they are prompted multiple times to sign in and are forced to use an account name that ends with onmicrosoft.com.
 
 You discover that there is a UPN mismatch between Azure AD and the on-premises Active Directory.
 
@@ -232,13 +176,9 @@ What should you do first?
 
 You have an Active Directory forest named contoso.com.
 
-You install and configure Azure AD Connect to use password hash synchronization as the single sign-on
+You install and configure Azure AD Connect to use password hash synchronization as the single sign-on (SSO) method. Staging mode is enabled.
 
-(SSO) method. Staging mode is enabled.
-
-You review the synchronization results and discover that the Synchronization Service Manager does not
-
-display any sync jobs.
+You review the synchronization results and discover that the Synchronization Service Manager does not display any sync jobs.
 
 You need to ensure that the synchronization completes successfully.
 
@@ -256,21 +196,13 @@ What should you do?
 
 ### Question 11
 
-DRAG DROP
-
 You have an Azure Active Directory (Azure AD) tenant that has the initial domain name.
 
 You have a domain name of contoso.com registered at a third-party registrar.
 
-You need to ensure that you can create Azure AD users that have names containing a suffix of
+You need to ensure that you can create Azure AD users that have names containing a suffix of @contoso.com.
 
-@contoso.com.
-
-Which three actions should you perform in sequence? To answer, move the appropriate cmdlets from the
-
-list of cmdlets to the answer area and arrange them in the correct order.
-
-Select and Place:
+Which three actions should you perform in sequence? To answer, move the appropriate cmdlets from the list of cmdlets to the answer area and arrange them in the correct order.
 
 ![](image/image-20.webp)
 
@@ -300,9 +232,7 @@ What should you do?
 
 You have an Azure subscription that contains 10 virtual machines.
 
-You need to ensure that you receive an email message when any virtual machines are powered off,
-
-restarted, or deallocated.
+You need to ensure that you receive an email message when any virtual machines are powered off, restarted, or deallocated.
 
 What is the minimum number of rules and action groups that you require?
 
@@ -318,17 +248,11 @@ What is the minimum number of rules and action groups that you require?
 
 ### Question 14
 
-You plan to automate the deployment of a virtual machine scale set that uses the Windows Server 2016
+You plan to automate the deployment of a virtual machine scale set that uses the Windows Server 2016 Datacenter image.
 
-Datacenter image.
-
-You need to ensure that when the scale set virtual machines are provisioned, they have web server
-
-components installed.
+You need to ensure that when the scale set virtual machines are provisioned, they have web server components installed.
 
 Which two actions should you perform? Each correct answer presents part of the solution.
-
-NOTE: Each correct selection is worth one point.
 
 * A: Upload a configuration script.
 
@@ -348,9 +272,7 @@ You have an Azure subscription.
 
 You have 100 Azure virtual machines.
 
-You need to quickly identify underutilized virtual machines that can have their service tier changed to a less
-
-expensive offering.
+You need to quickly identify underutilized virtual machines that can have their service tier changed to a less expensive offering.
 
 Which blade should you use?
 
@@ -366,21 +288,13 @@ Which blade should you use?
 
 ### Question 16
 
-An app uses a virtual network with two subnets. One subnet is used for the application server. The other
+An app uses a virtual network with two subnets. One subnet is used for the application server. The other subnet is used for a database server. A network virtual appliance (NVA) is used as a firewall.
 
-subnet is used for a database server. A network virtual appliance (NVA) is used as a firewall.
-
-Traffic destined for one specific address prefix is routed to the NVA and then to an on-premises database
-
-server that stores sensitive data. A Border Gateway Protocol (BGP) route is used for the traffic to the on-
-
-premises database server.
+Traffic destined for one specific address prefix is routed to the NVA and then to an on-premises database server that stores sensitive data. A Border Gateway Protocol (BGP) route is used for the traffic to the on-premises database server.
 
 You need to recommend a method for creating the user-defined route.
 
 Which two options should you recommend? Each correct answer presents a complete solution.
-
-NOTE: Each correct selection is worth one point.
 
 * A: For the virtual network configuration, use a VPN.
 
@@ -404,8 +318,6 @@ You need to define an auto-scale strategy to ensure that the VM can handle the w
 
 Which three options should you recommend? Each correct answer presents a complete solution.
 
-NOTE: Each correct selection is worth one point.
-
 * A: Deploy application automatic vertical scaling.
 
 * B: Create a VM availability set.
@@ -420,27 +332,13 @@ NOTE: Each correct selection is worth one point.
 
 ### Question 18
 
-DRAG DROP
-
-You develop a web app that uses the tier D1 app service plan by using the Web Apps feature of Microsoft
-
-Azure App Service.
+You develop a web app that uses the tier D1 app service plan by using the Web Apps feature of Microsoft Azure App Service.
 
 Spikes in traffic have caused increases in page load times.
 
-You need to ensure that the web app automatically scales when CPU load is about 85 percent and
+You need to ensure that the web app automatically scales when CPU load is about 85 percent and minimize costs.
 
-minimize costs.
-
-Which four actions should you perform in sequence? To answer, move the appropriate actions from the list
-
-of actions to the answer area and arrange them in the correct order.
-
-NOTE: More than one order of answer choices is correct. You will receive credit for any of the correct
-
-orders you select.
-
-Select and Place:
+Which four actions should you perform in sequence? To answer, move the appropriate actions from the list of actions to the answer area and arrange them in the correct order.
 
 ![](image/image-27.webp)
 
@@ -448,11 +346,7 @@ Select and Place:
 
 ### Question 19
 
-HOTSPOT
-
-You have Azure subscription that contains a virtual network named VNet1. VNet1 uses an IP address
-
-space of 10.0.0.0/16 and contains the subnets in the following table.
+You have Azure subscription that contains a virtual network named VNet1. VNet1 uses an IP address space of 10.0.0.0/16 and contains the subnets in the following table.
 
 ![](image/image-29.webp)
 
@@ -464,25 +358,17 @@ You need to route all inbound traffic to VNet1 through VM1.
 
 How should you configure RT1? To answer, select the appropriate options in the answer area.
 
-NOTE: Each correct selection is worth one point.
-
-Hot Area:
-
 ![](image/image-30.webp)
 
 [See the answer](#answer-19)
 
 ### Question 20
 
-You are implementing authentication for applications in your company. You plan to implement self-service
-
-password reset (SSPR) and multifactor authentication (MFA) in Azure Active Directory (Azure AD).
+You are implementing authentication for applications in your company. You plan to implement self-service password reset (SSPR) and multifactor authentication (MFA) in Azure Active Directory (Azure AD).
 
 You need to select authentication mechanisms that can be used for both MFA and SSPR.
 
 Which two authentication methods should you use? Each correct answer presents a complete solution.
-
-NOTE: Each correct selection is worth one point.
 
 * A: Short Message Service (SMS) messages
 
@@ -498,25 +384,11 @@ NOTE: Each correct selection is worth one point.
 
 ### Question 21
 
-Note: This question is part of series of questions that present the same scenario. Each question in
-
-the series contains a unique solution that might meet the stated goals. Some question sets might
-
-have more than one correct solution, while others might not have a correct solution.
-
-After you answer a question in this section, you will NOT be able to return to it. As a result, these
-
-questions will not appear in the review screen.
-
-You have an Azure subscription that contains 10 virtual networks. The virtual networks are hosted in
-
-separate resource groups.
+You have an Azure subscription that contains 10 virtual networks. The virtual networks are hosted in separate resource groups.
 
 Another administrator plans to create several network security groups (NSGs) in the subscription.
 
-You need to ensure that when an NSG is created, it automatically blocks TCP port 8080 between the virtual
-
-networks.
+You need to ensure that when an NSG is created, it automatically blocks TCP port 8080 between the virtual networks.
 
 Solution: You create a resource lock, and then you assign the lock to the subscription.
 
@@ -530,19 +402,7 @@ Does this meet the goal?
 
 ### Question 22
 
-Note: This question is part of series of questions that present the same scenario. Each question in
-
-the series contains a unique solution that might meet the stated goals. Some question sets might
-
-have more than one correct solution, while others might not have a correct solution.
-
-After you answer a question in this section, you will NOT be able to return to it. As a result, these
-
-questions will not appear in the review screen.
-
-You have an Azure subscription named Subscription1. Subscription1 contains a resource group named
-
-RG1. RG1 contains resources that were deployed by using templates.
+You have an Azure subscription named Subscription1. Subscription1 contains a resource group named RG1. RG1 contains resources that were deployed by using templates.
 
 You need to view the date and time when the resources were created in RG1.
 
@@ -558,19 +418,7 @@ Does this meet the goal?
 
 ### Question 23
 
-Note: This question is part of series of questions that present the same scenario. Each question in
-
-the series contains a unique solution that might meet the stated goals. Some question sets might
-
-have more than one correct solution, while others might not have a correct solution.
-
-After you answer a question in this section, you will NOT be able to return to it. As a result, these
-
-questions will not appear in the review screen.
-
-You have an Azure subscription named Subscription1. Subscription1 contains a resource group named
-
-RG1. RG1 contains resources that were deployed by using templates.
+You have an Azure subscription named Subscription1. Subscription1 contains a resource group named RG1. RG1 contains resources that were deployed by using templates.
 
 You need to view the date and time when the resources were created in RG1.
 
@@ -586,19 +434,7 @@ Does this meet the goal?
 
 ### Question 24
 
-Note: This question is part of series of questions that present the same scenario. Each question in
-
-the series contains a unique solution that might meet the stated goals. Some question sets might
-
-have more than one correct solution, while others might not have a correct solution.
-
-After you answer a question in this section, you will NOT be able to return to it. As a result, these
-
-questions will not appear in the review screen.
-
-You have an Azure subscription named Subscription1. Subscription1 contains a resource group named
-
-RG1. RG1 contains resources that were deployed by using templates.
+You have an Azure subscription named Subscription1. Subscription1 contains a resource group named RG1. RG1 contains resources that were deployed by using templates.
 
 You need to view the date and time when the resources were created in RG1.
 
@@ -614,29 +450,19 @@ Does this meet the goal?
 
 ### Question 25
 
-HOTSPOT
-
 You have several Azure virtual machines on a virtual network named VNet1.
 
 You configure an Azure Storage account as shown in the following exhibit.
 
 ![](image/image-38.webp)
 
-Use the drop-down menus to select the answer choice that completes each statement based on the
-
-information presented in the graphic.
-
-NOTE: Each correct selection is worth one point.
-
-Hot Area:
+Use the drop-down menus to select the answer choice that completes each statement based on the information presented in the graphic.
 
 ![](image/image-39.webp)
 
 [See the answer](#answer-25)
 
 ### Question 26
-
-HOTSPOT
 
 You plan to create an Azure Storage account in the Azure region of East US 2.
 
@@ -646,21 +472,13 @@ You need to create a storage account that meets the following requirements:
 
  - Remains available if a single data center in the region fails
 
-How should you configure the storage account? To answer, select the appropriate options in the answer
-
-area.
-
-NOTE: Each correct selection is worth one point.
-
-Hot Area:
+How should you configure the storage account? To answer, select the appropriate options in the answer area.
 
 ![](image/image-42.webp)
 
 [See the answer](#answer-26)
 
 ### Question 27
-
-DRAG DROP
 
 You have an on-premises file server named Server1 that runs Windows Server 2016.
 
@@ -670,11 +488,7 @@ You deploy an Azure File Sync Storage Sync Service, and you create a sync group.
 
 You need to synchronize files from Server1 to Azure.
 
-Which three actions should you perform in sequence? To answer, move the appropriate actions from the
-
-list of actions to the answer area and arrange them in the correct order.
-
-Select and Place:
+Which three actions should you perform in sequence? To answer, move the appropriate actions from the list of actions to the answer area and arrange them in the correct order.
 
 ![](image/image-44.webp)
 
@@ -684,11 +498,7 @@ Select and Place:
 
 You plan to use the Azure Import/Export service to copy files to a storage account.
 
-Which two files should you create before you prepare the drives for the import job? Each correct answer
-
-presents part of the solution.
-
-NOTE: Each correct selection is worth one point.
+Which two files should you create before you prepare the drives for the import job? Each correct answer presents part of the solution.
 
 * A: a dataset CSV file
 
@@ -724,8 +534,6 @@ Which outbound port should you open between the home computers and the data file
 
 ### Question 30
 
-HOTSPOT
-
 You have an Azure subscription named Subscription1.
 
 Subscription1 contains the virtual machines in the following table:
@@ -736,9 +544,7 @@ Subscription1 contains a virtual network named VNet1 that has the subnets in the
 
 ![](image/image-47.webp)
 
-VM3 has multiple network adapters, including a network adapter named NIC3. IP forwarding is enabled on
-
-NIC3. Routing is enabled on VM3.
+VM3 has multiple network adapters, including a network adapter named NIC3. IP forwarding is enabled on NIC3. Routing is enabled on VM3.
 
 You create a route table named RT1 that contains the routers in the following table.
 
@@ -748,29 +554,17 @@ You apply RT1 to Subnet1 and Subnet2.
 
 For each of the following statements, select Yes if the statement is true. Otherwise, select No.
 
-NOTE: Each correct selection is worth one point.
-
-Hot Area:
-
 ![](image/image-49.webp)
 
 [See the answer](#answer-30)
 
 ### Question 31
 
-HOTSPOT
-
 You have a virtual network named VNet1 that has the configuration shown in the following exhibit.
 
 ![](image/image-53.webp)
 
-Use the drop-down menus to select the answer choice that completes each statement based on the
-
-information presented in the graphic.
-
-NOTE: Each correct selection is worth one point.
-
-Hot Area:
+Use the drop-down menus to select the answer choice that completes each statement based on the information presented in the graphic.
 
 ![](image/image-54.webp)
 
@@ -778,25 +572,15 @@ Hot Area:
 
 ### Question 32
 
-HOTSPOT
-
-You have an Azure subscription named Subscription1. Subscription1 contains the resources in the following
-
-table.
+You have an Azure subscription named Subscription1. Subscription1 contains the resources in the following table.
 
 ![](image/image-56.webp)
 
-In Azure, you create a private DNS zone named adatum.com. You set the registration virtual network to
-
-VNet2. The adatum.com zone is configured is shown in the following exhibit.
+In Azure, you create a private DNS zone named adatum.com. You set the registration virtual network to VNet2. The adatum.com zone is configured is shown in the following exhibit.
 
 ![](image/image-57.webp)
 
 For each of the following statements, select Yes if the statement is true. Otherwise, select No.
-
-NOTE: Each correct selection is worth one point.
-
-Hot Area:
 
 ![](image/image-58.webp)
 
@@ -810,9 +594,7 @@ You have a virtual network named VNet1 as shown in the exhibit. (Click the Exhib
 
 No devices are connected to VNet1.
 
-You plan to peer VNet1 to another virtual network named VNet2 in the same region. VNet2 has an address
-
-space of 10.2.0.0/16.
+You plan to peer VNet1 to another virtual network named VNet2 in the same region. VNet2 has an address space of 10.2.0.0/16.
 
 You need to create the peering.
 
@@ -830,65 +612,9 @@ What should you do first?
 
 ### Question 34
 
-SIMULATION
-
-Click to expand each objective. To connect to the Azure portal, type https://portal.azure.com in the browser
-
-address bar.
-
-![](image/image-61.webp)
-
-![](image/image-62.webp)
-
-![](image/image-63.webp)
-
-![](image/image-64.webp)
-
-![](image/image-65.webp)
-
-![](image/image-66.webp)
-
-When you are finished performing all the tasks, click the ‘Next’ button.
-
-Note that you cannot return to the lab once you click the ‘Next’ button. Scoring occur in the background
-
-while you complete the rest of the exam.
-
-Overview 
-
-The following section of the exam is a lab. In this section, you will perform a set of tasks in a live
-
-environment. While most functionality will be available to you as it would be in a live environment, some
-
-functionality (e.g., copy and paste, ability to navigate to external websites) will not be possible by design.
-
-Scoring is based on the outcome of performing the tasks stated in the lab. In other words, it doesn’t matter
-
-how you accomplish the task, if you successfully perform it, you will earn credit for that task.
-
-Labs are not timed separately, and this exam may have more than one lab that you must complete. You
-
-can use as much time as you would like to complete each lab. But, you should manage your time
-
-appropriately to ensure that you are able to complete the lab(s) and all other sections of the exam in the
-
-time provided.
-
-Please note that once you submit your work by clicking the Next button within a lab, you will NOT be able to
-
-return to the lab.
-
-To start the lab
-
-You may start the lab by clicking the Next button.
-
 Your company plans to store several documents on a public website.
 
-You need to create a container named bios that will host the documents in the storagelod8322489 storage
-
-account. The solution must ensure anonymous access and must ensure that users can browse folders in
-
-the container.
+You need to create a container named bios that will host the documents in the storagelod8322489 storage account. The solution must ensure anonymous access and must ensure that users can browse folders in the container.
 
 What should you do from the Azure portal?
 
@@ -896,63 +622,9 @@ What should you do from the Azure portal?
 
 ### Question 35
 
-SIMULATION
-
-Click to expand each objective. To connect to the Azure portal, type https://portal.azure.com in the browser
-
-address bar.
-
-![](image/image-68.webp)
-
-![](image/image-69.webp)
-
-![](image/image-70.webp)
-
-![](image/image-71.webp)
-
-![](image/image-72.webp)
-
-![](image/image-73.webp)
-
-When you are finished performing all the tasks, click the ‘Next’ button.
-
-Note that you cannot return to the lab once you click the ‘Next’ button. Scoring occur in the background
-
-while you complete the rest of the exam.
-
-Overview 
-
-The following section of the exam is a lab. In this section, you will perform a set of tasks in a live
-
-environment. While most functionality will be available to you as it would be in a live environment, some
-
-functionality (e.g., copy and paste, ability to navigate to external websites) will not be possible by design.
-
-Scoring is based on the outcome of performing the tasks stated in the lab. In other words, it doesn’t matter
-
-how you accomplish the task, if you successfully perform it, you will earn credit for that task.
-
-Labs are not timed separately, and this exam may have more than one lab that you must complete. You
-
-can use as much time as you would like to complete each lab. But, you should manage your time
-
-appropriately to ensure that you are able to complete the lab(s) and all other sections of the exam in the
-
-time provided.
-
-Please note that once you submit your work by clicking the Next button within a lab, you will NOT be able to
-
-return to the lab.
-
-To start the lab
-
-You may start the lab by clicking the Next button.
-
 Your company plans to host in Azure the source files of several line-of-business applications.
 
-You need to create an Azure file share named corpsoftware in the storagelod8322489 storage account. The
-
-solution must ensure that corpsoftware can store only up to 250 GB of data.
+You need to create an Azure file share named corpsoftware in the storagelod8322489 storage account. The solution must ensure that corpsoftware can store only up to 250 GB of data.
 
 What should you do from the Azure portal?
 
@@ -960,67 +632,9 @@ What should you do from the Azure portal?
 
 ### Question 36
 
-SIMULATION
+You plan to back up all the Azure virtual machines in your Azure subscription at 02:00 Coordinated Universal Time (UTC) daily.
 
-Click to expand each objective. To connect to the Azure portal, type https://portal.azure.com in the browser
-
-address bar.
-
-![](image/image-77.webp)
-
-![](image/image-78.webp)
-
-![](image/image-79.webp)
-
-![](image/image-80.webp)
-
-![](image/image-81.webp)
-
-![](image/image-82.webp)
-
-When you are finished performing all the tasks, click the ‘Next’ button.
-
-Note that you cannot return to the lab once you click the ‘Next’ button. Scoring occur in the background
-
-while you complete the rest of the exam.
-
-Overview 
-
-The following section of the exam is a lab. In this section, you will perform a set of tasks in a live
-
-environment. While most functionality will be available to you as it would be in a live environment, some
-
-functionality (e.g., copy and paste, ability to navigate to external websites) will not be possible by design.
-
-Scoring is based on the outcome of performing the tasks stated in the lab. In other words, it doesn’t matter
-
-how you accomplish the task, if you successfully perform it, you will earn credit for that task.
-
-Labs are not timed separately, and this exam may have more than one lab that you must complete. You
-
-can use as much time as you would like to complete each lab. But, you should manage your time
-
-appropriately to ensure that you are able to complete the lab(s) and all other sections of the exam in the
-
-time provided.
-
-Please note that once you submit your work by clicking the Next button within a lab, you will NOT be able to
-
-return to the lab.
-
-To start the lab
-
-You may start the lab by clicking the Next button.
-
-You plan to back up all the Azure virtual machines in your Azure subscription at 02:00 Coordinated
-
-Universal Time (UTC) daily.
-
-You need to prepare the Azure environment to ensure that any new virtual machines can be configured
-
-quickly for backup. The solution must ensure that all the daily backups performed at 02:00 UTC are stored
-
-for only 90 days.
+You need to prepare the Azure environment to ensure that any new virtual machines can be configured quickly for backup. The solution must ensure that all the daily backups performed at 02:00 UTC are stored for only 90 days.
 
 What should you do from your Recovery Services vault on the Azure portal?
 
@@ -1028,123 +642,15 @@ What should you do from your Recovery Services vault on the Azure portal?
 
 ### Question 37
 
-SIMULATION
-
-Click to expand each objective. To connect to the Azure portal, type https://portal.azure.com in the browser
-
-address bar.
-
-![](image/image-88.webp)
-
-![](image/image-89.webp)
-
-![](image/image-90.webp)
-
-![](image/image-91.webp)
-
-![](image/image-92.webp)
-
-![](image/image-93.webp)
-
-When you are finished performing all the tasks, click the ‘Next’ button.
-
-Note that you cannot return to the lab once you click the ‘Next’ button. Scoring occur in the background
-
-while you complete the rest of the exam.
-
-Overview 
-
-The following section of the exam is a lab. In this section, you will perform a set of tasks in a live
-
-environment. While most functionality will be available to you as it would be in a live environment, some
-
-functionality (e.g., copy and paste, ability to navigate to external websites) will not be possible by design.
-
-Scoring is based on the outcome of performing the tasks stated in the lab. In other words, it doesn’t matter
-
-how you accomplish the task, if you successfully perform it, you will earn credit for that task.
-
-Labs are not timed separately, and this exam may have more than one lab that you must complete. You
-
-can use as much time as you would like to complete each lab. But, you should manage your time
-
-appropriately to ensure that you are able to complete the lab(s) and all other sections of the exam in the
-
-time provided.
-
-Please note that once you submit your work by clicking the Next button within a lab, you will NOT be able to
-
-return to the lab.
-
-To start the lab
-
-You may start the lab by clicking the Next button.
-
 You plan to connect several virtual machines to the VNET01-USEA2 virtual network.
 
-In the Web-RGlod8322489 resource group, you need to create a virtual machine that uses the
-
-Standard_B2ms size named Web01 that runs Windows Server 2016. Web01 must be added to an
-
-availability set.
+In the Web-RGlod8322489 resource group, you need to create a virtual machine that uses the Standard_B2ms size named Web01 that runs Windows Server 2016. Web01 must be added to an availability set.
 
 What should you do from the Azure portal?
 
 [See the answer](#answer-37)
 
 ### Question 38
-
-SIMULATION
-
-Click to expand each objective. To connect to the Azure portal, type https://portal.azure.com in the browser
-
-address bar.
-
-![](image/image-96.webp)
-
-![](image/image-97.webp)
-
-![](image/image-98.webp)
-
-![](image/image-99.webp)
-
-![](image/image-100.webp)
-
-![](image/image-101.webp)
-
-When you are finished performing all the tasks, click the ‘Next’ button.
-
-Note that you cannot return to the lab once you click the ‘Next’ button. Scoring occur in the background
-
-while you complete the rest of the exam.
-
-Overview 
-
-The following section of the exam is a lab. In this section, you will perform a set of tasks in a live
-
-environment. While most functionality will be available to you as it would be in a live environment, some
-
-functionality (e.g., copy and paste, ability to navigate to external websites) will not be possible by design.
-
-Scoring is based on the outcome of performing the tasks stated in the lab. In other words, it doesn’t matter
-
-how you accomplish the task, if you successfully perform it, you will earn credit for that task.
-
-Labs are not timed separately, and this exam may have more than one lab that you must complete. You
-
-can use as much time as you would like to complete each lab. But, you should manage your time
-
-appropriately to ensure that you are able to complete the lab(s) and all other sections of the exam in the
-
-time provided.
-
-Please note that once you submit your work by clicking the Next button within a lab, you will NOT be able to
-
-return to the lab.
-
-To start the lab
-
-You may start the lab by clicking the Next button.
 
 You recently created a virtual machine named Web01.
 
@@ -1156,63 +662,9 @@ What should you do from the Azure portal?
 
 ### Question 39
 
-SIMULATION
-
-Click to expand each objective. To connect to the Azure portal, type https://portal.azure.com in the browser
-
-address bar.
-
-![](image/image-104.webp)
-
-![](image/image-105.webp)
-
-![](image/image-106.webp)
-
-![](image/image-107.webp)
-
-![](image/image-108.webp)
-
-![](image/image-109.webp)
-
-When you are finished performing all the tasks, click the ‘Next’ button.
-
-Note that you cannot return to the lab once you click the ‘Next’ button. Scoring occur in the background
-
-while you complete the rest of the exam.
-
-Overview 
-
-The following section of the exam is a lab. In this section, you will perform a set of tasks in a live
-
-environment. While most functionality will be available to you as it would be in a live environment, some
-
-functionality (e.g., copy and paste, ability to navigate to external websites) will not be possible by design.
-
-Scoring is based on the outcome of performing the tasks stated in the lab. In other words, it doesn’t matter
-
-how you accomplish the task, if you successfully perform it, you will earn credit for that task.
-
-Labs are not timed separately, and this exam may have more than one lab that you must complete. You
-
-can use as much time as you would like to complete each lab. But, you should manage your time
-
-appropriately to ensure that you are able to complete the lab(s) and all other sections of the exam in the
-
-time provided.
-
-Please note that once you submit your work by clicking the Next button within a lab, you will NOT be able to
-
-return to the lab.
-
-To start the lab
-
-You may start the lab by clicking the Next button.
-
 You plan to allow connections between the VNET01-USEA2 and VNET01-USWE2 virtual networks.
 
-You need to ensure that virtual machines can communicate across both virtual networks by using their
-
-private IP address.
+You need to ensure that virtual machines can communicate across both virtual networks by using their private IP address.
 
 The solution must NOT require any virtual network gateways.
 
@@ -1221,58 +673,6 @@ What should you do from the Azure portal?
 [See the answer](#answer-39)
 
 ### Question 40
-
-SIMULATION
-
-Click to expand each objective. To connect to the Azure portal, type https://portal.azure.com in the browser
-
-address bar.
-
-![](image/image-111.webp)
-
-![](image/image-112.webp)
-
-![](image/image-113.webp)
-
-![](image/image-114.webp)
-
-![](image/image-115.webp)
-
-![](image/image-116.webp)
-
-When you are finished performing all the tasks, click the ‘Next’ button.
-
-Note that you cannot return to the lab once you click the ‘Next’ button. Scoring occur in the background
-
-while you complete the rest of the exam.
-
-Overview 
-
-The following section of the exam is a lab. In this section, you will perform a set of tasks in a live
-
-environment. While most functionality will be available to you as it would be in a live environment, some
-
-functionality (e.g., copy and paste, ability to navigate to external websites) will not be possible by design.
-
-Scoring is based on the outcome of performing the tasks stated in the lab. In other words, it doesn’t matter
-
-how you accomplish the task, if you successfully perform it, you will earn credit for that task.
-
-Labs are not timed separately, and this exam may have more than one lab that you must complete. You
-
-can use as much time as you would like to complete each lab. But, you should manage your time
-
-appropriately to ensure that you are able to complete the lab(s) and all other sections of the exam in the
-
-time provided.
-
-Please note that once you submit your work by clicking the Next button within a lab, you will NOT be able to
-
-return to the lab.
-
-To start the lab
-
-You may start the lab by clicking the Next button.
 
 You plan to host several secured websites on Web01.
 
@@ -1284,63 +684,9 @@ What should you do from the Azure portal?
 
 ### Question 41
 
-SIMULATION
-
-Click to expand each objective. To connect to the Azure portal, type https://portal.azure.com in the browser
-
-address bar.
-
-![](image/image-119.webp)
-
-![](image/image-120.webp)
-
-![](image/image-121.webp)
-
-![](image/image-122.webp)
-
-![](image/image-123.webp)
-
-![](image/image-124.webp)
-
-When you are finished performing all the tasks, click the ‘Next’ button.
-
-Note that you cannot return to the lab once you click the ‘Next’ button. Scoring occur in the background
-
-while you complete the rest of the exam.
-
-Overview 
-
-The following section of the exam is a lab. In this section, you will perform a set of tasks in a live
-
-environment. While most functionality will be available to you as it would be in a live environment, some
-
-functionality (e.g., copy and paste, ability to navigate to external websites) will not be possible by design.
-
-Scoring is based on the outcome of performing the tasks stated in the lab. In other words, it doesn’t matter
-
-how you accomplish the task, if you successfully perform it, you will earn credit for that task.
-
-Labs are not timed separately, and this exam may have more than one lab that you must complete. You
-
-can use as much time as you would like to complete each lab. But, you should manage your time
-
-appropriately to ensure that you are able to complete the lab(s) and all other sections of the exam in the
-
-time provided.
-
-Please note that once you submit your work by clicking the Next button within a lab, you will NOT be able to
-
-return to the lab.
-
-To start the lab
-
-You may start the lab by clicking the Next button.
-
 Your on-premises network uses an IP address range of 131.107.2.0 to 131.107.2.255.
 
-You need to ensure that only devices from the on-premises network can connect to the rg1lod8322490n1
-
-storage account.
+You need to ensure that only devices from the on-premises network can connect to the rg1lod8322490n1 storage account.
 
 What should you do from the Azure portal?
 
@@ -1348,65 +694,9 @@ What should you do from the Azure portal?
 
 ### Question 42
 
-SIMULATION
-
-Click to expand each objective. To connect to the Azure portal, type https://portal.azure.com in the browser
-
-address bar.
-
-![](image/image-125.webp)
-
-![](image/image-126.webp)
-
-![](image/image-127.webp)
-
-![](image/image-128.webp)
-
-![](image/image-129.webp)
-
-![](image/image-130.webp)
-
-When you are finished performing all the tasks, click the ‘Next’ button.
-
-Note that you cannot return to the lab once you click the ‘Next’ button. Scoring occur in the background
-
-while you complete the rest of the exam.
-
-Overview 
-
-The following section of the exam is a lab. In this section, you will perform a set of tasks in a live
-
-environment. While most functionality will be available to you as it would be in a live environment, some
-
-functionality (e.g., copy and paste, ability to navigate to external websites) will not be possible by design.
-
-Scoring is based on the outcome of performing the tasks stated in the lab. In other words, it doesn’t matter
-
-how you accomplish the task, if you successfully perform it, you will earn credit for that task.
-
-Labs are not timed separately, and this exam may have more than one lab that you must complete. You
-
-can use as much time as you would like to complete each lab. But, you should manage your time
-
-appropriately to ensure that you are able to complete the lab(s) and all other sections of the exam in the
-
-time provided.
-
-Please note that once you submit your work by clicking the Next button within a lab, you will NOT be able to
-
-return to the lab.
-
-To start the lab
-
-You may start the lab by clicking the Next button.
-
 You plan to store media files in the rg1lod8322490 storage account.
 
-You need to configure the storage account to store the media files. The solution must ensure that only
-
-users who have access keys can download the media files and that the files are accessible only over
-
-HTTPS.
+You need to configure the storage account to store the media files. The solution must ensure that only users who have access keys can download the media files and that the files are accessible only over HTTPS.
 
 What should you do from the Azure portal?
 
@@ -1414,123 +704,15 @@ What should you do from the Azure portal?
 
 ### Question 43
 
-SIMULATION
+Another administrator attempts to establish connectivity between two virtual networks named VNET1 and VNET2. The administrator reports that connections across the virtual networks fail.
 
-Click to expand each objective. To connect to the Azure portal, type https://portal.azure.com in the browser
-
-address bar.
-
-![](image/image-132.webp)
-
-![](image/image-133.webp)
-
-![](image/image-134.webp)
-
-![](image/image-135.webp)
-
-![](image/image-136.webp)
-
-![](image/image-137.webp)
-
-When you are finished performing all the tasks, click the ‘Next’ button.
-
-Note that you cannot return to the lab once you click the ‘Next’ button. Scoring occur in the background
-
-while you complete the rest of the exam.
-
-Overview 
-
-The following section of the exam is a lab. In this section, you will perform a set of tasks in a live
-
-environment. While most functionality will be available to you as it would be in a live environment, some
-
-functionality (e.g., copy and paste, ability to navigate to external websites) will not be possible by design.
-
-Scoring is based on the outcome of performing the tasks stated in the lab. In other words, it doesn’t matter
-
-how you accomplish the task, if you successfully perform it, you will earn credit for that task.
-
-Labs are not timed separately, and this exam may have more than one lab that you must complete. You
-
-can use as much time as you would like to complete each lab. But, you should manage your time
-
-appropriately to ensure that you are able to complete the lab(s) and all other sections of the exam in the
-
-time provided.
-
-Please note that once you submit your work by clicking the Next button within a lab, you will NOT be able to
-
-return to the lab.
-
-To start the lab
-
-You may start the lab by clicking the Next button.
-
-Another administrator attempts to establish connectivity between two virtual networks named VNET1 and
-
-VNET2. The administrator reports that connections across the virtual networks fail.
-
-You need to ensure that network connections can be established successfully between VNET1 and VNET2
-
-as quickly as possible.
+You need to ensure that network connections can be established successfully between VNET1 and VNET2 as quickly as possible.
 
 What should you do from the Azure portal?
 
 [See the answer](#answer-43)
 
 ### Question 44
-
-SIMULATION
-
-Click to expand each objective. To connect to the Azure portal, type https://portal.azure.com in the browser
-
-address bar.
-
-![](image/image-141.webp)
-
-![](image/image-142.webp)
-
-![](image/image-143.webp)
-
-![](image/image-144.webp)
-
-![](image/image-145.webp)
-
-![](image/image-146.webp)
-
-When you are finished performing all the tasks, click the ‘Next’ button.
-
-Note that you cannot return to the lab once you click the ‘Next’ button. Scoring occur in the background
-
-while you complete the rest of the exam.
-
-Overview 
-
-The following section of the exam is a lab. In this section, you will perform a set of tasks in a live
-
-environment. While most functionality will be available to you as it would be in a live environment, some
-
-functionality (e.g., copy and paste, ability to navigate to external websites) will not be possible by design.
-
-Scoring is based on the outcome of performing the tasks stated in the lab. In other words, it doesn’t matter
-
-how you accomplish the task, if you successfully perform it, you will earn credit for that task.
-
-Labs are not timed separately, and this exam may have more than one lab that you must complete. You
-
-can use as much time as you would like to complete each lab. But, you should manage your time
-
-appropriately to ensure that you are able to complete the lab(s) and all other sections of the exam in the
-
-time provided.
-
-Please note that once you submit your work by clicking the Next button within a lab, you will NOT be able to
-
-return to the lab.
-
-To start the lab
-
-You may start the lab by clicking the Next button.
 
 You plan to configure VM1 to be accessible from the internet.
 
@@ -1542,61 +724,7 @@ What should you do from the Azure portal?
 
 ### Question 45
 
-SIMULATION
-
-Click to expand each objective. To connect to the Azure portal, type https://portal.azure.com in the browser
-
-address bar.
-
-![](image/image-149.webp)
-
-![](image/image-150.webp)
-
-![](image/image-151.webp)
-
-![](image/image-152.webp)
-
-![](image/image-153.webp)
-
-![](image/image-154.webp)
-
-When you are finished performing all the tasks, click the ‘Next’ button.
-
-Note that you cannot return to the lab once you click the ‘Next’ button. Scoring occur in the background
-
-while you complete the rest of the exam.
-
-Overview 
-
-The following section of the exam is a lab. In this section, you will perform a set of tasks in a live
-
-environment. While most functionality will be available to you as it would be in a live environment, some
-
-functionality (e.g., copy and paste, ability to navigate to external websites) will not be possible by design.
-
-Scoring is based on the outcome of performing the tasks stated in the lab. In other words, it doesn’t matter
-
-how you accomplish the task, if you successfully perform it, you will earn credit for that task.
-
-Labs are not timed separately, and this exam may have more than one lab that you must complete. You
-
-can use as much time as you would like to complete each lab. But, you should manage your time
-
-appropriately to ensure that you are able to complete the lab(s) and all other sections of the exam in the
-
-time provided.
-
-Please note that once you submit your work by clicking the Next button within a lab, you will NOT be able to
-
-return to the lab.
-
-To start the lab
-
-You may start the lab by clicking the Next button.
-
-You need to allow RDP connections over TCP port 3389 to VM1 from the Internet. The solutions must
-
-prevent connections from the Internet over all other TCP ports.
+You need to allow RDP connections over TCP port 3389 to VM1 from the Internet. The solutions must prevent connections from the Internet over all other TCP ports.
 
 What should you do from the Azure portal?
 
@@ -1604,23 +732,11 @@ What should you do from the Azure portal?
 
 ### Question 46
 
-HOTSPOT
-
-You plan to deploy 20 Azure virtual machines by using an Azure Resource Manager template. The virtual
-
-machines will run the latest version of Windows Server 2016 Datacenter by using an Azure Marketplace
-
-image.
+You plan to deploy 20 Azure virtual machines by using an Azure Resource Manager template. The virtual machines will run the latest version of Windows Server 2016 Datacenter by using an Azure Marketplace image.
 
 You need to complete the storageprofile section of the template.
 
-How should you complete the storageProfile section? To answer, select the appropriate options in the
-
-answer area.
-
-NOTE: Each correct selection is worth one point.
-
-Hot Area:
+How should you complete the storageProfile section? To answer, select the appropriate options in the answer area.
 
 ![](image/image-157.webp)
 
@@ -1630,9 +746,7 @@ Hot Area:
 
 You have an Azure tenant that contains two subscriptions named Subscription1 and Subscription2. 
 
-In Subscription1, you deploy a virtual machine named Server1 that runs Windows Server 2016. Server1
-
-uses managed disks.
+In Subscription1, you deploy a virtual machine named Server1 that runs Windows Server 2016. Server1 uses managed disks.
 
 You need to move Server1 to Subscription2. The solution must minimize administration effort.
 
@@ -1653,8 +767,6 @@ What should you do first?
 You have an Azure subscription.
 
 You have an on-premises virtual machine named VM1. The settings for VM1 are shown in the exhibit.
-
-(Click the Exhibit tab.)
 
 ![](image/image-159.webp)
 
@@ -1694,19 +806,11 @@ What is the effect of the policy?
 
 ### Question 50
 
-DRAG DROP
-
-You have an Azure subscription that is used by four departments in your company. The subscription
-
-contains 10 resource groups. Each department uses resources in several resource groups.
+You have an Azure subscription that is used by four departments in your company. The subscription contains 10 resource groups. Each department uses resources in several resource groups.
 
 You need to send a report to the finance department. The report must detail the costs for each department.
 
-Which three actions should you perform in sequence? To answer, move the appropriate actions from the
-
-list of actions to the answer area and arrange them in the correct order.
-
-Select and Place:
+Which three actions should you perform in sequence? To answer, move the appropriate actions from the list of actions to the answer area and arrange them in the correct order.
 
 ![](image/image-161.webp)
 
@@ -1720,21 +824,13 @@ Select and Place:
 
 **Explanation:**
 
-We cannot just move a virtual machine between networks.  What we need to do is identify the disk used by
-
-the VM, delete the VM itself while retaining the disk, and recreate the VM in the target virtual network and
-
-then attach the original disk to it.
+We cannot just move a virtual machine between networks.  What we need to do is identify the disk used by the VM, delete the VM itself while retaining the disk, and recreate the VM in the target virtual network and then attach the original disk to it.
 
 **Reference:**
 
-https://blogs.technet.microsoft.com/canitpro/2014/06/16/step-by-step-move-a-vm-to-a-different-vnet-on-
+https://blogs.technet.microsoft.com/canitpro/2014/06/16/step-by-step-move-a-vm-to-a-different-vnet-on-azure/
 
-azure/
-
-https://4sysops.com/archives/move-an-azure-vm-to-another-virtual-network-vnet/#migrate-an-azure-vm-
-
-between-vnets
+https://4sysops.com/archives/move-an-azure-vm-to-another-virtual-network-vnet/#migrate-an-azure-vm-between-vnets
 
 [Back to question](#question-1)
 
@@ -1750,9 +846,7 @@ You can verify the deployment by exploring the resource group from the Azure por
 
 https://docs.microsoft.com/en-us/azure/azure-resource-manager/templates/deployment-manager-tutorial
 
-https://docs.microsoft.com/en-us/azure/azure-resource-manager/templates/template-tutorial-create-first-
-
-template?tabs=azure-powershell
+https://docs.microsoft.com/en-us/azure/azure-resource-manager/templates/template-tutorial-create-first-template?tabs=azure-powershell
 
 [Back to question](#question-2)
 
@@ -1766,9 +860,7 @@ We require a virtual network gateway for VNet-to-VNet connectivity.
 
 Incorrect Answers:
 
-A: There is no need to modify the address space. If you update the address space for one VNet, the other
-
-VNet automatically knows to route to the updated address space.
+A: There is no need to modify the address space. If you update the address space for one VNet, the other VNet automatically knows to route to the updated address space.
 
 **Reference:**
 
@@ -1786,17 +878,17 @@ We need to modify the grant control of Policy1.
 
 The grant control can trigger enforcement of one or more controls.
 
-	- Require multi-factor authentication (Azure Multi-Factor Authentication)
+- Require multi-factor authentication (Azure Multi-Factor Authentication)
 
-	- Require device to be marked as compliant (Intune)
+- Require device to be marked as compliant (Intune)
 
-	- Require Hybrid Azure AD joined device
+- Require Hybrid Azure AD joined device
 
-	- Require approved client app
+- Require approved client app
 
-	- Require app protection policy
+- Require app protection policy
 
-Note: It is now possible to explicitly apply the Require MFA for admins rule.
+>**Note:** It is now possible to explicitly apply the Require MFA for admins rule.
 
 **Reference:**
 
@@ -1816,21 +908,15 @@ https://docs.microsoft.com/en-us/azure/active-directory/conditional-access/conce
 
 Box 1: 5
 
-We have five virtual machines. Each virtual machine will have a public IP address and a private IP address.
-
-Each will require a network interface.
+We have five virtual machines. Each virtual machine will have a public IP address and a private IP address. Each will require a network interface.
 
 Box 2: 1
 
-Each virtual machine requires the same inbound and outbound security rules. We can add tem to one
-
-group.
+Each virtual machine requires the same inbound and outbound security rules. We can add tem to one group.
 
 **Reference:**
 
-https://blogs.msdn.microsoft.com/igorpag/2016/05/14/azure-network-security-groups-nsg-best-practices-
-
-and-lessons-learned/
+https://blogs.msdn.microsoft.com/igorpag/2016/05/14/azure-network-security-groups-nsg-best-practices-and-lessons-learned/
 
 https://docs.microsoft.com/en-us/azure/virtual-network/security-overview
 
@@ -1842,11 +928,7 @@ https://docs.microsoft.com/en-us/azure/virtual-network/security-overview
 
 **Explanation:**
 
-Through a create process, Azure creates an identity in the Azure AD tenant that's trusted by the
-
-subscription in use. After the identity is created, the identity can be assigned to one or more Azure service
-
-instances.
+Through a create process, Azure creates an identity in the Azure AD tenant that's trusted by the subscription in use. After the identity is created, the identity can be assigned to one or more Azure service instances.
 
 **Reference:**
 
@@ -1882,9 +964,7 @@ https://docs.microsoft.com/en-us/azure/virtual-network/tutorial-connect-virtual-
 
 ![](image/image-19.webp)
 
-**Explanation:**
-
-References:
+**Reference:**
 
 https://docs.microsoft.com/en-us/azure/active-directory/conditional-access/app-based-mfa
 
@@ -1896,23 +976,15 @@ https://docs.microsoft.com/en-us/azure/active-directory/conditional-access/app-b
 
 **Explanation:**
 
-The UPN is used by Azure AD to allow users to sign-in. The UPN that a user can use, depends on whether
-
-or not the domain has been verified. If the domain has been verified, then a user with that suffix will be
-
-allowed to sign-in to Azure AD.
+The UPN is used by Azure AD to allow users to sign-in. The UPN that a user can use, depends on whether or not the domain has been verified. If the domain has been verified, then a user with that suffix will be allowed to sign-in to Azure AD.
 
 To do so, you need to add and verify a custom domain in Azure AD before you can start syncing the users.
 
 **Reference:**
 
-https://docs.microsoft.com/en-us/azure/active-directory/hybrid/plan-connect-design-concepts#azure-ad-
+https://docs.microsoft.com/en-us/azure/active-directory/hybrid/plan-connect-design-concepts#azure-ad-sign-in
 
-sign-in
-
-https://docs.microsoft.com/en-us/azure/active-directory/hybrid/tshoot-connect-objectsync#detect-upn-
-
-mismatch-if-object-is-synced-to-azure-active-directory
+https://docs.microsoft.com/en-us/azure/active-directory/hybrid/tshoot-connect-objectsync#detect-upn-mismatch-if-object-is-synced-to-azure-active-directory
 
 [Back to question](#question-9)
 
@@ -1922,13 +994,7 @@ mismatch-if-object-is-synced-to-azure-active-directory
 
 **Explanation:**
 
-In staging mode, the server is active for import and synchronization, but it does not run any exports. A
-
-server in staging mode is not running password sync or password writeback, even if you selected these
-
-features during installation. When you disable staging mode, the server starts exporting, enables password
-
-sync, and enables password writeback.
+In staging mode, the server is active for import and synchronization, but it does not run any exports. A server in staging mode is not running password sync or password writeback, even if you selected these features during installation. When you disable staging mode, the server starts exporting, enables password sync, and enables password writeback.
 
 **Reference:**
 
@@ -1964,17 +1030,9 @@ https://docs.microsoft.com/en-us/azure/active-directory/fundamentals/add-custom-
 
 **Explanation:**
 
-You can find unused disks in the Azure Storage Explorer console. Once you drill down to the Blob
+You can find unused disks in the Azure Storage Explorer console. Once you drill down to the Blob containers under a storage account, you can see the lease state of the residing VHD (the lease state determines if the VHD is being used by any resource) and the VM to which it is leased out. If you find that the lease state and the VM fields are blank, it means that the VHD in question is unused.
 
-containers under a storage account, you can see the lease state of the residing VHD (the lease state
-
-determines if the VHD is being used by any resource) and the VM to which it is leased out. If you find that
-
-the lease state and the VM fields are blank, it means that the VHD in question is unused.
-
-Note: The ManagedBy property stores the Id of the VM to which Managed Disk is attached to. If the
-
-ManagedBy property is $null then it means that the Managed Disk is not attached to a VM
+>**Note:** The ManagedBy property stores the Id of the VM to which Managed Disk is attached to. If the ManagedBy property is $null then it means that the Managed Disk is not attached to a VM
 
 **Reference:**
 
@@ -1988,15 +1046,11 @@ https://cloud.netapp.com/blog/reduce-azure-storage-costs
 
 **Explanation:**
 
-We need a separate rule for each condition. We also need a separate action group for each action type that
+We need a separate rule for each condition. We also need a separate action group for each action type that we want to fire when the rule is met.
 
-we want to fire when the rule is met.
+In this scenario we have three conditions (when any virtual machines are powered off, restarted, or deallocated) and one action type (you are sent an email message).
 
-In this scenario we have three conditions (when any virtual machines are powered off, restarted, or
-
-deallocated) and one action type (you are sent an email message).
-
-References:
+**Reference:**
 
 https://docs.microsoft.com/en-us/azure/azure-monitor/platform/alerts-action-rules
 
@@ -2010,9 +1064,7 @@ https://docs.microsoft.com/en-us/azure/azure-monitor/platform/action-groups
 
 **CORRECT ANSWER:** C, E
 
-**Explanation:**
-
-References:
+**Reference:**
 
 https://docs.microsoft.com/en-us/azure/virtual-machine-scale-sets/tutorial-install-apps-template
 
@@ -2024,9 +1076,7 @@ https://docs.microsoft.com/en-us/azure/virtual-machine-scale-sets/tutorial-insta
 
 **Explanation:**
 
-Advisor helps you optimize and reduce your overall Azure spend by identifying idle and underutilized
-
-resources. You can get cost recommendations from the Cost tab on the Advisor dashboard.
+Advisor helps you optimize and reduce your overall Azure spend by identifying idle and underutilized resources. You can get cost recommendations from the Cost tab on the Advisor dashboard.
 
 **Reference:**
 
@@ -2040,47 +1090,23 @@ https://docs.microsoft.com/en-us/azure/advisor/advisor-cost-recommendations
 
 **Explanation:**
 
-You can create custom, or user-defined, routes in Azure to override Azure's default system routes, or to add
+You can create custom, or user-defined, routes in Azure to override Azure's default system routes, or to add additional routes to a subnet's route table. You can specify the following next hop types when creating a user-defined route:
 
-additional routes to a subnet's route table. You can specify the following next hop types when creating a
+- Virtual appliance: A virtual appliance is a virtual machine that typically runs a network application, such as a firewall. 
 
-user-defined route:
+- Virtual network gateway: Specify when you want traffic destined for specific address prefixes routed to a virtual network gateway. The virtual network gateway must be created with type VPN. You cannot specify a virtual network gateway created as type ExpressRoute in a user-defined route because with ExpressRoute, you must use BGP for custom routes.
 
-	- Virtual appliance: A virtual appliance is a virtual machine that typically runs a network application, such
+- None: Specify when you want to drop traffic to an address prefix, rather than forwarding the traffic to a destination.
 
-as a firewall. 
+- Virtual network: Specify when you want to override the default routing within a virtual network.
 
-	- Virtual network gateway: Specify when you want traffic destined for specific address prefixes routed to a
-
-virtual network gateway. The virtual network gateway must be created with type VPN. You cannot
-
-specify a virtual network gateway created as type ExpressRoute in a user-defined route because with
-
-ExpressRoute, you must use BGP for custom routes.
-
-	- None: Specify when you want to drop traffic to an address prefix, rather than forwarding the traffic to a
-
-destination.
-
-	- Virtual network: Specify when you want to override the default routing within a virtual network.
-
-	- Internet: Specify when you want to explicitly route traffic destined to an address prefix to the Internet, or
-
-if you want traffic destined for Azure services with public IP addresses kept within the Azure backbone
-
-network.
+- Internet: Specify when you want to explicitly route traffic destined to an address prefix to the Internet, or if you want traffic destined for Azure services with public IP addresses kept within the Azure backbone network.
 
 Incorrect Answers:
 
-B: You cannot specify VNet peering or VirtualNetworkServiceEndpoint as the next hop type in user-defined
+B: You cannot specify VNet peering or VirtualNetworkServiceEndpoint as the next hop type in user-defined routes. Routes with the VNet peering or VirtualNetworkServiceEndpoint next hop types are only created by Azure, when you configure a virtual network peering, or a service endpoint.
 
-routes. Routes with the VNet peering or VirtualNetworkServiceEndpoint next hop types are only created by
-
-Azure, when you configure a virtual network peering, or a service endpoint.
-
-C: You cannot specify a virtual network gateway created as type ExpressRoute in a user-defined route
-
-because with ExpressRoute, you must use BGP for custom routes.
+C: You cannot specify a virtual network gateway created as type ExpressRoute in a user-defined route because with ExpressRoute, you must use BGP for custom routes.
 
 **Reference:**
 
@@ -2092,8 +1118,6 @@ https://docs.microsoft.com/en-us/azure/virtual-network/virtual-networks-udr-over
 
 **CORRECT ANSWER:** C, D, E
 
-
-
 [Back to question](#question-17)
 
 ### Answer 18
@@ -2102,9 +1126,7 @@ https://docs.microsoft.com/en-us/azure/virtual-network/virtual-networks-udr-over
 
 ![](image/image-28.webp)
 
-**Explanation:**
-
-References:
+**Reference:**
 
 https://docs.microsoft.com/en-us/azure/azure-monitor/platform/autoscale-get-started
 
@@ -2116,8 +1138,6 @@ https://docs.microsoft.com/en-us/azure/azure-monitor/platform/autoscale-get-star
 
 ![](image/image-31.webp)
 
-**Explanation:**
-
 [Back to question](#question-19)
 
 ### Answer 20
@@ -2128,13 +1148,13 @@ https://docs.microsoft.com/en-us/azure/azure-monitor/platform/autoscale-get-star
 
 The following authentication mechanisms can be used for both MFA and SSPR:
 
-	- Short Message Service (SMS) messages
+- Short Message Service (SMS) messages
 
-	- Azure AD passwords
+- Azure AD passwords
 
-	- Microsoft Authenticator app
+- Microsoft Authenticator app
 
-	- Voice call
+- Voice call
 
 Incorrect Answers:
 
@@ -2142,9 +1162,9 @@ C, D:
 
 The following authentication mechanisms are used for SSPR only:
 
-	- Email addresses
+- Email addresses
 
-	- Security questions
+- Security questions
 
 E: App passwords authentication mechanisms can be used for MFA only, but only in certain cases.
 
@@ -2160,15 +1180,11 @@ https://docs.microsoft.com/en-us/azure/active-directory/authentication/concept-a
 
 **Explanation:**
 
-How can I freeze or lock my production/critical Azure resources from accidental deletion? There is way to
+How can I freeze or lock my production/critical Azure resources from accidental deletion? There is way to do this with both ASM and ARM resources using Azure resource lock.
 
-do this with both ASM and ARM resources using Azure resource lock.
+**Reference:**
 
-References:
-
-https://blogs.msdn.microsoft.com/azureedu/2016/04/27/using-azure-resource-manager-policy-and-azure-
-
-lock-to-control-your-azure-resources/
+https://blogs.msdn.microsoft.com/azureedu/2016/04/27/using-azure-resource-manager-policy-and-azure-lock-to-control-your-azure-resources/
 
 [Back to question](#question-21)
 
@@ -2182,9 +1198,7 @@ From the RG1 blade, click Deployments
 
 **Reference:**
 
-https://docs.microsoft.com/en-us/azure/azure-resource-manager/templates/template-tutorial-create-first-
-
-template?tabs=azure-powershell
+https://docs.microsoft.com/en-us/azure/azure-resource-manager/templates/template-tutorial-create-first-template?tabs=azure-powershell
 
 [Back to question](#question-22)
 
@@ -2198,9 +1212,7 @@ From the RG1 blade, click Deployments
 
 **Reference:**
 
-https://docs.microsoft.com/en-us/azure/azure-resource-manager/templates/template-tutorial-create-first-
-
-template?tabs=azure-powershell
+https://docs.microsoft.com/en-us/azure/azure-resource-manager/templates/template-tutorial-create-first-template?tabs=azure-powershell
 
 [Back to question](#question-23)
 
@@ -2214,9 +1226,7 @@ From the RG1 blade, click Deployments. You see a history of deployment for the r
 
 **Reference:**
 
-https://docs.microsoft.com/en-us/azure/azure-resource-manager/templates/template-tutorial-create-first-
-
-template?tabs=azure-powershell
+https://docs.microsoft.com/en-us/azure/azure-resource-manager/templates/template-tutorial-create-first-template?tabs=azure-powershell
 
 [Back to question](#question-24)
 
@@ -2234,11 +1244,7 @@ Endpoint status is enabled.
 
 Box 2: Never
 
-After you configure firewall and virtual network settings for your storage account, select Allow trusted
-
-Microsoft services to access this storage account as an exception to enable Azure Backup service to
-
-access the network restricted storage account.
+After you configure firewall and virtual network settings for your storage account, select Allow trusted Microsoft services to access this storage account as an exception to enable Azure Backup service to access the network restricted storage account.
 
 ![](image/image-41.webp)
 
@@ -2246,9 +1252,7 @@ access the network restricted storage account.
 
 https://docs.microsoft.com/en-us/azure/storage/files/storage-how-to-use-files-windows
 
-https://azure.microsoft.com/en-us/blog/azure-backup-now-supports-storage-accounts-secured-with-azure-
-
-storage-firewalls-and-virtual-networks/
+https://azure.microsoft.com/en-us/blog/azure-backup-now-supports-storage-accounts-secured-with-azure-storage-firewalls-and-virtual-networks/
 
 [Back to question](#question-25)
 
@@ -2262,9 +1266,7 @@ storage-firewalls-and-virtual-networks/
 
 Box 1: Zone-redundant storage (ZRS)
 
-Zone-redundant storage (ZRS) replicates your data synchronously across three storage clusters in a single
-
-region.
+Zone-redundant storage (ZRS) replicates your data synchronously across three storage clusters in a single region.
 
 LRS would not remain available if a data center in the region fails
 
@@ -2274,7 +1276,7 @@ Box 2: StorageV2 (general purpose V2)
 
 ZRS only support GPv2.
 
-References:
+**Reference:**
 
 https://docs.microsoft.com/en-us/azure/storage/common/storage-redundancy
 
@@ -2292,29 +1294,21 @@ https://docs.microsoft.com/en-us/azure/storage/common/storage-redundancy-zrs
 
 Step 1: Install the Azure File Sync agent on Server1
 
-The Azure File Sync agent is a downloadable package that enables Windows Server to be synced with an
-
-Azure file share
+The Azure File Sync agent is a downloadable package that enables Windows Server to be synced with an Azure file share
 
 Step 2: Register Server1.
 
 Register Windows Server with Storage Sync Service
 
-Registering your Windows Server with a Storage Sync Service establishes a trust relationship between your
-
-server (or cluster) and the Storage Sync Service.
+Registering your Windows Server with a Storage Sync Service establishes a trust relationship between your server (or cluster) and the Storage Sync Service.
 
 Step 3: Add a server endpoint
 
 Create a sync group and a cloud endpoint.
 
-A sync group defines the sync topology for a set of files. Endpoints within a sync group are kept in sync with
+A sync group defines the sync topology for a set of files. Endpoints within a sync group are kept in sync with each other. A sync group must contain one cloud endpoint, which represents an Azure file share and one or more server endpoints. A server endpoint represents a path on registered server.
 
-each other. A sync group must contain one cloud endpoint, which represents an Azure file share and one or
-
-more server endpoints. A server endpoint represents a path on registered server.
-
-References:
+**Reference:**
 
 https://docs.microsoft.com/en-us/azure/storage/files/storage-sync-files-deployment-guide
 
@@ -2326,13 +1320,11 @@ https://docs.microsoft.com/en-us/azure/storage/files/storage-sync-files-deployme
 
 **Explanation:**
 
-A: Modify the dataset.csv file in the root folder where the tool resides. Depending on whether you want to
-
-import a file or folder or both, add entries in the dataset.csv file
+A: Modify the dataset.csv file in the root folder where the tool resides. Depending on whether you want to import a file or folder or both, add entries in the dataset.csv file
 
 C: Modify the driveset.csv file in the root folder where the tool resides.
 
-References:
+**Reference:**
 
 https://docs.microsoft.com/en-us/azure/storage/common/storage-import-export-data-to-files
 
@@ -2344,11 +1336,9 @@ https://docs.microsoft.com/en-us/azure/storage/common/storage-import-export-data
 
 **Explanation:**
 
-Ensure port 445 is open: The SMB protocol requires TCP port 445 to be open; connections will fail if port
+Ensure port 445 is open: The SMB protocol requires TCP port 445 to be open; connections will fail if port 445 is blocked.
 
-445 is blocked.
-
-References:
+**Reference:**
 
 https://docs.microsoft.com/en-us/azure/storage/files/storage-how-to-use-files-windows
 
@@ -2364,25 +1354,15 @@ https://docs.microsoft.com/en-us/azure/storage/files/storage-how-to-use-files-wi
 
 IP forwarding enables the virtual machine a network interface is attached to:
 
-	- Receive network traffic not destined for one of the IP addresses assigned to any of the IP configurations
+- Receive network traffic not destined for one of the IP addresses assigned to any of the IP configurations assigned to the network interface.
 
-assigned to the network interface.
+- Send network traffic with a different source IP address than the one assigned to one of a network interface's IP configurations.
 
-	- Send network traffic with a different source IP address than the one assigned to one of a network
-
-interface's IP configurations.
-
-The setting must be enabled for every network interface that is attached to the virtual machine that receives
-
-traffic that the virtual machine needs to forward. A virtual machine can forward traffic whether it has multiple
-
-network interfaces or a single network interface attached to it.
+The setting must be enabled for every network interface that is attached to the virtual machine that receives traffic that the virtual machine needs to forward. A virtual machine can forward traffic whether it has multiple network interfaces or a single network interface attached to it.
 
 Box 1: Yes
 
-The routing table allows connections from VM3 to VM1 and VM2. And as IP forwarding is enabled on VM3,
-
-VM3 can connect to VM1.
+The routing table allows connections from VM3 to VM1 and VM2. And as IP forwarding is enabled on VM3, VM3 can connect to VM1.
 
 Box 2: No
 
@@ -2390,11 +1370,9 @@ VM3, which has IP forwarding, must be turned on, in order for VM2 to connect to 
 
 Box 3: Yes
 
-The routing table allows connections from VM1 and VM2 to VM3. IP forwarding on VM3 allows VM1 to
+The routing table allows connections from VM1 and VM2 to VM3. IP forwarding on VM3 allows VM1 to connect to VM2 via VM3.
 
-connect to VM2 via VM3.
-
-References:
+**Reference:**
 
 https://docs.microsoft.com/en-us/azure/virtual-network/virtual-networks-udr-overview
 
@@ -2412,17 +1390,13 @@ https://www.quora.com/What-is-IP-forwarding
 
 Box 1: add an address space
 
-Your IaaS virtual machines (VMs) and PaaS role instances in a virtual network automatically receive a
-
-private IP address from a range that you specify, based on the address space of the subnet they are
-
-connected to. We need to add the 192.168.1.0/24 address space.
+Your IaaS virtual machines (VMs) and PaaS role instances in a virtual network automatically receive a private IP address from a range that you specify, based on the address space of the subnet they are connected to. We need to add the 192.168.1.0/24 address space.
 
 Box 2: add a network interface
 
 The 10.2.1.0/24 network exists. We need to add a network interface.
 
-References:
+**Reference:**
 
 https://docs.microsoft.com/en-us/office365/enterprise/designing-networking-for-microsoft-azure-iaas
 
@@ -2440,27 +1414,17 @@ https://docs.microsoft.com/en-us/azure/virtual-network/virtual-networks-static-p
 
 Box 1: No
 
-Azure DNS provides automatic registration of virtual machines from a single virtual network that's linked to
-
-a private zone as a registration virtual network. VM5 does not belong to the registration virtual network
-
-though.
+Azure DNS provides automatic registration of virtual machines from a single virtual network that's linked to a private zone as a registration virtual network. VM5 does not belong to the registration virtual network though.
 
 Box 2: No
 
-Forward DNS resolution is supported across virtual networks that are linked to the private zone as
-
-resolution virtual networks. VM5 does belong to a resolution virtual network.
+Forward DNS resolution is supported across virtual networks that are linked to the private zone as resolution virtual networks. VM5 does belong to a resolution virtual network.
 
 Box 3: Yes
 
-VM6 belongs to registration virtual network, and an A (Host) record exists for VM9 in the DNS zone.
+VM6 belongs to registration virtual network, and an A (Host) record exists for VM9 in the DNS zone. By default, registration virtual networks also act as resolution virtual networks, in the sense that DNS resolution against the zone works from any of the virtual machines within the registration virtual network.
 
-By default, registration virtual networks also act as resolution virtual networks, in the sense that DNS
-
-resolution against the zone works from any of the virtual machines within the registration virtual network.
-
-References:
+**Reference:**
 
 https://docs.microsoft.com/en-us/azure/dns/private-dns-overview
 
@@ -2472,25 +1436,17 @@ https://docs.microsoft.com/en-us/azure/dns/private-dns-overview
 
 **Explanation:**
 
-The virtual networks you peer must have non-overlapping IP address spaces. The exhibit indicates that
+The virtual networks you peer must have non-overlapping IP address spaces. The exhibit indicates that VNet1 has an address space of 10.2.0.0/16, which is the same as VNet2, and thus overlaps. We need to change the address space for VNet1.
 
-VNet1 has an address space of 10.2.0.0/16, which is the same as VNet2, and thus overlaps. We need to
+**Reference:**
 
-change the address space for VNet1.
-
-References:
-
-https://docs.microsoft.com/en-us/azure/virtual-network/virtual-network-manage-peering#requirements-and-
-
-constraints
+https://docs.microsoft.com/en-us/azure/virtual-network/virtual-network-manage-peering#requirements-and-constraints
 
 [Back to question](#question-33)
 
 ### Answer 34
 
-**CORRECT ANSWER:** A
-
-**Explanation:**
+**CORRECT ANSWER:**
 
 Azure portal create public container
 
@@ -2498,19 +1454,13 @@ To create a container in the Azure portal, follow these steps:
 
 Step 1: Navigate to your new storage account in the Azure portal.
 
-Step 2: In the left menu for the storage account, scroll to the lob service section, then select Blobs.
-
-Select the + Container button.
-
-Type a name for your new container: bios
-
-Set the level of public access to the container: Select anonymous access.
+Step 2: In the left menu for the storage account, scroll to the lob service section, then select Blobs. Select the + Container button. Type a name for your new container: bios Set the level of public access to the container: Select anonymous access.
 
 ![](image/image-67.webp)
 
 Step 3: Select OK to create the container.
 
-References:
+**Reference:**
 
 https://docs.microsoft.com/en-us/azure/storage/blobs/storage-quickstart-blobs-portal
 
@@ -2518,9 +1468,7 @@ https://docs.microsoft.com/en-us/azure/storage/blobs/storage-quickstart-blobs-po
 
 ### Answer 35
 
-**CORRECT ANSWER:** A
-
-**Explanation:**
+**CORRECT ANSWER:**
 
 Step 1: Go to the Storage Account blade on the Azure portal:
 
@@ -2534,7 +1482,7 @@ Step 3: Provide Name (storagelod8322489) and Quota (250 GB).
 
 ![](image/image-76.webp)
 
-References:
+**Reference:**
 
 https://docs.microsoft.com/en-us/azure/storage/files/storage-how-to-create-file-share
 
@@ -2542,33 +1490,21 @@ https://docs.microsoft.com/en-us/azure/storage/files/storage-how-to-create-file-
 
 ### Answer 36
 
-**CORRECT ANSWER:** A
+**CORRECT ANSWER:**
 
 **Explanation:**
 
 Task A: Create a Recovery Services vault (if a vault already exists skip this task, go to Task B below)
 
-A1. From Azure Portal, On the Hub menu, click All services and in the list of resources, type Recovery
-
-Services and click Recovery Services vaults.
-
-If there are recovery services vaults in the subscription, the vaults are listed.
+A1. From Azure Portal, On the Hub menu, click All services and in the list of resources, type Recovery Services and click Recovery Services vaults. If there are recovery services vaults in the subscription, the vaults are listed.
 
 A2. On the Recovery Services vaults menu, click Add.
 
-A3. The Recovery Services vault blade opens, prompting you to provide a Name, Subscription, Resource
-
-group, and Location
+A3. The Recovery Services vault blade opens, prompting you to provide a Name, Subscription, Resource group, and Location
 
 Task B.
 
-B1. On the Recovery Services vault blade (for the vault you just created), in the Getting Started section,
-
-click Backup, then on the Getting Started with Backup blade, select Backup goal.
-
-The Backup Goal blade opens. If the Recovery Services vault has been previously configured, then the
-
-Backup Goal blades opens when you click Backup on the Recovery Services vault blade.
+B1. On the Recovery Services vault blade (for the vault you just created), in the Getting Started section, click Backup, then on the Getting Started with Backup blade, select Backup goal. The Backup Goal blade opens. If the Recovery Services vault has been previously configured, then the Backup Goal blades opens when you click Backup on the Recovery Services vault blade.
 
 B2. From the Where is your workload running? drop-down menu, select Azure.
 
@@ -2580,9 +1516,7 @@ B4. Finish the Wizard.
 
 Task C. create a backup schedule
 
-C1. Open the Microsoft Azure Backup agent. You can find it by searching your machine for Microsoft Azure
-
-Backup.
+C1. Open the Microsoft Azure Backup agent. You can find it by searching your machine for Microsoft Azure Backup.
 
 ![](image/image-84.webp)
 
@@ -2592,19 +1526,11 @@ C2. In the Backup agent's Actions pane, click Schedule Backup to launch the Sche
 
 C3. On the Getting started page of the Schedule Backup Wizard, click Next.
 
-C4. On the Select Items to Backup page, click Add Items.
-
-The Select Items dialog opens.
+C4. On the Select Items to Backup page, click Add Items. The Select Items dialog opens.
 
 C5. Select Blob Storage you want to protect, and then click OK.
 
-C6.In the Select Items to Backup page, click Next.
-
-On the Specify Backup Schedule page, specify
-
-Schedule a backup every: day
-
-At the following times: 2.00 AM
+C6.In the Select Items to Backup page, click Next. On the Specify Backup Schedule page, specify Schedule a backup every: day At the following times: 2.00 AM
 
 ![](image/image-86.webp)
 
@@ -2614,7 +1540,7 @@ C7. On the Select Retention Policy page, set it to 90 days, and click Next.
 
 C8. Finish the Wizard.
 
-References:
+**Reference:**
 
 https://docs.microsoft.com/en-us/azure/backup/backup-configure-vault
 
@@ -2622,25 +1548,21 @@ https://docs.microsoft.com/en-us/azure/backup/backup-configure-vault
 
 ### Answer 37
 
-**CORRECT ANSWER:** A
-
-**Explanation:**
+**CORRECT ANSWER:**
 
 Step 1: Choose Create a resource in the upper left-hand corner of the Azure portal.
 
-Step 2: In the Basics tab, under Project details, make sure the correct subscription is selected and then
-
-choose Web-RGlod8322489 resource group
+Step 2: In the Basics tab, under Project details, make sure the correct subscription is selected and then choose Web-RGlod8322489 resource group
 
 ![](image/image-94.webp)
 
 Step 3: Under Instance details type/select:
 
-Virtual machine name:    Web01
-
-Image:                           Windows Server 2016
-
-Size:                             Standard_B2ms size
+| Field | Value |
+| --- | --- |
+| Virtual machine name | Web01 |
+| Image | Windows Server 2016 |
+| Size | Standard_B2ms size |
 
 Leave the other defaults.
 
@@ -2652,9 +1574,7 @@ Step 4: Finish the Wizard
 
 ### Answer 38
 
-**CORRECT ANSWER:** A
-
-**Explanation:**
+**CORRECT ANSWER:**
 
 Add a data disk
 
@@ -2670,13 +1590,11 @@ Step 4: On the Disks page, select the Web01-Disk1 from the list of existing disk
 
 Step 5: In the Disks pane, click + Add data disk.
 
-Step 6: Click the drop-down menu for Name to view a list of existing managed disks accessible to your
-
-Azure subscription. Select the managed disk Web01-Disk1 to attach:
+Step 6: Click the drop-down menu for Name to view a list of existing managed disks accessible to your Azure subscription. Select the managed disk Web01-Disk1 to attach:
 
 ![](image/image-103.webp)
 
-References:
+**Reference:**
 
 https://docs.microsoft.com/en-us/azure/virtual-machines/linux/attach-disk-portal
 
@@ -2684,45 +1602,35 @@ https://docs.microsoft.com/en-us/azure/virtual-machines/linux/attach-disk-portal
 
 ### Answer 39
 
-**CORRECT ANSWER:** A
+**CORRECT ANSWER:**
 
-**Explanation:**
-
-Virtual network peering enables you to seamlessly connect two Azure virtual networks. Once peered, the
-
-virtual networks appear as one, for connectivity purposes.
+Virtual network peering enables you to seamlessly connect two Azure virtual networks. Once peered, the virtual networks appear as one, for connectivity purposes.
 
 Peer virtual networks
 
-Step 1. In the Search box at the top of the Azure portal, begin typing VNET01-USEA2. When VNET01-
-
-USEA2 appears in the search results, select it.
+Step 1. In the Search box at the top of the Azure portal, begin typing VNET01-USEA2. When VNET01-USEA2 appears in the search results, select it.
 
 Step 2. Select Peerings, under SETTINGS, and then select + Add, as shown in the following picture:
 
 ![](image/image-110.webp)
 
-Step 3. Enter, or select, the following information, accept the defaults for the remaining settings, and then
+Step 3. Enter, or select, the following information, accept the defaults for the remaining settings, and then select OK.
 
-select OK.
+| Field | Value |
+| --- | --- |
+| Name | myVirtualNetwork1-myVirtualNetwork2 (for example) |
+| Subscription | select your subscription. |
+| Virtual network | VNET01-USWE2 |
 
-Name:   myVirtualNetwork1-myVirtualNetwork2 (for example)
-
-Subscription:   elect your subscription.
-
-Virtual network: VNET01-USWE2 - To select the VNET01-USWE2 virtual network, select Virtual network,
-
-then select VNET01-USWE2. You can select a virtual network in the same region or in a different region.
+To select the VNET01-USWE2 virtual network, select Virtual network, then select VNET01-USWE2. You can select a virtual network in the same region or in a different region.
 
 Now we need to repeat steps 1-3 for the other network VNET01-USWE2:
 
-Step 4. In the Search box at the top of the Azure portal, begin typing VNET01- USEA2. When VNET01-
-
-USEA2 appears in the search results, select it.
+Step 4. In the Search box at the top of the Azure portal, begin typing VNET01- USEA2. When VNET01-USEA2 appears in the search results, select it.
 
 Step 5. Select Peerings, under SETTINGS, and then select + Add.
 
-References:
+**Reference:**
 
 https://docs.microsoft.com/en-us/azure/virtual-network/tutorial-connect-virtual-networks-portal
 
@@ -2730,25 +1638,15 @@ https://docs.microsoft.com/en-us/azure/virtual-network/tutorial-connect-virtual-
 
 ### Answer 40
 
-**CORRECT ANSWER:** A
+**CORRECT ANSWER:**
 
-**Explanation:**
+You can filter network traffic to and from Azure resources in an Azure virtual network with a network security group. A network security group contains security rules that allow or deny inbound network traffic to, or outbound network traffic from, several types of Azure resources.
 
-You can filter network traffic to and from Azure resources in an Azure virtual network with a network security
-
-group. A network security group contains security rules that allow or deny inbound network traffic to, or
-
-outbound network traffic from, several types of Azure resources.
-
-A network security group contains security rules that allow or deny inbound network traffic to, or outbound
-
-network traffic from, several types of Azure resources.
+A network security group contains security rules that allow or deny inbound network traffic to, or outbound network traffic from, several types of Azure resources.
 
 Step A: Create a network security group
 
-A1. Search for and select the resource group for the VM, choose Add, then search for and select Network
-
-security group.
+A1. Search for and select the resource group for the VM, choose Add, then search for and select Network security group.
 
 A2. Select Create.
 
@@ -2796,17 +1694,13 @@ Step C: Associate your network security group with a subnet
 
 Your final step is to associate your network security group with a subnet or a specific network interface.
 
-C1. In the Search resources, services, and docs box at the top of the portal, begin typing Web01. When the
+C1. In the Search resources, services, and docs box at the top of the portal, begin typing Web01. When the Web01 VM appears in the search results, select it.
 
-Web01 VM appears in the search results, select it.
-
-C2. Under SETTINGS, select Networking. Select Configure the application security groups, select the
-
-Security Group you created in Step A, and then select Save, as shown in the following picture:
+C2. Under SETTINGS, select Networking. Select Configure the application security groups, select the Security Group you created in Step A, and then select Save, as shown in the following picture:
 
 ![](image/image-118.webp)
 
-References:
+**Reference:**
 
 https://docs.microsoft.com/en-us/azure/virtual-network/tutorial-filter-network-traffic
 
@@ -2814,9 +1708,7 @@ https://docs.microsoft.com/en-us/azure/virtual-network/tutorial-filter-network-t
 
 ### Answer 41
 
-**CORRECT ANSWER:** A
-
-**Explanation:**
+**CORRECT ANSWER:**
 
 Step 1: Navigate to the rg1lod8322490n1 storage account.
 
@@ -2824,11 +1716,9 @@ Step 2:  Click on the settings menu called Firewalls and virtual networks.
 
 Step 3: Ensure that you have elected to allow access from 'Selected networks'.
 
-Step 4: To grant access to an internet IP range, enter the address range of 131.107.2.0 to 131.107.2.255
+Step 4: To grant access to an internet IP range, enter the address range of 131.107.2.0 to 131.107.2.255 (in CIDR format) under Firewall, Address Ranges.
 
-(in CIDR format) under Firewall, Address Ranges.
-
-References:
+**Reference:**
 
 https://docs.microsoft.com/en-us/azure/storage/common/storage-network-security
 
@@ -2836,15 +1726,11 @@ https://docs.microsoft.com/en-us/azure/storage/common/storage-network-security
 
 ### Answer 42
 
-**CORRECT ANSWER:** A
-
-**Explanation:**
+**CORRECT ANSWER:**
 
 We should create an Azure file share.
 
-Step 1: In the Azure portal, select All services. In the list of resources, type Storage Accounts. As you begin
-
-typing, the list filters based on your input. Select Storage Accounts.
+Step 1: In the Azure portal, select All services. In the list of resources, type Storage Accounts. As you begin typing, the list filters based on your input. Select Storage Accounts.
 
 On the Storage Accounts window that appears.
 
@@ -2854,13 +1740,11 @@ Step 3: On the storage account page, in the Services section, select Files.
 
 ![](image/image-131.webp)
 
-Step 4: On the menu at the top of the File service page, click + File share. The New file share page drops
-
-down.
+Step 4: On the menu at the top of the File service page, click + File share. The New file share page drops down.
 
 Step 5: In Name type myshare. Click OK to create the Azure file share.
 
-References:
+**Reference:**
 
 https://docs.microsoft.com/en-us/azure/storage/files/storage-how-to-use-files-portal
 
@@ -2868,21 +1752,15 @@ https://docs.microsoft.com/en-us/azure/storage/files/storage-how-to-use-files-po
 
 ### Answer 43
 
-**CORRECT ANSWER:** A
+**CORRECT ANSWER:**
 
-**Explanation:**
-
-You can connect one VNet to another VNet using either a Virtual network peering, or an Azure VPN
-
-Gateway.
+You can connect one VNet to another VNet using either a Virtual network peering, or an Azure VPN Gateway.
 
 To create a virtual network gateway
 
 Step 1: In the portal, on the left side, click +Create a resource and type 'virtual network gateway' in search.
 
-Locate Virtual network gateway in the search return and click the entry. On the Virtual network gateway
-
-page, click Create at the bottom of the page to open the Create virtual network gateway page.
+Locate Virtual network gateway in the search return and click the entry. On the Virtual network gateway page, click Create at the bottom of the page to open the Create virtual network gateway page.
 
 Step 2: On the Create virtual network gateway page, fill in the values for your virtual network gateway.
 
@@ -2890,61 +1768,37 @@ Step 2: On the Create virtual network gateway page, fill in the values for your 
 
 ![](image/image-139.webp)
 
-Name: Name your gateway. This is not the same as naming a gateway subnet. It's the name of the gateway
-
-object you are creating.
+Name: Name your gateway. This is not the same as naming a gateway subnet. It's the name of the gateway object you are creating.
 
 Gateway type: Select VPN. VPN gateways use the virtual network gateway type VPN.
 
-Virtual network: Choose the virtual network to which you want to add this gateway. Click Virtual network to
+Virtual network: Choose the virtual network to which you want to add this gateway. Click Virtual network to open the 'Choose a virtual network' page. Select the VNet. If you don't see your VNet, make sure the Location field is pointing to the region in which your virtual network is located.
 
-open the 'Choose a virtual network' page. Select the VNet. If you don't see your VNet, make sure the
-
-Location field is pointing to the region in which your virtual network is located.
-
-Gateway subnet address range: You will only see this setting if you did not previously create a gateway
-
-subnet for your virtual network. If you previously created a valid gateway subnet, this setting will not appear.
+Gateway subnet address range: You will only see this setting if you did not previously create a gateway subnet for your virtual network. If you previously created a valid gateway subnet, this setting will not appear.
 
 Step 4: Select Create New to create a Gateway subnet.
 
 ![](image/image-140.webp)
 
-Step 5: Click Create to begin creating the VPN gateway. The settings are validated and you'll see the
-
-"Deploying Virtual network gateway" tile on the dashboard. Creating a gateway can take up to 45 minutes.
+Step 5: Click Create to begin creating the VPN gateway. The settings are validated and you'll see the "Deploying Virtual network gateway" tile on the dashboard. Creating a gateway can take up to 45 minutes.
 
 You may need to refresh your portal page to see the completed status.
 
-References:
+**Reference:**
 
-https://docs.microsoft.com/en-us/azure/vpn-gateway/vpn-gateway-howto-vnet-vnet-resource-manager-
-
-portal?
+https://docs.microsoft.com/en-us/azure/vpn-gateway/vpn-gateway-howto-vnet-vnet-resource-manager-portal
 
 [Back to question](#question-43)
 
 ### Answer 44
 
-**CORRECT ANSWER:** A
+**CORRECT ANSWER:**
 
-**Explanation:**
+You can add private and public IP addresses to an Azure network interface by completing the steps that follow.
 
-You can add private and public IP addresses to an Azure network interface by completing the steps that
+Step 1: In Azure portal, click More services > type virtual machines in the filter box, and then click Virtual machines.
 
-follow.
-
-Step 1: In Azure portal, click More services > type virtual machines in the filter box, and then click Virtual
-
-machines.
-
-Step 2: In the Virtual machines pane, click the VM you want to add IP addresses to. Click Network
-
-interfaces in the virtual machine pane that appears, and then select the network interface you want to add
-
-the IP addresses to. In the example shown in the following picture, the NIC named myNIC from the VM
-
-named myVM is selected:
+Step 2: In the Virtual machines pane, click the VM you want to add IP addresses to. Click Network interfaces in the virtual machine pane that appears, and then select the network interface you want to add the IP addresses to. In the example shown in the following picture, the NIC named myNIC from the VM named myVM is selected:
 
 ![](image/image-147.webp)
 
@@ -2954,11 +1808,9 @@ Step 4: Click Create public IP address.
 
 ![](image/image-148.webp)
 
-Step 5: In the Create public IP address pane that appears, enter a Name, select an IP address assignment
+Step 5: In the Create public IP address pane that appears, enter a Name, select an IP address assignment type, a Subscription, a Resource group, and a Location, then click Create.
 
-type, a Subscription, a Resource group, and a Location, then click Create, as shown in the following picture:
-
-References:
+**Reference:**
 
 https://docs.microsoft.com/en-us/azure/virtual-network/virtual-network-multiple-ip-addresses-portal
 
@@ -2966,9 +1818,7 @@ https://docs.microsoft.com/en-us/azure/virtual-network/virtual-network-multiple-
 
 ### Answer 45
 
-**CORRECT ANSWER:** A
-
-**Explanation:**
+**CORRECT ANSWER:**
 
 Step 1: Create a new network security group
 
@@ -2980,13 +1830,13 @@ Step 3: Select Inbound security rules. Under Add inbound security rule, enter th
 
 Destination: Select Network security group, and then select the security group you created previously.
 
-Destination port ranges:   3389
+Destination port ranges: 3389
 
-Protocol:   Select TCP
+Protocol: Select TCP
 
 ![](image/image-156.webp)
 
-References:
+**Reference:**
 
 https://docs.microsoft.com/en-us/azure/virtual-network/tutorial-filter-network-traffic
 
@@ -3000,6 +1850,7 @@ https://docs.microsoft.com/en-us/azure/virtual-network/tutorial-filter-network-t
 
 **Explanation:**
 
+```json
 …
 
 "storageProfile": {
@@ -3015,10 +1866,11 @@ https://docs.microsoft.com/en-us/azure/virtual-network/tutorial-filter-network-t
       "version": "latest"
 
    },
-
+}
 …
+```
 
-References:
+**Reference:**
 
 https://docs.microsoft.com/en-us/rest/api/compute/virtualmachines/createorupdate
 
@@ -3030,15 +1882,11 @@ https://docs.microsoft.com/en-us/rest/api/compute/virtualmachines/createorupdate
 
 **Explanation:**
 
-To move existing resources to another resource group or subscription, use the Move-AzureRmResource
+To move existing resources to another resource group or subscription, use the Move-AzureRmResource cmdlet.
 
-cmdlet.
+**Reference:**
 
-References:
-
-https://docs.microsoft.com/en-in/azure/azure-resource-manager/resource-group-move-resources#move-
-
-resources
+https://docs.microsoft.com/en-in/azure/azure-resource-manager/resource-group-move-resources#move-resources
 
 [Back to question](#question-47)
 
@@ -3050,19 +1898,11 @@ resources
 
 From the exhibit we see that the disk is in the VHDX format.
 
-Before you upload a Windows virtual machines (VM) from on-premises to Microsoft Azure, you must
+Before you upload a Windows virtual machines (VM) from on-premises to Microsoft Azure, you must prepare the virtual hard disk (VHD or VHDX). Azure supports only generation 1 VMs that are in the VHD file format and have a fixed sized disk. The maximum size allowed for the VHD is 1,023 GB. You can convert a generation 1 VM from the VHDX file system to VHD and from a dynamically expanding disk to fixed-sized.
 
-prepare the virtual hard disk (VHD or VHDX). Azure supports only generation 1 VMs that are in the VHD file
+**Reference:**
 
-format and have a fixed sized disk. The maximum size allowed for the VHD is 1,023 GB. You can convert a
-
-generation 1 VM from the VHDX file system to VHD and from a dynamically expanding disk to fixed-sized.
-
-References:
-
-https://docs.microsoft.com/en-us/azure/virtual-machines/windows/prepare-for-upload-vhd-image?toc=azure
-
-virtual-machines windows toc.json
+https://docs.microsoft.com/en-us/azure/virtual-machines/windows/prepare-for-upload-vhd-image?toc=azurevirtual-machines windows toc.json
 
 [Back to question](#question-48)
 
@@ -3072,9 +1912,7 @@ virtual-machines windows toc.json
 
 **Explanation:**
 
-You are prevented from creating Azure SQL servers anywhere in Subscription 1 with the exception of
-
-ContosoRG1
+You are prevented from creating Azure SQL servers anywhere in Subscription 1 with the exception of ContosoRG1
 
 [Back to question](#question-49)
 
@@ -3088,39 +1926,26 @@ ContosoRG1
 
 Box 1: Assign a tag to each resource.
 
-You apply tags to your Azure resources giving metadata to logically organize them into a taxonomy. After
-
-you apply tags, you can retrieve all the resources in your subscription with that tag name and value. Each
-
-resource or resource group can have a maximum of 15 tag name/value pairs. Tags applied to the resource
-
-group are not inherited by the resources in that resource group.
+You apply tags to your Azure resources giving metadata to logically organize them into a taxonomy. After you apply tags, you can retrieve all the resources in your subscription with that tag name and value. Each resource or resource group can have a maximum of 15 tag name/value pairs. Tags applied to the resource group are not inherited by the resources in that resource group.
 
 Box 2: From the Cost analysis blade, filter the view by tag
 
-After you get your services running, regularly check how much they're costing you. You can see the current
-
-spend and burn rate in Azure portal.
+After you get your services running, regularly check how much they're costing you. You can see the current spend and burn rate in Azure portal.
 
 1. Visit the Subscriptions blade in Azure portal and select a subscription.
 
-1. You should see the cost breakdown and burn rate in the popup blade.
+2. You should see the cost breakdown and burn rate in the popup blade.
 
-2. Click Cost analysis in the list to the left to see the cost breakdown by resource. Wait 24 hours after you
+3. Click Cost analysis in the list to the left to see the cost breakdown by resource. Wait 24 hours after you add a service for the data to populate.
 
-add a service for the data to populate.
-
-3. You can filter by different properties like tags, resource group, and timespan. Click Apply to confirm the
-
-filters and Download if you want to export the view to a Comma-Separated Values (.csv) file.
+4. You can filter by different properties like tags, resource group, and timespan. Click Apply to confirm the filters and Download if you want to export the view to a Comma-Separated Values (.csv) file.
 
 Box 3: Download the usage report
 
-References:
+**Reference:**
 
 https://docs.microsoft.com/en-us/azure/azure-resource-manager/resource-group-using-tags
 
 https://docs.microsoft.com/en-us/azure/billing/billing-getting-started
 
 [Back to question](#question-50)
-
