@@ -2,153 +2,11 @@
 
 **SCENARIO:**
 
-TESTLET-7.
-
-Case Study
-
-This is a case study. Case studies are not timed separately. You can use as much exam time as you
-
-would like to complete each case. However, there may be additional case studies and sections on this
-
-exam. You must manage your time to ensure that you are able to complete all questions included on this
-
-exam in the time provided.
-
-To answer the questions included in a case study, you will need to reference information that is provided in
-
-the case study. Case studies might contain exhibits and other resources that provide more information
-
-about the scenario that is described in the case study. Each question is independent of the other questions
-
-in this case study.
-
-At the end of this case study, a review screen will appear. This screen allows you to review your answers
-
-and to make changes before you move to the next section of the exam. After you begin a new section, you
-
-cannot return to this section.
-
-To start the case study
-
-To display the first question in this case study, click the Next button. Use the buttons in the left pane to
-
-explore the content of the case study before you answer the questions. Clicking these buttons displays
-
-information such as business requirements, existing environment, and problem statements. If the case
-
-study has an All Information tab, note that the information displayed is identical to the information
-
-displayed on the subsequent tabs. When you are ready to answer a question, click the Question button to
-
-return to the question.
-
-Overview
-
-Contoso, Ltd. is a consulting company that has a main office in Montreal and two branch offices in Seattle
-
-and New York.
-
-The Montreal office has 2,000 employees. The Seattle office has 1,000 employees. The New York office
-
-has 200 employees.
-
-All the resources used by Contoso are hosted on-premises.
-
-Contoso created a new Azure subscription. The Azure Active Directory (Azure AD) tenant uses a domain
-
-named contoso.onmicrosoft.com. The tenant uses the P1 pricing tier.
-
-Existing Environment
-
-The network contains an Active Directory forest named contoso.com. All domain controllers are configured
-
-as DNS servers and host the contoso.com DNS zone.
-
-Contoso has finance, human resources, sales, research, and information technology departments. Each
-
-department has an organizational unit (OU) that contains all the accounts of that respective department. All
-
-the user accounts have the department attribute set to their respective department. New users are added
-
-frequently.
-
-Contoso.com contains a user named User1.
-
-All the offices connect by using private links.
-
-Contoso has data centers in the Montreal and Seattle offices. Each data center has a firewall that can be
-
-configured as a VPN device.
-
-All infrastructure servers are virtualized. The virtualization environment contains the servers in the following
-
-table.
-
-![](image/image-538.webp)
-
-Contoso uses two web applications named App1 and App2. Each instance on each web application
-
-requires 1 GB of memory.
-
-The Azure subscription contains the resources in the following table.
-
-![](image/image-539.webp)
-
-The network security team implements several network security groups (NSGs).
-
-Requirements
-
-Planned Changes
-
-Contoso plans to implement the following changes:
-
-	- Deploy Azure ExpressRoute to the Montreal office
-
-	- Migrate the virtual machine hosted on Server1 and Server2 to Azure
-
-	- Synchronize on-premises Active Directory to Azure Active Directory (Azure AD)
-
-	- Migrate App1 and App2 to two Azure web apps named WebApp1 and WebApp2.
-
-Technical Requirements
-
-Contoso must meet the following technical requirements:
-
-	- Ensure that WebApp1 can adjust the number of instances automatically based on the load and can
-
-scale up to five instances
-
-	- Ensure that VM3 can establish outbound connections over TCP port 8080 to the applications servers in
-
-the Montreal office
-
-	- Ensure that routing information is exchanged automatically between Azure and the routers in the
-
-Montreal office
-
-	- Enable Azure Multi-Factor Authentication (MFA) for the users in the finance department only
-
-	- Ensure that webapp2.azurewebsites.net can be accessed by using the name app2.contoso.com
-
-	- Connect the New York office to VNet1 over the Internet by using an encrypted connection
-
-	- Create a workflow to send an email message when the settings of VM4 are modified
-
-	- Create a custom Azure role named Role1 that is based on the Reader role
-
-	- Minimize costs whenever possible
-
-HOTSPOT
+[Case-7](scenario.md#case-7)
 
 You are developing an Azure Web App. You configure TLS mutual authentication for the web app.
 
-You need to validate the client certificate in the web app. To answer, select the appropriate options in the
-
-answer area.
-
-NOTE: Each correct selection is worth one point.
-
-Hot Area:
+You need to validate the client certificate in the web app. To answer, select the appropriate options in the answer area.
 
 ![](image/image-576.webp)
 
@@ -158,145 +16,9 @@ Hot Area:
 
 **SCENARIO:**
 
-TESTLET-7.
+[Case-7](scenario.md#case-7)
 
-Case Study
-
-This is a case study. Case studies are not timed separately. You can use as much exam time as you
-
-would like to complete each case. However, there may be additional case studies and sections on this
-
-exam. You must manage your time to ensure that you are able to complete all questions included on this
-
-exam in the time provided.
-
-To answer the questions included in a case study, you will need to reference information that is provided in
-
-the case study. Case studies might contain exhibits and other resources that provide more information
-
-about the scenario that is described in the case study. Each question is independent of the other questions
-
-in this case study.
-
-At the end of this case study, a review screen will appear. This screen allows you to review your answers
-
-and to make changes before you move to the next section of the exam. After you begin a new section, you
-
-cannot return to this section.
-
-To start the case study
-
-To display the first question in this case study, click the Next button. Use the buttons in the left pane to
-
-explore the content of the case study before you answer the questions. Clicking these buttons displays
-
-information such as business requirements, existing environment, and problem statements. If the case
-
-study has an All Information tab, note that the information displayed is identical to the information
-
-displayed on the subsequent tabs. When you are ready to answer a question, click the Question button to
-
-return to the question.
-
-Overview
-
-Contoso, Ltd. is a consulting company that has a main office in Montreal and two branch offices in Seattle
-
-and New York.
-
-The Montreal office has 2,000 employees. The Seattle office has 1,000 employees. The New York office
-
-has 200 employees.
-
-All the resources used by Contoso are hosted on-premises.
-
-Contoso created a new Azure subscription. The Azure Active Directory (Azure AD) tenant uses a domain
-
-named contoso.onmicrosoft.com. The tenant uses the P1 pricing tier.
-
-Existing Environment
-
-The network contains an Active Directory forest named contoso.com. All domain controllers are configured
-
-as DNS servers and host the contoso.com DNS zone.
-
-Contoso has finance, human resources, sales, research, and information technology departments. Each
-
-department has an organizational unit (OU) that contains all the accounts of that respective department. All
-
-the user accounts have the department attribute set to their respective department. New users are added
-
-frequently.
-
-Contoso.com contains a user named User1.
-
-All the offices connect by using private links.
-
-Contoso has data centers in the Montreal and Seattle offices. Each data center has a firewall that can be
-
-configured as a VPN device.
-
-All infrastructure servers are virtualized. The virtualization environment contains the servers in the following
-
-table.
-
-![](image/image-538.webp)
-
-Contoso uses two web applications named App1 and App2. Each instance on each web application
-
-requires 1 GB of memory.
-
-The Azure subscription contains the resources in the following table.
-
-![](image/image-539.webp)
-
-The network security team implements several network security groups (NSGs).
-
-Requirements
-
-Planned Changes
-
-Contoso plans to implement the following changes:
-
-	- Deploy Azure ExpressRoute to the Montreal office
-
-	- Migrate the virtual machine hosted on Server1 and Server2 to Azure
-
-	- Synchronize on-premises Active Directory to Azure Active Directory (Azure AD)
-
-	- Migrate App1 and App2 to two Azure web apps named WebApp1 and WebApp2.
-
-Technical Requirements
-
-Contoso must meet the following technical requirements:
-
-	- Ensure that WebApp1 can adjust the number of instances automatically based on the load and can
-
-scale up to five instances
-
-	- Ensure that VM3 can establish outbound connections over TCP port 8080 to the applications servers in
-
-the Montreal office
-
-	- Ensure that routing information is exchanged automatically between Azure and the routers in the
-
-Montreal office
-
-	- Enable Azure Multi-Factor Authentication (MFA) for the users in the finance department only
-
-	- Ensure that webapp2.azurewebsites.net can be accessed by using the name app2.contoso.com
-
-	- Connect the New York office to VNet1 over the Internet by using an encrypted connection
-
-	- Create a workflow to send an email message when the settings of VM4 are modified
-
-	- Create a custom Azure role named Role1 that is based on the Reader role
-
-	- Minimize costs whenever possible
-
-You have a Recovery Service vault that you use to test backups. The test backups contain two protected
-
-virtual machines.
+You have a Recovery Service vault that you use to test backups. The test backups contain two protected virtual machines.
 
 You need to delete the Recovery Services vault.
 
@@ -316,163 +38,13 @@ What should you do first?
 
 **SCENARIO:**
 
-TESTLET-7.
+[Case-7](scenario.md#case-7)
 
-Case Study
+Your network contains an Active Directory forest named fabrikam.com. The forest contains two child domains named corp.fabrikam.com and research.fabrikam.com.
 
-This is a case study. Case studies are not timed separately. You can use as much exam time as you
+You have an Azure subscription that contains an Azure Active Directory (Azure AD) tenant named contoso.com.
 
-would like to complete each case. However, there may be additional case studies and sections on this
-
-exam. You must manage your time to ensure that you are able to complete all questions included on this
-
-exam in the time provided.
-
-To answer the questions included in a case study, you will need to reference information that is provided in
-
-the case study. Case studies might contain exhibits and other resources that provide more information
-
-about the scenario that is described in the case study. Each question is independent of the other questions
-
-in this case study.
-
-At the end of this case study, a review screen will appear. This screen allows you to review your answers
-
-and to make changes before you move to the next section of the exam. After you begin a new section, you
-
-cannot return to this section.
-
-To start the case study
-
-To display the first question in this case study, click the Next button. Use the buttons in the left pane to
-
-explore the content of the case study before you answer the questions. Clicking these buttons displays
-
-information such as business requirements, existing environment, and problem statements. If the case
-
-study has an All Information tab, note that the information displayed is identical to the information
-
-displayed on the subsequent tabs. When you are ready to answer a question, click the Question button to
-
-return to the question.
-
-Overview
-
-Contoso, Ltd. is a consulting company that has a main office in Montreal and two branch offices in Seattle
-
-and New York.
-
-The Montreal office has 2,000 employees. The Seattle office has 1,000 employees. The New York office
-
-has 200 employees.
-
-All the resources used by Contoso are hosted on-premises.
-
-Contoso created a new Azure subscription. The Azure Active Directory (Azure AD) tenant uses a domain
-
-named contoso.onmicrosoft.com. The tenant uses the P1 pricing tier.
-
-Existing Environment
-
-The network contains an Active Directory forest named contoso.com. All domain controllers are configured
-
-as DNS servers and host the contoso.com DNS zone.
-
-Contoso has finance, human resources, sales, research, and information technology departments. Each
-
-department has an organizational unit (OU) that contains all the accounts of that respective department. All
-
-the user accounts have the department attribute set to their respective department. New users are added
-
-frequently.
-
-Contoso.com contains a user named User1.
-
-All the offices connect by using private links.
-
-Contoso has data centers in the Montreal and Seattle offices. Each data center has a firewall that can be
-
-configured as a VPN device.
-
-All infrastructure servers are virtualized. The virtualization environment contains the servers in the following
-
-table.
-
-![](image/image-538.webp)
-
-Contoso uses two web applications named App1 and App2. Each instance on each web application
-
-requires 1 GB of memory.
-
-The Azure subscription contains the resources in the following table.
-
-![](image/image-539.webp)
-
-The network security team implements several network security groups (NSGs).
-
-Requirements
-
-Planned Changes
-
-Contoso plans to implement the following changes:
-
-	- Deploy Azure ExpressRoute to the Montreal office
-
-	- Migrate the virtual machine hosted on Server1 and Server2 to Azure
-
-	- Synchronize on-premises Active Directory to Azure Active Directory (Azure AD)
-
-	- Migrate App1 and App2 to two Azure web apps named WebApp1 and WebApp2.
-
-Technical Requirements
-
-Contoso must meet the following technical requirements:
-
-	- Ensure that WebApp1 can adjust the number of instances automatically based on the load and can
-
-scale up to five instances
-
-	- Ensure that VM3 can establish outbound connections over TCP port 8080 to the applications servers in
-
-the Montreal office
-
-	- Ensure that routing information is exchanged automatically between Azure and the routers in the
-
-Montreal office
-
-	- Enable Azure Multi-Factor Authentication (MFA) for the users in the finance department only
-
-	- Ensure that webapp2.azurewebsites.net can be accessed by using the name app2.contoso.com
-
-	- Connect the New York office to VNet1 over the Internet by using an encrypted connection
-
-	- Create a workflow to send an email message when the settings of VM4 are modified
-
-	- Create a custom Azure role named Role1 that is based on the Reader role
-
-	- Minimize costs whenever possible
-
-Note: This question is part of series of questions that present the same scenario. Each question in
-
-the series contains a unique solution that might meet the stated goals. Some question sets might
-
-have more than one correct solution, while others might not have a correct solution.
-
-After you answer a question in this section, you will NOT be able to return to it. As a result, these
-
-questions will not appear in the review screen.
-
-Your network contains an Active Directory forest named fabrikam.com. The forest contains two child
-
-domains named corp.fabrikam.com and research.fabrikam.com.
-
-You have an Azure subscription that contains an Azure Active Directory (Azure AD) tenant named
-
-contoso.com.
-
-You install Azure AD Connect and sync all the on-premises user accounts to the Azure AD tenant. You
-
-implement seamless single sign-on (SSO).
+You install Azure AD Connect and sync all the on-premises user accounts to the Azure AD tenant. You implement seamless single sign-on (SSO).
 
 You plan to change the source of authority for all the user accounts in research.fabrikam.com to Azure AD.
 
@@ -492,161 +64,15 @@ Does this meet the goal?
 
 **SCENARIO:**
 
-TESTLET-7.
+[Case-7](scenario.md#case-7)
 
-Case Study
-
-This is a case study. Case studies are not timed separately. You can use as much exam time as you
-
-would like to complete each case. However, there may be additional case studies and sections on this
-
-exam. You must manage your time to ensure that you are able to complete all questions included on this
-
-exam in the time provided.
-
-To answer the questions included in a case study, you will need to reference information that is provided in
-
-the case study. Case studies might contain exhibits and other resources that provide more information
-
-about the scenario that is described in the case study. Each question is independent of the other questions
-
-in this case study.
-
-At the end of this case study, a review screen will appear. This screen allows you to review your answers
-
-and to make changes before you move to the next section of the exam. After you begin a new section, you
-
-cannot return to this section.
-
-To start the case study
-
-To display the first question in this case study, click the Next button. Use the buttons in the left pane to
-
-explore the content of the case study before you answer the questions. Clicking these buttons displays
-
-information such as business requirements, existing environment, and problem statements. If the case
-
-study has an All Information tab, note that the information displayed is identical to the information
-
-displayed on the subsequent tabs. When you are ready to answer a question, click the Question button to
-
-return to the question.
-
-Overview
-
-Contoso, Ltd. is a consulting company that has a main office in Montreal and two branch offices in Seattle
-
-and New York.
-
-The Montreal office has 2,000 employees. The Seattle office has 1,000 employees. The New York office
-
-has 200 employees.
-
-All the resources used by Contoso are hosted on-premises.
-
-Contoso created a new Azure subscription. The Azure Active Directory (Azure AD) tenant uses a domain
-
-named contoso.onmicrosoft.com. The tenant uses the P1 pricing tier.
-
-Existing Environment
-
-The network contains an Active Directory forest named contoso.com. All domain controllers are configured
-
-as DNS servers and host the contoso.com DNS zone.
-
-Contoso has finance, human resources, sales, research, and information technology departments. Each
-
-department has an organizational unit (OU) that contains all the accounts of that respective department. All
-
-the user accounts have the department attribute set to their respective department. New users are added
-
-frequently.
-
-Contoso.com contains a user named User1.
-
-All the offices connect by using private links.
-
-Contoso has data centers in the Montreal and Seattle offices. Each data center has a firewall that can be
-
-configured as a VPN device.
-
-All infrastructure servers are virtualized. The virtualization environment contains the servers in the following
-
-table.
-
-![](image/image-538.webp)
-
-Contoso uses two web applications named App1 and App2. Each instance on each web application
-
-requires 1 GB of memory.
-
-The Azure subscription contains the resources in the following table.
-
-![](image/image-539.webp)
-
-The network security team implements several network security groups (NSGs).
-
-Requirements
-
-Planned Changes
-
-Contoso plans to implement the following changes:
-
-	- Deploy Azure ExpressRoute to the Montreal office
-
-	- Migrate the virtual machine hosted on Server1 and Server2 to Azure
-
-	- Synchronize on-premises Active Directory to Azure Active Directory (Azure AD)
-
-	- Migrate App1 and App2 to two Azure web apps named WebApp1 and WebApp2.
-
-Technical Requirements
-
-Contoso must meet the following technical requirements:
-
-	- Ensure that WebApp1 can adjust the number of instances automatically based on the load and can
-
-scale up to five instances
-
-	- Ensure that VM3 can establish outbound connections over TCP port 8080 to the applications servers in
-
-the Montreal office
-
-	- Ensure that routing information is exchanged automatically between Azure and the routers in the
-
-Montreal office
-
-	- Enable Azure Multi-Factor Authentication (MFA) for the users in the finance department only
-
-	- Ensure that webapp2.azurewebsites.net can be accessed by using the name app2.contoso.com
-
-	- Connect the New York office to VNet1 over the Internet by using an encrypted connection
-
-	- Create a workflow to send an email message when the settings of VM4 are modified
-
-	- Create a custom Azure role named Role1 that is based on the Reader role
-
-	- Minimize costs whenever possible
-
-HOTSPOT
-
-Your organization has developed and deployed several Azure App Service Web and API applications. The
-
-applications use Azure SQL Database to store and retrieve data. Several departments have the following
-
-requests to support the applications:
+Your organization has developed and deployed several Azure App Service Web and API applications. The applications use Azure SQL Database to store and retrieve data. Several departments have the following requests to support the applications:
 
 ![](image/image-582.webp)
 
 You need to recommend the appropriate Azure service for each department request.
 
-What should you recommend? To answer, configure the appropriate options in the dialog box in the answer
-
-area.
-
-NOTE: Each correct selection is worth one point.
-
-Hot Area:
+What should you recommend? To answer, configure the appropriate options in the dialog box in the answer area.
 
 ![](image/image-583.webp)
 
@@ -656,141 +82,7 @@ Hot Area:
 
 **SCENARIO:**
 
-TESTLET-7.
-
-Case Study
-
-This is a case study. Case studies are not timed separately. You can use as much exam time as you
-
-would like to complete each case. However, there may be additional case studies and sections on this
-
-exam. You must manage your time to ensure that you are able to complete all questions included on this
-
-exam in the time provided.
-
-To answer the questions included in a case study, you will need to reference information that is provided in
-
-the case study. Case studies might contain exhibits and other resources that provide more information
-
-about the scenario that is described in the case study. Each question is independent of the other questions
-
-in this case study.
-
-At the end of this case study, a review screen will appear. This screen allows you to review your answers
-
-and to make changes before you move to the next section of the exam. After you begin a new section, you
-
-cannot return to this section.
-
-To start the case study
-
-To display the first question in this case study, click the Next button. Use the buttons in the left pane to
-
-explore the content of the case study before you answer the questions. Clicking these buttons displays
-
-information such as business requirements, existing environment, and problem statements. If the case
-
-study has an All Information tab, note that the information displayed is identical to the information
-
-displayed on the subsequent tabs. When you are ready to answer a question, click the Question button to
-
-return to the question.
-
-Overview
-
-Contoso, Ltd. is a consulting company that has a main office in Montreal and two branch offices in Seattle
-
-and New York.
-
-The Montreal office has 2,000 employees. The Seattle office has 1,000 employees. The New York office
-
-has 200 employees.
-
-All the resources used by Contoso are hosted on-premises.
-
-Contoso created a new Azure subscription. The Azure Active Directory (Azure AD) tenant uses a domain
-
-named contoso.onmicrosoft.com. The tenant uses the P1 pricing tier.
-
-Existing Environment
-
-The network contains an Active Directory forest named contoso.com. All domain controllers are configured
-
-as DNS servers and host the contoso.com DNS zone.
-
-Contoso has finance, human resources, sales, research, and information technology departments. Each
-
-department has an organizational unit (OU) that contains all the accounts of that respective department. All
-
-the user accounts have the department attribute set to their respective department. New users are added
-
-frequently.
-
-Contoso.com contains a user named User1.
-
-All the offices connect by using private links.
-
-Contoso has data centers in the Montreal and Seattle offices. Each data center has a firewall that can be
-
-configured as a VPN device.
-
-All infrastructure servers are virtualized. The virtualization environment contains the servers in the following
-
-table.
-
-![](image/image-538.webp)
-
-Contoso uses two web applications named App1 and App2. Each instance on each web application
-
-requires 1 GB of memory.
-
-The Azure subscription contains the resources in the following table.
-
-![](image/image-539.webp)
-
-The network security team implements several network security groups (NSGs).
-
-Requirements
-
-Planned Changes
-
-Contoso plans to implement the following changes:
-
-	- Deploy Azure ExpressRoute to the Montreal office
-
-	- Migrate the virtual machine hosted on Server1 and Server2 to Azure
-
-	- Synchronize on-premises Active Directory to Azure Active Directory (Azure AD)
-
-	- Migrate App1 and App2 to two Azure web apps named WebApp1 and WebApp2.
-
-Technical Requirements
-
-Contoso must meet the following technical requirements:
-
-	- Ensure that WebApp1 can adjust the number of instances automatically based on the load and can
-
-scale up to five instances
-
-	- Ensure that VM3 can establish outbound connections over TCP port 8080 to the applications servers in
-
-the Montreal office
-
-	- Ensure that routing information is exchanged automatically between Azure and the routers in the
-
-Montreal office
-
-	- Enable Azure Multi-Factor Authentication (MFA) for the users in the finance department only
-
-	- Ensure that webapp2.azurewebsites.net can be accessed by using the name app2.contoso.com
-
-	- Connect the New York office to VNet1 over the Internet by using an encrypted connection
-
-	- Create a workflow to send an email message when the settings of VM4 are modified
-
-	- Create a custom Azure role named Role1 that is based on the Reader role
-
-	- Minimize costs whenever possible
+[Case-7](scenario.md#case-7)
 
 You have the Azure virtual machines shown in the following table.
 
@@ -816,145 +108,9 @@ What should you do first?
 
 **SCENARIO:**
 
-TESTLET-7.
+[Case-7](scenario.md#case-7)
 
-Case Study
-
-This is a case study. Case studies are not timed separately. You can use as much exam time as you
-
-would like to complete each case. However, there may be additional case studies and sections on this
-
-exam. You must manage your time to ensure that you are able to complete all questions included on this
-
-exam in the time provided.
-
-To answer the questions included in a case study, you will need to reference information that is provided in
-
-the case study. Case studies might contain exhibits and other resources that provide more information
-
-about the scenario that is described in the case study. Each question is independent of the other questions
-
-in this case study.
-
-At the end of this case study, a review screen will appear. This screen allows you to review your answers
-
-and to make changes before you move to the next section of the exam. After you begin a new section, you
-
-cannot return to this section.
-
-To start the case study
-
-To display the first question in this case study, click the Next button. Use the buttons in the left pane to
-
-explore the content of the case study before you answer the questions. Clicking these buttons displays
-
-information such as business requirements, existing environment, and problem statements. If the case
-
-study has an All Information tab, note that the information displayed is identical to the information
-
-displayed on the subsequent tabs. When you are ready to answer a question, click the Question button to
-
-return to the question.
-
-Overview
-
-Contoso, Ltd. is a consulting company that has a main office in Montreal and two branch offices in Seattle
-
-and New York.
-
-The Montreal office has 2,000 employees. The Seattle office has 1,000 employees. The New York office
-
-has 200 employees.
-
-All the resources used by Contoso are hosted on-premises.
-
-Contoso created a new Azure subscription. The Azure Active Directory (Azure AD) tenant uses a domain
-
-named contoso.onmicrosoft.com. The tenant uses the P1 pricing tier.
-
-Existing Environment
-
-The network contains an Active Directory forest named contoso.com. All domain controllers are configured
-
-as DNS servers and host the contoso.com DNS zone.
-
-Contoso has finance, human resources, sales, research, and information technology departments. Each
-
-department has an organizational unit (OU) that contains all the accounts of that respective department. All
-
-the user accounts have the department attribute set to their respective department. New users are added
-
-frequently.
-
-Contoso.com contains a user named User1.
-
-All the offices connect by using private links.
-
-Contoso has data centers in the Montreal and Seattle offices. Each data center has a firewall that can be
-
-configured as a VPN device.
-
-All infrastructure servers are virtualized. The virtualization environment contains the servers in the following
-
-table.
-
-![](image/image-538.webp)
-
-Contoso uses two web applications named App1 and App2. Each instance on each web application
-
-requires 1 GB of memory.
-
-The Azure subscription contains the resources in the following table.
-
-![](image/image-539.webp)
-
-The network security team implements several network security groups (NSGs).
-
-Requirements
-
-Planned Changes
-
-Contoso plans to implement the following changes:
-
-	- Deploy Azure ExpressRoute to the Montreal office
-
-	- Migrate the virtual machine hosted on Server1 and Server2 to Azure
-
-	- Synchronize on-premises Active Directory to Azure Active Directory (Azure AD)
-
-	- Migrate App1 and App2 to two Azure web apps named WebApp1 and WebApp2.
-
-Technical Requirements
-
-Contoso must meet the following technical requirements:
-
-	- Ensure that WebApp1 can adjust the number of instances automatically based on the load and can
-
-scale up to five instances
-
-	- Ensure that VM3 can establish outbound connections over TCP port 8080 to the applications servers in
-
-the Montreal office
-
-	- Ensure that routing information is exchanged automatically between Azure and the routers in the
-
-Montreal office
-
-	- Enable Azure Multi-Factor Authentication (MFA) for the users in the finance department only
-
-	- Ensure that webapp2.azurewebsites.net can be accessed by using the name app2.contoso.com
-
-	- Connect the New York office to VNet1 over the Internet by using an encrypted connection
-
-	- Create a workflow to send an email message when the settings of VM4 are modified
-
-	- Create a custom Azure role named Role1 that is based on the Reader role
-
-	- Minimize costs whenever possible
-
-You have an Azure Active Directory (Azure AD) domain that contains 5,000 user accounts. You create a
-
-new user account named AdminUser1.
+You have an Azure Active Directory (Azure AD) domain that contains 5,000 user accounts. You create a new user account named AdminUser1.
 
 You need to assign the User administrator administrative role to AdminUser1.
 
@@ -972,199 +128,11 @@ What should you do from the user account properties?
 
 **SCENARIO:**
 
-TESTLET-7.
-
-Case Study
-
-This is a case study. Case studies are not timed separately. You can use as much exam time as you
-
-would like to complete each case. However, there may be additional case studies and sections on this
-
-exam. You must manage your time to ensure that you are able to complete all questions included on this
-
-exam in the time provided.
-
-To answer the questions included in a case study, you will need to reference information that is provided in
-
-the case study. Case studies might contain exhibits and other resources that provide more information
-
-about the scenario that is described in the case study. Each question is independent of the other questions
-
-in this case study.
-
-At the end of this case study, a review screen will appear. This screen allows you to review your answers
-
-and to make changes before you move to the next section of the exam. After you begin a new section, you
-
-cannot return to this section.
-
-To start the case study
-
-To display the first question in this case study, click the Next button. Use the buttons in the left pane to
-
-explore the content of the case study before you answer the questions. Clicking these buttons displays
-
-information such as business requirements, existing environment, and problem statements. If the case
-
-study has an All Information tab, note that the information displayed is identical to the information
-
-displayed on the subsequent tabs. When you are ready to answer a question, click the Question button to
-
-return to the question.
-
-Overview
-
-Contoso, Ltd. is a consulting company that has a main office in Montreal and two branch offices in Seattle
-
-and New York.
-
-The Montreal office has 2,000 employees. The Seattle office has 1,000 employees. The New York office
-
-has 200 employees.
-
-All the resources used by Contoso are hosted on-premises.
-
-Contoso created a new Azure subscription. The Azure Active Directory (Azure AD) tenant uses a domain
-
-named contoso.onmicrosoft.com. The tenant uses the P1 pricing tier.
-
-Existing Environment
-
-The network contains an Active Directory forest named contoso.com. All domain controllers are configured
-
-as DNS servers and host the contoso.com DNS zone.
-
-Contoso has finance, human resources, sales, research, and information technology departments. Each
-
-department has an organizational unit (OU) that contains all the accounts of that respective department. All
-
-the user accounts have the department attribute set to their respective department. New users are added
-
-frequently.
-
-Contoso.com contains a user named User1.
-
-All the offices connect by using private links.
-
-Contoso has data centers in the Montreal and Seattle offices. Each data center has a firewall that can be
-
-configured as a VPN device.
-
-All infrastructure servers are virtualized. The virtualization environment contains the servers in the following
-
-table.
-
-![](image/image-538.webp)
-
-Contoso uses two web applications named App1 and App2. Each instance on each web application
-
-requires 1 GB of memory.
-
-The Azure subscription contains the resources in the following table.
-
-![](image/image-539.webp)
-
-The network security team implements several network security groups (NSGs).
-
-Requirements
-
-Planned Changes
-
-Contoso plans to implement the following changes:
-
-	- Deploy Azure ExpressRoute to the Montreal office
-
-	- Migrate the virtual machine hosted on Server1 and Server2 to Azure
-
-	- Synchronize on-premises Active Directory to Azure Active Directory (Azure AD)
-
-	- Migrate App1 and App2 to two Azure web apps named WebApp1 and WebApp2.
-
-Technical Requirements
-
-Contoso must meet the following technical requirements:
-
-	- Ensure that WebApp1 can adjust the number of instances automatically based on the load and can
-
-scale up to five instances
-
-	- Ensure that VM3 can establish outbound connections over TCP port 8080 to the applications servers in
-
-the Montreal office
-
-	- Ensure that routing information is exchanged automatically between Azure and the routers in the
-
-Montreal office
-
-	- Enable Azure Multi-Factor Authentication (MFA) for the users in the finance department only
-
-	- Ensure that webapp2.azurewebsites.net can be accessed by using the name app2.contoso.com
-
-	- Connect the New York office to VNet1 over the Internet by using an encrypted connection
-
-	- Create a workflow to send an email message when the settings of VM4 are modified
-
-	- Create a custom Azure role named Role1 that is based on the Reader role
-
-	- Minimize costs whenever possible
-
-SIMULATION
-
-Click to expand each objective. To connect to the Azure portal, type https://portal.azure.com in the browser
-
-address bar.
-
-![](image/image-586.webp)
-
-![](image/image-587.webp)
-
-![](image/image-588.webp)
-
-![](image/image-589.webp)
-
-![](image/image-590.webp)
-
-![](image/image-591.webp)
-
-When you are finished performing all the tasks, click the ‘Next’ button.
-
-Note that you cannot return to the lab once you click the ‘Next’ button. Scoring occur in the background
-
-while you complete the rest of the exam.
-
-Overview 
-
-The following section of the exam is a lab. In this section, you will perform a set of tasks in a live
-
-environment. While most functionality will be available to you as it would be in a live environment, some
-
-functionality (e.g., copy and paste, ability to navigate to external websites) will not be possible by design.
-
-Scoring is based on the outcome of performing the tasks stated in the lab. In other words, it doesn’t matter
-
-how you accomplish the task, if you successfully perform it, you will earn credit for that task.
-
-Labs are not timed separately, and this exam may have more than one lab that you must complete. You
-
-can use as much time as you would like to complete each lab. But, you should manage your time
-
-appropriately to ensure that you are able to complete the lab(s) and all other sections of the exam in the
-
-time provided.
-
-Please note that once you submit your work by clicking the Next button within a lab, you will NOT be able to
-
-return to the lab.
-
-To start the lab
-
-You may start the lab by clicking the Next button.
+[Case-7](scenario.md#case-7)
 
 You plan to prevent users from accidentally deleting blob data from Azure.
 
-You need to ensure that administrators can recover any blob data that is deleted accidentally from the
-
-storagelod8322489 storage account for 14 days after the deletion occurred.
+You need to ensure that administrators can recover any blob data that is deleted accidentally from the storagelod8322489 storage account for 14 days after the deletion occurred.
 
 What should you do from the Azure portal?
 
@@ -1174,141 +142,7 @@ What should you do from the Azure portal?
 
 **SCENARIO:**
 
-TESTLET-7.
-
-Case Study
-
-This is a case study. Case studies are not timed separately. You can use as much exam time as you
-
-would like to complete each case. However, there may be additional case studies and sections on this
-
-exam. You must manage your time to ensure that you are able to complete all questions included on this
-
-exam in the time provided.
-
-To answer the questions included in a case study, you will need to reference information that is provided in
-
-the case study. Case studies might contain exhibits and other resources that provide more information
-
-about the scenario that is described in the case study. Each question is independent of the other questions
-
-in this case study.
-
-At the end of this case study, a review screen will appear. This screen allows you to review your answers
-
-and to make changes before you move to the next section of the exam. After you begin a new section, you
-
-cannot return to this section.
-
-To start the case study
-
-To display the first question in this case study, click the Next button. Use the buttons in the left pane to
-
-explore the content of the case study before you answer the questions. Clicking these buttons displays
-
-information such as business requirements, existing environment, and problem statements. If the case
-
-study has an All Information tab, note that the information displayed is identical to the information
-
-displayed on the subsequent tabs. When you are ready to answer a question, click the Question button to
-
-return to the question.
-
-Overview
-
-Contoso, Ltd. is a consulting company that has a main office in Montreal and two branch offices in Seattle
-
-and New York.
-
-The Montreal office has 2,000 employees. The Seattle office has 1,000 employees. The New York office
-
-has 200 employees.
-
-All the resources used by Contoso are hosted on-premises.
-
-Contoso created a new Azure subscription. The Azure Active Directory (Azure AD) tenant uses a domain
-
-named contoso.onmicrosoft.com. The tenant uses the P1 pricing tier.
-
-Existing Environment
-
-The network contains an Active Directory forest named contoso.com. All domain controllers are configured
-
-as DNS servers and host the contoso.com DNS zone.
-
-Contoso has finance, human resources, sales, research, and information technology departments. Each
-
-department has an organizational unit (OU) that contains all the accounts of that respective department. All
-
-the user accounts have the department attribute set to their respective department. New users are added
-
-frequently.
-
-Contoso.com contains a user named User1.
-
-All the offices connect by using private links.
-
-Contoso has data centers in the Montreal and Seattle offices. Each data center has a firewall that can be
-
-configured as a VPN device.
-
-All infrastructure servers are virtualized. The virtualization environment contains the servers in the following
-
-table.
-
-![](image/image-538.webp)
-
-Contoso uses two web applications named App1 and App2. Each instance on each web application
-
-requires 1 GB of memory.
-
-The Azure subscription contains the resources in the following table.
-
-![](image/image-539.webp)
-
-The network security team implements several network security groups (NSGs).
-
-Requirements
-
-Planned Changes
-
-Contoso plans to implement the following changes:
-
-	- Deploy Azure ExpressRoute to the Montreal office
-
-	- Migrate the virtual machine hosted on Server1 and Server2 to Azure
-
-	- Synchronize on-premises Active Directory to Azure Active Directory (Azure AD)
-
-	- Migrate App1 and App2 to two Azure web apps named WebApp1 and WebApp2.
-
-Technical Requirements
-
-Contoso must meet the following technical requirements:
-
-	- Ensure that WebApp1 can adjust the number of instances automatically based on the load and can
-
-scale up to five instances
-
-	- Ensure that VM3 can establish outbound connections over TCP port 8080 to the applications servers in
-
-the Montreal office
-
-	- Ensure that routing information is exchanged automatically between Azure and the routers in the
-
-Montreal office
-
-	- Enable Azure Multi-Factor Authentication (MFA) for the users in the finance department only
-
-	- Ensure that webapp2.azurewebsites.net can be accessed by using the name app2.contoso.com
-
-	- Connect the New York office to VNet1 over the Internet by using an encrypted connection
-
-	- Create a workflow to send an email message when the settings of VM4 are modified
-
-	- Create a custom Azure role named Role1 that is based on the Reader role
-
-	- Minimize costs whenever possible
+[Case-7](scenario.md#case-7)
 
 You have an Azure subscription that contains the Azure virtual machines shown in the following table.
 
@@ -1334,141 +168,7 @@ Which virtual machines should you identify?
 
 **SCENARIO:**
 
-TESTLET-7.
-
-Case Study
-
-This is a case study. Case studies are not timed separately. You can use as much exam time as you
-
-would like to complete each case. However, there may be additional case studies and sections on this
-
-exam. You must manage your time to ensure that you are able to complete all questions included on this
-
-exam in the time provided.
-
-To answer the questions included in a case study, you will need to reference information that is provided in
-
-the case study. Case studies might contain exhibits and other resources that provide more information
-
-about the scenario that is described in the case study. Each question is independent of the other questions
-
-in this case study.
-
-At the end of this case study, a review screen will appear. This screen allows you to review your answers
-
-and to make changes before you move to the next section of the exam. After you begin a new section, you
-
-cannot return to this section.
-
-To start the case study
-
-To display the first question in this case study, click the Next button. Use the buttons in the left pane to
-
-explore the content of the case study before you answer the questions. Clicking these buttons displays
-
-information such as business requirements, existing environment, and problem statements. If the case
-
-study has an All Information tab, note that the information displayed is identical to the information
-
-displayed on the subsequent tabs. When you are ready to answer a question, click the Question button to
-
-return to the question.
-
-Overview
-
-Contoso, Ltd. is a consulting company that has a main office in Montreal and two branch offices in Seattle
-
-and New York.
-
-The Montreal office has 2,000 employees. The Seattle office has 1,000 employees. The New York office
-
-has 200 employees.
-
-All the resources used by Contoso are hosted on-premises.
-
-Contoso created a new Azure subscription. The Azure Active Directory (Azure AD) tenant uses a domain
-
-named contoso.onmicrosoft.com. The tenant uses the P1 pricing tier.
-
-Existing Environment
-
-The network contains an Active Directory forest named contoso.com. All domain controllers are configured
-
-as DNS servers and host the contoso.com DNS zone.
-
-Contoso has finance, human resources, sales, research, and information technology departments. Each
-
-department has an organizational unit (OU) that contains all the accounts of that respective department. All
-
-the user accounts have the department attribute set to their respective department. New users are added
-
-frequently.
-
-Contoso.com contains a user named User1.
-
-All the offices connect by using private links.
-
-Contoso has data centers in the Montreal and Seattle offices. Each data center has a firewall that can be
-
-configured as a VPN device.
-
-All infrastructure servers are virtualized. The virtualization environment contains the servers in the following
-
-table.
-
-![](image/image-538.webp)
-
-Contoso uses two web applications named App1 and App2. Each instance on each web application
-
-requires 1 GB of memory.
-
-The Azure subscription contains the resources in the following table.
-
-![](image/image-539.webp)
-
-The network security team implements several network security groups (NSGs).
-
-Requirements
-
-Planned Changes
-
-Contoso plans to implement the following changes:
-
-	- Deploy Azure ExpressRoute to the Montreal office
-
-	- Migrate the virtual machine hosted on Server1 and Server2 to Azure
-
-	- Synchronize on-premises Active Directory to Azure Active Directory (Azure AD)
-
-	- Migrate App1 and App2 to two Azure web apps named WebApp1 and WebApp2.
-
-Technical Requirements
-
-Contoso must meet the following technical requirements:
-
-	- Ensure that WebApp1 can adjust the number of instances automatically based on the load and can
-
-scale up to five instances
-
-	- Ensure that VM3 can establish outbound connections over TCP port 8080 to the applications servers in
-
-the Montreal office
-
-	- Ensure that routing information is exchanged automatically between Azure and the routers in the
-
-Montreal office
-
-	- Enable Azure Multi-Factor Authentication (MFA) for the users in the finance department only
-
-	- Ensure that webapp2.azurewebsites.net can be accessed by using the name app2.contoso.com
-
-	- Connect the New York office to VNet1 over the Internet by using an encrypted connection
-
-	- Create a workflow to send an email message when the settings of VM4 are modified
-
-	- Create a custom Azure role named Role1 that is based on the Reader role
-
-	- Minimize costs whenever possible
+[Case-7](scenario.md#case-7)
 
 You have two Azure Active Directory (Azure AD) tenants named contoso.com and fabrikam.com.
 
@@ -1492,147 +192,9 @@ What should you do?
 
 **SCENARIO:**
 
-TESTLET-7.
+[Case-7](scenario.md#case-7)
 
-Case Study
-
-This is a case study. Case studies are not timed separately. You can use as much exam time as you
-
-would like to complete each case. However, there may be additional case studies and sections on this
-
-exam. You must manage your time to ensure that you are able to complete all questions included on this
-
-exam in the time provided.
-
-To answer the questions included in a case study, you will need to reference information that is provided in
-
-the case study. Case studies might contain exhibits and other resources that provide more information
-
-about the scenario that is described in the case study. Each question is independent of the other questions
-
-in this case study.
-
-At the end of this case study, a review screen will appear. This screen allows you to review your answers
-
-and to make changes before you move to the next section of the exam. After you begin a new section, you
-
-cannot return to this section.
-
-To start the case study
-
-To display the first question in this case study, click the Next button. Use the buttons in the left pane to
-
-explore the content of the case study before you answer the questions. Clicking these buttons displays
-
-information such as business requirements, existing environment, and problem statements. If the case
-
-study has an All Information tab, note that the information displayed is identical to the information
-
-displayed on the subsequent tabs. When you are ready to answer a question, click the Question button to
-
-return to the question.
-
-Overview
-
-Contoso, Ltd. is a consulting company that has a main office in Montreal and two branch offices in Seattle
-
-and New York.
-
-The Montreal office has 2,000 employees. The Seattle office has 1,000 employees. The New York office
-
-has 200 employees.
-
-All the resources used by Contoso are hosted on-premises.
-
-Contoso created a new Azure subscription. The Azure Active Directory (Azure AD) tenant uses a domain
-
-named contoso.onmicrosoft.com. The tenant uses the P1 pricing tier.
-
-Existing Environment
-
-The network contains an Active Directory forest named contoso.com. All domain controllers are configured
-
-as DNS servers and host the contoso.com DNS zone.
-
-Contoso has finance, human resources, sales, research, and information technology departments. Each
-
-department has an organizational unit (OU) that contains all the accounts of that respective department. All
-
-the user accounts have the department attribute set to their respective department. New users are added
-
-frequently.
-
-Contoso.com contains a user named User1.
-
-All the offices connect by using private links.
-
-Contoso has data centers in the Montreal and Seattle offices. Each data center has a firewall that can be
-
-configured as a VPN device.
-
-All infrastructure servers are virtualized. The virtualization environment contains the servers in the following
-
-table.
-
-![](image/image-538.webp)
-
-Contoso uses two web applications named App1 and App2. Each instance on each web application
-
-requires 1 GB of memory.
-
-The Azure subscription contains the resources in the following table.
-
-![](image/image-539.webp)
-
-The network security team implements several network security groups (NSGs).
-
-Requirements
-
-Planned Changes
-
-Contoso plans to implement the following changes:
-
-	- Deploy Azure ExpressRoute to the Montreal office
-
-	- Migrate the virtual machine hosted on Server1 and Server2 to Azure
-
-	- Synchronize on-premises Active Directory to Azure Active Directory (Azure AD)
-
-	- Migrate App1 and App2 to two Azure web apps named WebApp1 and WebApp2.
-
-Technical Requirements
-
-Contoso must meet the following technical requirements:
-
-	- Ensure that WebApp1 can adjust the number of instances automatically based on the load and can
-
-scale up to five instances
-
-	- Ensure that VM3 can establish outbound connections over TCP port 8080 to the applications servers in
-
-the Montreal office
-
-	- Ensure that routing information is exchanged automatically between Azure and the routers in the
-
-Montreal office
-
-	- Enable Azure Multi-Factor Authentication (MFA) for the users in the finance department only
-
-	- Ensure that webapp2.azurewebsites.net can be accessed by using the name app2.contoso.com
-
-	- Connect the New York office to VNet1 over the Internet by using an encrypted connection
-
-	- Create a workflow to send an email message when the settings of VM4 are modified
-
-	- Create a custom Azure role named Role1 that is based on the Reader role
-
-	- Minimize costs whenever possible
-
-HOTSPOT
-
-You network contains an Active Directory domain named adatum.com and an Azure Active Directory (Azure
-
-AD) tenant named adatum.onmicrosoft.com.
+You network contains an Active Directory domain named adatum.com and an Azure Active Directory (Azure AD) tenant named adatum.onmicrosoft.com.
 
 Adatum.com contains the user accounts in the following table.
 
@@ -1646,10 +208,6 @@ You need to implement Azure AD Connect. The solution must follow the principle o
 
 Which user accounts should you use? To answer, select the appropriate options in the answer area.
 
-NOTE: Each correct selection is worth one point.
-
-Hot Area:
-
 ![](image/image-603.webp)
 
 [See the answer](#answer-210)
@@ -1658,147 +216,11 @@ Hot Area:
 
 **SCENARIO:**
 
-TESTLET-7.
-
-Case Study
-
-This is a case study. Case studies are not timed separately. You can use as much exam time as you
-
-would like to complete each case. However, there may be additional case studies and sections on this
-
-exam. You must manage your time to ensure that you are able to complete all questions included on this
-
-exam in the time provided.
-
-To answer the questions included in a case study, you will need to reference information that is provided in
-
-the case study. Case studies might contain exhibits and other resources that provide more information
-
-about the scenario that is described in the case study. Each question is independent of the other questions
-
-in this case study.
-
-At the end of this case study, a review screen will appear. This screen allows you to review your answers
-
-and to make changes before you move to the next section of the exam. After you begin a new section, you
-
-cannot return to this section.
-
-To start the case study
-
-To display the first question in this case study, click the Next button. Use the buttons in the left pane to
-
-explore the content of the case study before you answer the questions. Clicking these buttons displays
-
-information such as business requirements, existing environment, and problem statements. If the case
-
-study has an All Information tab, note that the information displayed is identical to the information
-
-displayed on the subsequent tabs. When you are ready to answer a question, click the Question button to
-
-return to the question.
-
-Overview
-
-Contoso, Ltd. is a consulting company that has a main office in Montreal and two branch offices in Seattle
-
-and New York.
-
-The Montreal office has 2,000 employees. The Seattle office has 1,000 employees. The New York office
-
-has 200 employees.
-
-All the resources used by Contoso are hosted on-premises.
-
-Contoso created a new Azure subscription. The Azure Active Directory (Azure AD) tenant uses a domain
-
-named contoso.onmicrosoft.com. The tenant uses the P1 pricing tier.
-
-Existing Environment
-
-The network contains an Active Directory forest named contoso.com. All domain controllers are configured
-
-as DNS servers and host the contoso.com DNS zone.
-
-Contoso has finance, human resources, sales, research, and information technology departments. Each
-
-department has an organizational unit (OU) that contains all the accounts of that respective department. All
-
-the user accounts have the department attribute set to their respective department. New users are added
-
-frequently.
-
-Contoso.com contains a user named User1.
-
-All the offices connect by using private links.
-
-Contoso has data centers in the Montreal and Seattle offices. Each data center has a firewall that can be
-
-configured as a VPN device.
-
-All infrastructure servers are virtualized. The virtualization environment contains the servers in the following
-
-table.
-
-![](image/image-538.webp)
-
-Contoso uses two web applications named App1 and App2. Each instance on each web application
-
-requires 1 GB of memory.
-
-The Azure subscription contains the resources in the following table.
-
-![](image/image-539.webp)
-
-The network security team implements several network security groups (NSGs).
-
-Requirements
-
-Planned Changes
-
-Contoso plans to implement the following changes:
-
-	- Deploy Azure ExpressRoute to the Montreal office
-
-	- Migrate the virtual machine hosted on Server1 and Server2 to Azure
-
-	- Synchronize on-premises Active Directory to Azure Active Directory (Azure AD)
-
-	- Migrate App1 and App2 to two Azure web apps named WebApp1 and WebApp2.
-
-Technical Requirements
-
-Contoso must meet the following technical requirements:
-
-	- Ensure that WebApp1 can adjust the number of instances automatically based on the load and can
-
-scale up to five instances
-
-	- Ensure that VM3 can establish outbound connections over TCP port 8080 to the applications servers in
-
-the Montreal office
-
-	- Ensure that routing information is exchanged automatically between Azure and the routers in the
-
-Montreal office
-
-	- Enable Azure Multi-Factor Authentication (MFA) for the users in the finance department only
-
-	- Ensure that webapp2.azurewebsites.net can be accessed by using the name app2.contoso.com
-
-	- Connect the New York office to VNet1 over the Internet by using an encrypted connection
-
-	- Create a workflow to send an email message when the settings of VM4 are modified
-
-	- Create a custom Azure role named Role1 that is based on the Reader role
-
-	- Minimize costs whenever possible
+[Case-7](scenario.md#case-7)
 
 You sign up for Azure Active Directory (Azure AD) Premium.
 
-You need to add a user named admin1@contoso.com ad an administrator on all the computers that will be
-
-joined to the Azure AD domain.
+You need to add a user named admin1@contoso.com ad an administrator on all the computers that will be joined to the Azure AD domain.
 
 What should you configure in Azure AD?
 
@@ -1816,201 +238,11 @@ What should you configure in Azure AD?
 
 **SCENARIO:**
 
-TESTLET-8.
-
-Case Study
-
-This is a case study. Case studies are not timed separately. You can use as much exam time as you
-
-would like to complete each case. However, there may be additional case studies and sections on this
-
-exam. You must manage your time to ensure that you are able to complete all questions included on this
-
-exam in the time provided.
-
-To answer the questions included in a case study, you will need to reference information that is provided in
-
-the case study. Case studies might contain exhibits and other resources that provide more information
-
-about the scenario that is described in the case study. Each question is independent of the other questions
-
-in this case study.
-
-At the end of this case study, a review screen will appear. This screen allows you to review your answers
-
-and to make changes before you move to the next section of the exam. After you begin a new section, you
-
-cannot return to this section.
-
-To start the case study
-
-To display the first question in this case study, click the Next button. Use the buttons in the left pane to
-
-explore the content of the case study before you answer the questions. Clicking these buttons displays
-
-information such as business requirements, existing environment, and problem statements. If the case
-
-study has an All Information tab, note that the information displayed is identical to the information
-
-displayed on the subsequent tabs. When you are ready to answer a question, click the Question button to
-
-return to the question.
-
-Overview
-
-Humongous Insurance is an insurance company that has three offices in Miami, Tokyo and Bangkok. Each
-
-office has 5.000 users.
-
-Existing Environment
-
-Active Directory Environment
-
-Humongous Insurance has a single-domain Active Directory forest named humongousinsurance.com. The
-
-functional level of the forest is Windows Server 2012.
-
-You recently provisioned an Azure Active Directory (Azure AD) tenant.
-
-Network Infrastructure
-
-Each office has a local data center that contains all the servers for that office. Each office has a dedicated
-
-connection to the Internet.
-
-Each office has several link load balancers that provide access to the servers.
-
-Active Directory Issue
-
-Several users in humongousinsurance.com have UPNs that contain special characters.
-
-You suspect that some of the characters are unsupported in Azure AD.
-
-Licensing Issue
-
-You attempt to assign a license in Azure to several users and receive the following error message:
-
-"Licenses not assigned. License agreement failed for one user."
-
-You verify that the Azure subscription has the available licenses.
-
-Requirements
-
-Planned Changes
-
-Humongous Insurance plans to open a new office in Paris. The Paris office will contain 1,000 users who will
-
-be hired during the next 12 months. All the resources used by the Paris office users will be hosted in Azure.
-
-Planned Azure AD Infrastructure
-
-The on-premises Active Directory domain will be synchronized to Azure AD.
-
-All client computers in the Paris office will be joined to an Azure AD domain.
-
-Planned Azure Networking Infrastructure
-
-You plan to create the following networking resources in a resource group named All_Resources:
-
-	- Default Azure system routes that will be the only routes used to route traffic
-
-	- A virtual network named Paris-VNet that will contain two subnets named Subnet1 and Subnet2
-
-	- A virtual network named ClientResources-VNet that will contain one subnet named ClientSubnet
-
-	- A virtual network named AllOffices-VNet that will contain two subnets named Subnet3 and Subnet4
-
-You plan to enable peering between Paris-VNet and AllOffices-VNet. You will enable the Use remote
-
-gateways setting for the Paris-VNet peerings.
-
-You plan to create a private DNS zone named humongousinsurance.local and set the registration network
-
-to the ClientResources-VNet virtual network.
-
-Planned Azure Computer Infrastructure
-
-Each subnet will contain several virtual machines that will run either Windows Server 2012 R2, Windows
-
-Server 2016, or Red Hat Linux.
-
-Department Requirements
-
-Humongous Insurance identifies the following requirements for the company's departments:
-
-	- Web administrators will deploy Azure web apps for the marketing department. Each web app will be
-
-added to a separate resource group. The initial configuration of the web apps will be identical. The web
-
-administrators have permission to deploy web apps to resource groups.
-
-	- During the testing phase, auditors in the finance department must be able to review all Azure costs from
-
-the past week.
-
-Authentication Requirements
-
-Users in the Miami office must use Azure Active Directory Seamless Single Sign-on (Azure AD Seamless
-
-SSO) when accessing resources in Azure.
-
-SIMULATION
-
-Click to expand each objective. To connect to the Azure portal, type https://portal.azure.com in the browser
-
-address bar.
-
-![](image/image-608.webp)
-
-![](image/image-609.webp)
-
-![](image/image-610.webp)
-
-![](image/image-611.webp)
-
-![](image/image-612.webp)
-
-![](image/image-613.webp)
-
-When you are finished performing all the tasks, click the ‘Next’ button.
-
-Note that you cannot return to the lab once you click the ‘Next’ button. Scoring occur in the background
-
-while you complete the rest of the exam.
-
-Overview 
-
-The following section of the exam is a lab. In this section, you will perform a set of tasks in a live
-
-environment. While most functionality will be available to you as it would be in a live environment, some
-
-functionality (e.g., copy and paste, ability to navigate to external websites) will not be possible by design.
-
-Scoring is based on the outcome of performing the tasks stated in the lab. In other words, it doesn’t matter
-
-how you accomplish the task, if you successfully perform it, you will earn credit for that task.
-
-Labs are not timed separately, and this exam may have more than one lab that you must complete. You
-
-can use as much time as you would like to complete each lab. But, you should manage your time
-
-appropriately to ensure that you are able to complete the lab(s) and all other sections of the exam in the
-
-time provided.
-
-Please note that once you submit your work by clicking the Next button within a lab, you will NOT be able to
-
-return to the lab.
-
-To start the lab
-
-You may start the lab by clicking the Next button.
+[Case-8](scenario.md#case-8)
 
 You plan to protect on-premises virtual machines and Azure virtual machines by using Azure Backup.
 
-You need to prepare the backup infrastructure in Azure. The solution must minimize the cost of storing the
-
-backups in Azure.
+You need to prepare the backup infrastructure in Azure. The solution must minimize the cost of storing the backups in Azure.
 
 What should you do from the Azure portal?
 
@@ -2020,149 +252,11 @@ What should you do from the Azure portal?
 
 **SCENARIO:**
 
-TESTLET-8.
-
-Case Study
-
-This is a case study. Case studies are not timed separately. You can use as much exam time as you
-
-would like to complete each case. However, there may be additional case studies and sections on this
-
-exam. You must manage your time to ensure that you are able to complete all questions included on this
-
-exam in the time provided.
-
-To answer the questions included in a case study, you will need to reference information that is provided in
-
-the case study. Case studies might contain exhibits and other resources that provide more information
-
-about the scenario that is described in the case study. Each question is independent of the other questions
-
-in this case study.
-
-At the end of this case study, a review screen will appear. This screen allows you to review your answers
-
-and to make changes before you move to the next section of the exam. After you begin a new section, you
-
-cannot return to this section.
-
-To start the case study
-
-To display the first question in this case study, click the Next button. Use the buttons in the left pane to
-
-explore the content of the case study before you answer the questions. Clicking these buttons displays
-
-information such as business requirements, existing environment, and problem statements. If the case
-
-study has an All Information tab, note that the information displayed is identical to the information
-
-displayed on the subsequent tabs. When you are ready to answer a question, click the Question button to
-
-return to the question.
-
-Overview
-
-Humongous Insurance is an insurance company that has three offices in Miami, Tokyo and Bangkok. Each
-
-office has 5.000 users.
-
-Existing Environment
-
-Active Directory Environment
-
-Humongous Insurance has a single-domain Active Directory forest named humongousinsurance.com. The
-
-functional level of the forest is Windows Server 2012.
-
-You recently provisioned an Azure Active Directory (Azure AD) tenant.
-
-Network Infrastructure
-
-Each office has a local data center that contains all the servers for that office. Each office has a dedicated
-
-connection to the Internet.
-
-Each office has several link load balancers that provide access to the servers.
-
-Active Directory Issue
-
-Several users in humongousinsurance.com have UPNs that contain special characters.
-
-You suspect that some of the characters are unsupported in Azure AD.
-
-Licensing Issue
-
-You attempt to assign a license in Azure to several users and receive the following error message:
-
-"Licenses not assigned. License agreement failed for one user."
-
-You verify that the Azure subscription has the available licenses.
-
-Requirements
-
-Planned Changes
-
-Humongous Insurance plans to open a new office in Paris. The Paris office will contain 1,000 users who will
-
-be hired during the next 12 months. All the resources used by the Paris office users will be hosted in Azure.
-
-Planned Azure AD Infrastructure
-
-The on-premises Active Directory domain will be synchronized to Azure AD.
-
-All client computers in the Paris office will be joined to an Azure AD domain.
-
-Planned Azure Networking Infrastructure
-
-You plan to create the following networking resources in a resource group named All_Resources:
-
-	- Default Azure system routes that will be the only routes used to route traffic
-
-	- A virtual network named Paris-VNet that will contain two subnets named Subnet1 and Subnet2
-
-	- A virtual network named ClientResources-VNet that will contain one subnet named ClientSubnet
-
-	- A virtual network named AllOffices-VNet that will contain two subnets named Subnet3 and Subnet4
-
-You plan to enable peering between Paris-VNet and AllOffices-VNet. You will enable the Use remote
-
-gateways setting for the Paris-VNet peerings.
-
-You plan to create a private DNS zone named humongousinsurance.local and set the registration network
-
-to the ClientResources-VNet virtual network.
-
-Planned Azure Computer Infrastructure
-
-Each subnet will contain several virtual machines that will run either Windows Server 2012 R2, Windows
-
-Server 2016, or Red Hat Linux.
-
-Department Requirements
-
-Humongous Insurance identifies the following requirements for the company's departments:
-
-	- Web administrators will deploy Azure web apps for the marketing department. Each web app will be
-
-added to a separate resource group. The initial configuration of the web apps will be identical. The web
-
-administrators have permission to deploy web apps to resource groups.
-
-	- During the testing phase, auditors in the finance department must be able to review all Azure costs from
-
-the past week.
-
-Authentication Requirements
-
-Users in the Miami office must use Azure Active Directory Seamless Single Sign-on (Azure AD Seamless
-
-SSO) when accessing resources in Azure.
+[Case-8](scenario.md#case-8)
 
 You need to prepare the environment to meet the authentication requirements.
 
 Which two actions should you perform? Each correct answer presents part of the solution
-
-NOTE: Each correct selection is worth one point.
 
 * A: Allow inbound TCP port 8080 to the domain controllers in the Miami office
 
@@ -2172,9 +266,7 @@ NOTE: Each correct selection is worth one point.
 
 * D: Join the client computers in the Miami office to Azure AD
 
-* E: Add http://autologon.microsoftazuread-sso.com to the intranet zone of each client computer in the Miami
-
-office.
+* E: Add http://autologon.microsoftazuread-sso.com to the intranet zone of each client computer in the Miami office.
 
 [See the answer](#answer-213)
 
@@ -2182,139 +274,7 @@ office.
 
 **SCENARIO:**
 
-TESTLET-9.
-
-Case study
-
-This is a case study. Case studies are not timed separately. You can use as much exam time as you
-
-would like to complete each case. However, there may be additional case studies and sections on this
-
-exam. You must manage your time to ensure that you are able to complete all questions included on this
-
-exam in the time provided.
-
-To answer the questions included in a case study, you will need to reference information that is provided in
-
-the case study. Case studies might contain exhibits and other resources that provide more information
-
-about the scenario that is described in the case study. Each question is independent of the other questions
-
-in this case study.
-
-At the end of this case study, a review screen will appear. This screen allows you to review your answers
-
-and to make changes before you move to the next section of the exam. After you begin a new section, you
-
-cannot return to this section.
-
-To start the case study
-
-To display the first question in this case study, click the Next button. Use the buttons in the left pane to
-
-explore the content of the case study before you answer the questions. Clicking these buttons displays
-
-information such as business requirements, existing environment, and problem statements. If the case
-
-study has an All Information tab, note that the information displayed is identical to the information
-
-displayed on the subsequent tabs. When you are ready to answer a question, click the Question button to
-
-return to the question.
-
-Overview
-
-Contoso, Ltd. is a consulting company that has a main office in Montreal and two branch offices in Seattle
-
-and New York.
-
-The Montreal office has 2,000 employees. The Seattle office has 1,000 employees. The New York office
-
-has 200 employees.
-
-All the resources used by Contoso are hosted on-premises.
-
-Contoso creates a new Azure subscription. The Azure Active Directory (Azure AD) tenant uses a domain
-
-named contoso.onmicrosoft.com. The tenant uses the P1 pricing tier.
-
-Existing Environment
-
-The network contains an Active Directory forest named contoso.com. All domain controllers are configured
-
-as DNS servers and host the contoso.com DNS zone.
-
-Contoso has finance, human resources, sales, research, and information technology departments. Each
-
-department has an organizational unit (OU) that contains all the accounts of that respective department. All
-
-the user accounts have the department attribute set to their respective department. New users are added
-
-frequently.
-
-Contoso.com contains a user named User1.
-
-All the offices connect by using private links.
-
-Contoso has data centers in the Montreal and Seattle offices. Each data center has a firewall that can be
-
-configured as a VPN device.
-
-All infrastructure servers are virtualized. The virtualization environment contains the servers in the following
-
-table.
-
-![](image/image-623.webp)
-
-Contoso uses two web applications named App1 and App2. Each instance on each web application
-
-requires 1GB of memory.
-
-The Azure subscription contains the resources in the following table.
-
-![](image/image-624.webp)
-
-The network security team implements several network security groups (NSGs).
-
-Planned Changes
-
-Contoso plans to implement the following changes:
-
-	- Deploy Azure ExpressRoute to the Montreal office.
-
-	- Migrate the virtual machines hosted on Server1 and Server2 to Azure.
-
-	- Synchronize on-premises Active Directory to Azure Active Directory (Azure AD).
-
-	- Migrate App1 and App2 to two Azure web apps named WebApp1 and WebApp2.
-
-Technical Requirements
-
-Contoso must meet the following technical requirements:
-
-	- Ensure that WebApp1 can adjust the number of instances automatically based on the load and can
-
-scale up to five instances.
-
-	- Ensure that VM3 can establish outbound connections over TCP port 8080 to the applications servers in
-
-the Montreal office.
-
-	- Ensure that routing information is exchanged automatically between Azure and the routers in the
-
-Montreal office.
-
-	- Enable Azure Multi-Factor Authentication (MFA) for the users in the finance department only.
-
-	- Ensure that webapp2.azurewebsites.net can be accessed by using the name app2.contoso.com
-
-	- Connect the New York office to VNet1 over the Internet by using an encrypted connection.
-
-	- Create a workflow to send an email message when the settings of VM4 are modified.
-
-	- Create a custom Azure role named Role1 that is based on the Reader role.
-
-	- Minimize costs whenever possible.
+[Case-9](scenario.md#case-9)
 
 Which blade should you instruct the finance department auditors to use?
 
@@ -2332,143 +292,9 @@ Which blade should you instruct the finance department auditors to use?
 
 **SCENARIO:**
 
-TESTLET-9.
+[Case-9](scenario.md#case-9)
 
-Case study
-
-This is a case study. Case studies are not timed separately. You can use as much exam time as you
-
-would like to complete each case. However, there may be additional case studies and sections on this
-
-exam. You must manage your time to ensure that you are able to complete all questions included on this
-
-exam in the time provided.
-
-To answer the questions included in a case study, you will need to reference information that is provided in
-
-the case study. Case studies might contain exhibits and other resources that provide more information
-
-about the scenario that is described in the case study. Each question is independent of the other questions
-
-in this case study.
-
-At the end of this case study, a review screen will appear. This screen allows you to review your answers
-
-and to make changes before you move to the next section of the exam. After you begin a new section, you
-
-cannot return to this section.
-
-To start the case study
-
-To display the first question in this case study, click the Next button. Use the buttons in the left pane to
-
-explore the content of the case study before you answer the questions. Clicking these buttons displays
-
-information such as business requirements, existing environment, and problem statements. If the case
-
-study has an All Information tab, note that the information displayed is identical to the information
-
-displayed on the subsequent tabs. When you are ready to answer a question, click the Question button to
-
-return to the question.
-
-Overview
-
-Contoso, Ltd. is a consulting company that has a main office in Montreal and two branch offices in Seattle
-
-and New York.
-
-The Montreal office has 2,000 employees. The Seattle office has 1,000 employees. The New York office
-
-has 200 employees.
-
-All the resources used by Contoso are hosted on-premises.
-
-Contoso creates a new Azure subscription. The Azure Active Directory (Azure AD) tenant uses a domain
-
-named contoso.onmicrosoft.com. The tenant uses the P1 pricing tier.
-
-Existing Environment
-
-The network contains an Active Directory forest named contoso.com. All domain controllers are configured
-
-as DNS servers and host the contoso.com DNS zone.
-
-Contoso has finance, human resources, sales, research, and information technology departments. Each
-
-department has an organizational unit (OU) that contains all the accounts of that respective department. All
-
-the user accounts have the department attribute set to their respective department. New users are added
-
-frequently.
-
-Contoso.com contains a user named User1.
-
-All the offices connect by using private links.
-
-Contoso has data centers in the Montreal and Seattle offices. Each data center has a firewall that can be
-
-configured as a VPN device.
-
-All infrastructure servers are virtualized. The virtualization environment contains the servers in the following
-
-table.
-
-![](image/image-623.webp)
-
-Contoso uses two web applications named App1 and App2. Each instance on each web application
-
-requires 1GB of memory.
-
-The Azure subscription contains the resources in the following table.
-
-![](image/image-624.webp)
-
-The network security team implements several network security groups (NSGs).
-
-Planned Changes
-
-Contoso plans to implement the following changes:
-
-	- Deploy Azure ExpressRoute to the Montreal office.
-
-	- Migrate the virtual machines hosted on Server1 and Server2 to Azure.
-
-	- Synchronize on-premises Active Directory to Azure Active Directory (Azure AD).
-
-	- Migrate App1 and App2 to two Azure web apps named WebApp1 and WebApp2.
-
-Technical Requirements
-
-Contoso must meet the following technical requirements:
-
-	- Ensure that WebApp1 can adjust the number of instances automatically based on the load and can
-
-scale up to five instances.
-
-	- Ensure that VM3 can establish outbound connections over TCP port 8080 to the applications servers in
-
-the Montreal office.
-
-	- Ensure that routing information is exchanged automatically between Azure and the routers in the
-
-Montreal office.
-
-	- Enable Azure Multi-Factor Authentication (MFA) for the users in the finance department only.
-
-	- Ensure that webapp2.azurewebsites.net can be accessed by using the name app2.contoso.com
-
-	- Connect the New York office to VNet1 over the Internet by using an encrypted connection.
-
-	- Create a workflow to send an email message when the settings of VM4 are modified.
-
-	- Create a custom Azure role named Role1 that is based on the Reader role.
-
-	- Minimize costs whenever possible.
-
-You need to recommend a solution to automate the configuration for the finance department users. The
-
-solution must meet the technical requirements.
+You need to recommend a solution to automate the configuration for the finance department users. The solution must meet the technical requirements.
 
 What should you include in the recommendation?
 
@@ -2486,149 +312,11 @@ What should you include in the recommendation?
 
 **SCENARIO:**
 
-TESTLET-9.
-
-Case study
-
-This is a case study. Case studies are not timed separately. You can use as much exam time as you
-
-would like to complete each case. However, there may be additional case studies and sections on this
-
-exam. You must manage your time to ensure that you are able to complete all questions included on this
-
-exam in the time provided.
-
-To answer the questions included in a case study, you will need to reference information that is provided in
-
-the case study. Case studies might contain exhibits and other resources that provide more information
-
-about the scenario that is described in the case study. Each question is independent of the other questions
-
-in this case study.
-
-At the end of this case study, a review screen will appear. This screen allows you to review your answers
-
-and to make changes before you move to the next section of the exam. After you begin a new section, you
-
-cannot return to this section.
-
-To start the case study
-
-To display the first question in this case study, click the Next button. Use the buttons in the left pane to
-
-explore the content of the case study before you answer the questions. Clicking these buttons displays
-
-information such as business requirements, existing environment, and problem statements. If the case
-
-study has an All Information tab, note that the information displayed is identical to the information
-
-displayed on the subsequent tabs. When you are ready to answer a question, click the Question button to
-
-return to the question.
-
-Overview
-
-Contoso, Ltd. is a consulting company that has a main office in Montreal and two branch offices in Seattle
-
-and New York.
-
-The Montreal office has 2,000 employees. The Seattle office has 1,000 employees. The New York office
-
-has 200 employees.
-
-All the resources used by Contoso are hosted on-premises.
-
-Contoso creates a new Azure subscription. The Azure Active Directory (Azure AD) tenant uses a domain
-
-named contoso.onmicrosoft.com. The tenant uses the P1 pricing tier.
-
-Existing Environment
-
-The network contains an Active Directory forest named contoso.com. All domain controllers are configured
-
-as DNS servers and host the contoso.com DNS zone.
-
-Contoso has finance, human resources, sales, research, and information technology departments. Each
-
-department has an organizational unit (OU) that contains all the accounts of that respective department. All
-
-the user accounts have the department attribute set to their respective department. New users are added
-
-frequently.
-
-Contoso.com contains a user named User1.
-
-All the offices connect by using private links.
-
-Contoso has data centers in the Montreal and Seattle offices. Each data center has a firewall that can be
-
-configured as a VPN device.
-
-All infrastructure servers are virtualized. The virtualization environment contains the servers in the following
-
-table.
-
-![](image/image-623.webp)
-
-Contoso uses two web applications named App1 and App2. Each instance on each web application
-
-requires 1GB of memory.
-
-The Azure subscription contains the resources in the following table.
-
-![](image/image-624.webp)
-
-The network security team implements several network security groups (NSGs).
-
-Planned Changes
-
-Contoso plans to implement the following changes:
-
-	- Deploy Azure ExpressRoute to the Montreal office.
-
-	- Migrate the virtual machines hosted on Server1 and Server2 to Azure.
-
-	- Synchronize on-premises Active Directory to Azure Active Directory (Azure AD).
-
-	- Migrate App1 and App2 to two Azure web apps named WebApp1 and WebApp2.
-
-Technical Requirements
-
-Contoso must meet the following technical requirements:
-
-	- Ensure that WebApp1 can adjust the number of instances automatically based on the load and can
-
-scale up to five instances.
-
-	- Ensure that VM3 can establish outbound connections over TCP port 8080 to the applications servers in
-
-the Montreal office.
-
-	- Ensure that routing information is exchanged automatically between Azure and the routers in the
-
-Montreal office.
-
-	- Enable Azure Multi-Factor Authentication (MFA) for the users in the finance department only.
-
-	- Ensure that webapp2.azurewebsites.net can be accessed by using the name app2.contoso.com
-
-	- Connect the New York office to VNet1 over the Internet by using an encrypted connection.
-
-	- Create a workflow to send an email message when the settings of VM4 are modified.
-
-	- Create a custom Azure role named Role1 that is based on the Reader role.
-
-	- Minimize costs whenever possible.
-
-HOTSPOT
+[Case-9](scenario.md#case-9)
 
 You need to prepare the environment to implement the planned changes for Server2.
 
 What should you do? To answer, select the appropriate options in the answer area.
-
-NOTE: Each correct selection is worth one point.
-
-Hot Area:
 
 ![](image/image-638.webp)
 
@@ -2638,139 +326,7 @@ Hot Area:
 
 **SCENARIO:**
 
-TESTLET-9.
-
-Case study
-
-This is a case study. Case studies are not timed separately. You can use as much exam time as you
-
-would like to complete each case. However, there may be additional case studies and sections on this
-
-exam. You must manage your time to ensure that you are able to complete all questions included on this
-
-exam in the time provided.
-
-To answer the questions included in a case study, you will need to reference information that is provided in
-
-the case study. Case studies might contain exhibits and other resources that provide more information
-
-about the scenario that is described in the case study. Each question is independent of the other questions
-
-in this case study.
-
-At the end of this case study, a review screen will appear. This screen allows you to review your answers
-
-and to make changes before you move to the next section of the exam. After you begin a new section, you
-
-cannot return to this section.
-
-To start the case study
-
-To display the first question in this case study, click the Next button. Use the buttons in the left pane to
-
-explore the content of the case study before you answer the questions. Clicking these buttons displays
-
-information such as business requirements, existing environment, and problem statements. If the case
-
-study has an All Information tab, note that the information displayed is identical to the information
-
-displayed on the subsequent tabs. When you are ready to answer a question, click the Question button to
-
-return to the question.
-
-Overview
-
-Contoso, Ltd. is a consulting company that has a main office in Montreal and two branch offices in Seattle
-
-and New York.
-
-The Montreal office has 2,000 employees. The Seattle office has 1,000 employees. The New York office
-
-has 200 employees.
-
-All the resources used by Contoso are hosted on-premises.
-
-Contoso creates a new Azure subscription. The Azure Active Directory (Azure AD) tenant uses a domain
-
-named contoso.onmicrosoft.com. The tenant uses the P1 pricing tier.
-
-Existing Environment
-
-The network contains an Active Directory forest named contoso.com. All domain controllers are configured
-
-as DNS servers and host the contoso.com DNS zone.
-
-Contoso has finance, human resources, sales, research, and information technology departments. Each
-
-department has an organizational unit (OU) that contains all the accounts of that respective department. All
-
-the user accounts have the department attribute set to their respective department. New users are added
-
-frequently.
-
-Contoso.com contains a user named User1.
-
-All the offices connect by using private links.
-
-Contoso has data centers in the Montreal and Seattle offices. Each data center has a firewall that can be
-
-configured as a VPN device.
-
-All infrastructure servers are virtualized. The virtualization environment contains the servers in the following
-
-table.
-
-![](image/image-623.webp)
-
-Contoso uses two web applications named App1 and App2. Each instance on each web application
-
-requires 1GB of memory.
-
-The Azure subscription contains the resources in the following table.
-
-![](image/image-624.webp)
-
-The network security team implements several network security groups (NSGs).
-
-Planned Changes
-
-Contoso plans to implement the following changes:
-
-	- Deploy Azure ExpressRoute to the Montreal office.
-
-	- Migrate the virtual machines hosted on Server1 and Server2 to Azure.
-
-	- Synchronize on-premises Active Directory to Azure Active Directory (Azure AD).
-
-	- Migrate App1 and App2 to two Azure web apps named WebApp1 and WebApp2.
-
-Technical Requirements
-
-Contoso must meet the following technical requirements:
-
-	- Ensure that WebApp1 can adjust the number of instances automatically based on the load and can
-
-scale up to five instances.
-
-	- Ensure that VM3 can establish outbound connections over TCP port 8080 to the applications servers in
-
-the Montreal office.
-
-	- Ensure that routing information is exchanged automatically between Azure and the routers in the
-
-Montreal office.
-
-	- Enable Azure Multi-Factor Authentication (MFA) for the users in the finance department only.
-
-	- Ensure that webapp2.azurewebsites.net can be accessed by using the name app2.contoso.com
-
-	- Connect the New York office to VNet1 over the Internet by using an encrypted connection.
-
-	- Create a workflow to send an email message when the settings of VM4 are modified.
-
-	- Create a custom Azure role named Role1 that is based on the Reader role.
-
-	- Minimize costs whenever possible.
+[Case-9](scenario.md#case-9)
 
 You discover that VM3 does NOT meet the technical requirements.
 
@@ -2794,137 +350,11 @@ What should you use?
 
 **SCENARIO:**
 
-TESTLET-10.
-
-Case Study
-
-Background
-
-Best For You Organics Company is a global restaurant franchise that has multiple locations. The company
-
-wants to enhance user experiences and vendor integrations. The company plans to implement automated
-
-mobile ordering and delivery services.
-
-Best For You Organics hosts an Azure web app at the URL https://www.bestforyouorganics.com. Users can
-
-use the web app to browse restaurant location, menu items, nutritional information, and company
-
-information. The company developed and deployed a cross-platform mobile app.
-
-Requirements
-
-Chatbot
-
-You must develop a chatbot by using the Bot Builder SDK and Language Understanding Intelligence
-
-Service (LUIS). The chatbot must allow users to order food for pickup or delivery.
-
-The chatbot must meet the following requirements:
-
-	- Ensure that chatbot is secure by using the Bot Framework connector.
-
-	- Use natural language processing and speech recognition so that users can interact with the chatbot by
-
-using text and voice. Processing must be server-based.
-
-	- Alert users about promotions at local restaurants.
-
-	- Enable users to place an order for delivery or pickup by using their voice.
-
-	- Greet the user upon sign-in by displaying a graphical interface that contains action buttons.
-
-	- The chatbot greeting interface must match the formatting of the following example:
-
-![](image/image-648.webp)
-
-Vendor API
-
-Vendors receive and provide updates for the restaurant inventory and delivery services by using Azure API
-
-Management hosted APIs. Each vendor uses their own subscription to access each of the APIs.
-
-APIs must meet the following conditions:
-
-	- API usage must not exceed 5,000 calls and 50,000 kilobytes of bandwidth per hour per vendor.
-
-	- If a vendor is nearing the number of calls or bandwidth limit, the API must trigger email notifications to
-
-the vendor.
-
-	- API must prevent API usage spikes on a per-subscription basis by limiting the call rate to 100 calls per
-
-minute.
-
-	- The Inventory API must be written by using ASP.NET Core and Node.js.
-
-	- The API must be updated to provide an interface to Azure SQL Database objects must be managed by
-
-using code.
-
-	- The Delivery API must be protected by using the OAuth 2.0 protocol with Azure Active Directory (Azure
-
-AD) when called from the Azure web app. You register the Delivery API and web app in Azure AD. You
-
-enable OAuth 2.0 in the web app.
-
-	- The delivery API must update the Products table, the Vendor transactions table, and the Billing table in a
-
-single transaction.
-
-The Best For You Organics Company architecture team has created the following diagram depicting the
-
-expected deployments into Azure:
-
-![](image/image-656.webp)
-
-Architecture
-
-Issues
-
-Delivery API
-
-The Delivery API intermittently throws the following exception:
-
-"System.Data.Entity.Core.EntityCommandExecutionException: An error occurred
-
-while executing the command definition. See the inner exception for details. --
-
->System.Data.SqlClient.SqlException: A transport-level error has occurred when
-
-receiving results from the server. (provider: Session Provider, error: 19 –
-
-Physical connection is not usable)"
-
-Chatbot greeting
-
-The chatbot’s greeting does not show the user’s name. You need to debug the chatbot locally.
-
-Language processing
-
-Users report that the bot fails to understand when a customer attempts to order dishes that use Italian
-
-names.
-
-App code
-
-Relevant portions of the app files are shown below. Line numbers are included for reference only and
-
-include a two-character prefix that denotes the specific file to which they belong.
-
-![](image/image-657.webp)
-
-HOTSPOT
+[Case-10](scenario.md#case-10)
 
 You need to implement Role1.
 
-Which command should you run before you create Role1? To answer, select the appropriate options in the
-
-answer area.
-
-NOTE: Each correct selection is worth one point.
-
-Hot Area:
+Which command should you run before you create Role1? To answer, select the appropriate options in the answer area.
 
 ![](image/image-640.webp)
 
@@ -2934,129 +364,7 @@ Hot Area:
 
 **SCENARIO:**
 
-TESTLET-10.
-
-Case Study
-
-Background
-
-Best For You Organics Company is a global restaurant franchise that has multiple locations. The company
-
-wants to enhance user experiences and vendor integrations. The company plans to implement automated
-
-mobile ordering and delivery services.
-
-Best For You Organics hosts an Azure web app at the URL https://www.bestforyouorganics.com. Users can
-
-use the web app to browse restaurant location, menu items, nutritional information, and company
-
-information. The company developed and deployed a cross-platform mobile app.
-
-Requirements
-
-Chatbot
-
-You must develop a chatbot by using the Bot Builder SDK and Language Understanding Intelligence
-
-Service (LUIS). The chatbot must allow users to order food for pickup or delivery.
-
-The chatbot must meet the following requirements:
-
-	- Ensure that chatbot is secure by using the Bot Framework connector.
-
-	- Use natural language processing and speech recognition so that users can interact with the chatbot by
-
-using text and voice. Processing must be server-based.
-
-	- Alert users about promotions at local restaurants.
-
-	- Enable users to place an order for delivery or pickup by using their voice.
-
-	- Greet the user upon sign-in by displaying a graphical interface that contains action buttons.
-
-	- The chatbot greeting interface must match the formatting of the following example:
-
-![](image/image-648.webp)
-
-Vendor API
-
-Vendors receive and provide updates for the restaurant inventory and delivery services by using Azure API
-
-Management hosted APIs. Each vendor uses their own subscription to access each of the APIs.
-
-APIs must meet the following conditions:
-
-	- API usage must not exceed 5,000 calls and 50,000 kilobytes of bandwidth per hour per vendor.
-
-	- If a vendor is nearing the number of calls or bandwidth limit, the API must trigger email notifications to
-
-the vendor.
-
-	- API must prevent API usage spikes on a per-subscription basis by limiting the call rate to 100 calls per
-
-minute.
-
-	- The Inventory API must be written by using ASP.NET Core and Node.js.
-
-	- The API must be updated to provide an interface to Azure SQL Database objects must be managed by
-
-using code.
-
-	- The Delivery API must be protected by using the OAuth 2.0 protocol with Azure Active Directory (Azure
-
-AD) when called from the Azure web app. You register the Delivery API and web app in Azure AD. You
-
-enable OAuth 2.0 in the web app.
-
-	- The delivery API must update the Products table, the Vendor transactions table, and the Billing table in a
-
-single transaction.
-
-The Best For You Organics Company architecture team has created the following diagram depicting the
-
-expected deployments into Azure:
-
-![](image/image-656.webp)
-
-Architecture
-
-Issues
-
-Delivery API
-
-The Delivery API intermittently throws the following exception:
-
-"System.Data.Entity.Core.EntityCommandExecutionException: An error occurred
-
-while executing the command definition. See the inner exception for details. --
-
->System.Data.SqlClient.SqlException: A transport-level error has occurred when
-
-receiving results from the server. (provider: Session Provider, error: 19 –
-
-Physical connection is not usable)"
-
-Chatbot greeting
-
-The chatbot’s greeting does not show the user’s name. You need to debug the chatbot locally.
-
-Language processing
-
-Users report that the bot fails to understand when a customer attempts to order dishes that use Italian
-
-names.
-
-App code
-
-Relevant portions of the app files are shown below. Line numbers are included for reference only and
-
-include a two-character prefix that denotes the specific file to which they belong.
-
-![](image/image-657.webp)
-
-Note: This question is part of a series of questions that present the same scenario. Each question
-
-in the series contains a unique solution. Determine whether the solution meets the stated goals.
+[Case-10](scenario.md#case-10)
 
 You need to meet the vendor notification requirement.
 
@@ -3074,129 +382,7 @@ Does the solution meet the goal?
 
 **SCENARIO:**
 
-TESTLET-10.
-
-Case Study
-
-Background
-
-Best For You Organics Company is a global restaurant franchise that has multiple locations. The company
-
-wants to enhance user experiences and vendor integrations. The company plans to implement automated
-
-mobile ordering and delivery services.
-
-Best For You Organics hosts an Azure web app at the URL https://www.bestforyouorganics.com. Users can
-
-use the web app to browse restaurant location, menu items, nutritional information, and company
-
-information. The company developed and deployed a cross-platform mobile app.
-
-Requirements
-
-Chatbot
-
-You must develop a chatbot by using the Bot Builder SDK and Language Understanding Intelligence
-
-Service (LUIS). The chatbot must allow users to order food for pickup or delivery.
-
-The chatbot must meet the following requirements:
-
-	- Ensure that chatbot is secure by using the Bot Framework connector.
-
-	- Use natural language processing and speech recognition so that users can interact with the chatbot by
-
-using text and voice. Processing must be server-based.
-
-	- Alert users about promotions at local restaurants.
-
-	- Enable users to place an order for delivery or pickup by using their voice.
-
-	- Greet the user upon sign-in by displaying a graphical interface that contains action buttons.
-
-	- The chatbot greeting interface must match the formatting of the following example:
-
-![](image/image-648.webp)
-
-Vendor API
-
-Vendors receive and provide updates for the restaurant inventory and delivery services by using Azure API
-
-Management hosted APIs. Each vendor uses their own subscription to access each of the APIs.
-
-APIs must meet the following conditions:
-
-	- API usage must not exceed 5,000 calls and 50,000 kilobytes of bandwidth per hour per vendor.
-
-	- If a vendor is nearing the number of calls or bandwidth limit, the API must trigger email notifications to
-
-the vendor.
-
-	- API must prevent API usage spikes on a per-subscription basis by limiting the call rate to 100 calls per
-
-minute.
-
-	- The Inventory API must be written by using ASP.NET Core and Node.js.
-
-	- The API must be updated to provide an interface to Azure SQL Database objects must be managed by
-
-using code.
-
-	- The Delivery API must be protected by using the OAuth 2.0 protocol with Azure Active Directory (Azure
-
-AD) when called from the Azure web app. You register the Delivery API and web app in Azure AD. You
-
-enable OAuth 2.0 in the web app.
-
-	- The delivery API must update the Products table, the Vendor transactions table, and the Billing table in a
-
-single transaction.
-
-The Best For You Organics Company architecture team has created the following diagram depicting the
-
-expected deployments into Azure:
-
-![](image/image-656.webp)
-
-Architecture
-
-Issues
-
-Delivery API
-
-The Delivery API intermittently throws the following exception:
-
-"System.Data.Entity.Core.EntityCommandExecutionException: An error occurred
-
-while executing the command definition. See the inner exception for details. --
-
->System.Data.SqlClient.SqlException: A transport-level error has occurred when
-
-receiving results from the server. (provider: Session Provider, error: 19 –
-
-Physical connection is not usable)"
-
-Chatbot greeting
-
-The chatbot’s greeting does not show the user’s name. You need to debug the chatbot locally.
-
-Language processing
-
-Users report that the bot fails to understand when a customer attempts to order dishes that use Italian
-
-names.
-
-App code
-
-Relevant portions of the app files are shown below. Line numbers are included for reference only and
-
-include a two-character prefix that denotes the specific file to which they belong.
-
-![](image/image-657.webp)
-
-Note: This question is part of a series of questions that present the same scenario. Each question
-
-in the series contains a unique solution. Determine whether the solution meets the stated goals.
+[Case-10](scenario.md#case-10)
 
 You need to meet the vendor notification requirement.
 
@@ -3214,129 +400,7 @@ Does the solution meet the goal?
 
 **SCENARIO:**
 
-TESTLET-10.
-
-Case Study
-
-Background
-
-Best For You Organics Company is a global restaurant franchise that has multiple locations. The company
-
-wants to enhance user experiences and vendor integrations. The company plans to implement automated
-
-mobile ordering and delivery services.
-
-Best For You Organics hosts an Azure web app at the URL https://www.bestforyouorganics.com. Users can
-
-use the web app to browse restaurant location, menu items, nutritional information, and company
-
-information. The company developed and deployed a cross-platform mobile app.
-
-Requirements
-
-Chatbot
-
-You must develop a chatbot by using the Bot Builder SDK and Language Understanding Intelligence
-
-Service (LUIS). The chatbot must allow users to order food for pickup or delivery.
-
-The chatbot must meet the following requirements:
-
-	- Ensure that chatbot is secure by using the Bot Framework connector.
-
-	- Use natural language processing and speech recognition so that users can interact with the chatbot by
-
-using text and voice. Processing must be server-based.
-
-	- Alert users about promotions at local restaurants.
-
-	- Enable users to place an order for delivery or pickup by using their voice.
-
-	- Greet the user upon sign-in by displaying a graphical interface that contains action buttons.
-
-	- The chatbot greeting interface must match the formatting of the following example:
-
-![](image/image-648.webp)
-
-Vendor API
-
-Vendors receive and provide updates for the restaurant inventory and delivery services by using Azure API
-
-Management hosted APIs. Each vendor uses their own subscription to access each of the APIs.
-
-APIs must meet the following conditions:
-
-	- API usage must not exceed 5,000 calls and 50,000 kilobytes of bandwidth per hour per vendor.
-
-	- If a vendor is nearing the number of calls or bandwidth limit, the API must trigger email notifications to
-
-the vendor.
-
-	- API must prevent API usage spikes on a per-subscription basis by limiting the call rate to 100 calls per
-
-minute.
-
-	- The Inventory API must be written by using ASP.NET Core and Node.js.
-
-	- The API must be updated to provide an interface to Azure SQL Database objects must be managed by
-
-using code.
-
-	- The Delivery API must be protected by using the OAuth 2.0 protocol with Azure Active Directory (Azure
-
-AD) when called from the Azure web app. You register the Delivery API and web app in Azure AD. You
-
-enable OAuth 2.0 in the web app.
-
-	- The delivery API must update the Products table, the Vendor transactions table, and the Billing table in a
-
-single transaction.
-
-The Best For You Organics Company architecture team has created the following diagram depicting the
-
-expected deployments into Azure:
-
-![](image/image-656.webp)
-
-Architecture
-
-Issues
-
-Delivery API
-
-The Delivery API intermittently throws the following exception:
-
-"System.Data.Entity.Core.EntityCommandExecutionException: An error occurred
-
-while executing the command definition. See the inner exception for details. --
-
->System.Data.SqlClient.SqlException: A transport-level error has occurred when
-
-receiving results from the server. (provider: Session Provider, error: 19 –
-
-Physical connection is not usable)"
-
-Chatbot greeting
-
-The chatbot’s greeting does not show the user’s name. You need to debug the chatbot locally.
-
-Language processing
-
-Users report that the bot fails to understand when a customer attempts to order dishes that use Italian
-
-names.
-
-App code
-
-Relevant portions of the app files are shown below. Line numbers are included for reference only and
-
-include a two-character prefix that denotes the specific file to which they belong.
-
-![](image/image-657.webp)
-
-Note: This question is part of a series of questions that present the same scenario. Each question
-
-in the series contains a unique solution. Determine whether the solution meets the stated goals.
+[Case-10](scenario.md#case-10)
 
 You need to meet the vendor notification requirement.
 
@@ -3354,125 +418,7 @@ Does the solution meet the goal?
 
 **SCENARIO:**
 
-TESTLET-10.
-
-Case Study
-
-Background
-
-Best For You Organics Company is a global restaurant franchise that has multiple locations. The company
-
-wants to enhance user experiences and vendor integrations. The company plans to implement automated
-
-mobile ordering and delivery services.
-
-Best For You Organics hosts an Azure web app at the URL https://www.bestforyouorganics.com. Users can
-
-use the web app to browse restaurant location, menu items, nutritional information, and company
-
-information. The company developed and deployed a cross-platform mobile app.
-
-Requirements
-
-Chatbot
-
-You must develop a chatbot by using the Bot Builder SDK and Language Understanding Intelligence
-
-Service (LUIS). The chatbot must allow users to order food for pickup or delivery.
-
-The chatbot must meet the following requirements:
-
-	- Ensure that chatbot is secure by using the Bot Framework connector.
-
-	- Use natural language processing and speech recognition so that users can interact with the chatbot by
-
-using text and voice. Processing must be server-based.
-
-	- Alert users about promotions at local restaurants.
-
-	- Enable users to place an order for delivery or pickup by using their voice.
-
-	- Greet the user upon sign-in by displaying a graphical interface that contains action buttons.
-
-	- The chatbot greeting interface must match the formatting of the following example:
-
-![](image/image-648.webp)
-
-Vendor API
-
-Vendors receive and provide updates for the restaurant inventory and delivery services by using Azure API
-
-Management hosted APIs. Each vendor uses their own subscription to access each of the APIs.
-
-APIs must meet the following conditions:
-
-	- API usage must not exceed 5,000 calls and 50,000 kilobytes of bandwidth per hour per vendor.
-
-	- If a vendor is nearing the number of calls or bandwidth limit, the API must trigger email notifications to
-
-the vendor.
-
-	- API must prevent API usage spikes on a per-subscription basis by limiting the call rate to 100 calls per
-
-minute.
-
-	- The Inventory API must be written by using ASP.NET Core and Node.js.
-
-	- The API must be updated to provide an interface to Azure SQL Database objects must be managed by
-
-using code.
-
-	- The Delivery API must be protected by using the OAuth 2.0 protocol with Azure Active Directory (Azure
-
-AD) when called from the Azure web app. You register the Delivery API and web app in Azure AD. You
-
-enable OAuth 2.0 in the web app.
-
-	- The delivery API must update the Products table, the Vendor transactions table, and the Billing table in a
-
-single transaction.
-
-The Best For You Organics Company architecture team has created the following diagram depicting the
-
-expected deployments into Azure:
-
-![](image/image-656.webp)
-
-Architecture
-
-Issues
-
-Delivery API
-
-The Delivery API intermittently throws the following exception:
-
-"System.Data.Entity.Core.EntityCommandExecutionException: An error occurred
-
-while executing the command definition. See the inner exception for details. --
-
->System.Data.SqlClient.SqlException: A transport-level error has occurred when
-
-receiving results from the server. (provider: Session Provider, error: 19 –
-
-Physical connection is not usable)"
-
-Chatbot greeting
-
-The chatbot’s greeting does not show the user’s name. You need to debug the chatbot locally.
-
-Language processing
-
-Users report that the bot fails to understand when a customer attempts to order dishes that use Italian
-
-names.
-
-App code
-
-Relevant portions of the app files are shown below. Line numbers are included for reference only and
-
-include a two-character prefix that denotes the specific file to which they belong.
-
-![](image/image-657.webp)
+[Case-10](scenario.md#case-10)
 
 You need to meet the vendor notification requirement.
 
@@ -3490,125 +436,7 @@ Does the solution meet the goal?
 
 **SCENARIO:**
 
-TESTLET-10.
-
-Case Study
-
-Background
-
-Best For You Organics Company is a global restaurant franchise that has multiple locations. The company
-
-wants to enhance user experiences and vendor integrations. The company plans to implement automated
-
-mobile ordering and delivery services.
-
-Best For You Organics hosts an Azure web app at the URL https://www.bestforyouorganics.com. Users can
-
-use the web app to browse restaurant location, menu items, nutritional information, and company
-
-information. The company developed and deployed a cross-platform mobile app.
-
-Requirements
-
-Chatbot
-
-You must develop a chatbot by using the Bot Builder SDK and Language Understanding Intelligence
-
-Service (LUIS). The chatbot must allow users to order food for pickup or delivery.
-
-The chatbot must meet the following requirements:
-
-	- Ensure that chatbot is secure by using the Bot Framework connector.
-
-	- Use natural language processing and speech recognition so that users can interact with the chatbot by
-
-using text and voice. Processing must be server-based.
-
-	- Alert users about promotions at local restaurants.
-
-	- Enable users to place an order for delivery or pickup by using their voice.
-
-	- Greet the user upon sign-in by displaying a graphical interface that contains action buttons.
-
-	- The chatbot greeting interface must match the formatting of the following example:
-
-![](image/image-648.webp)
-
-Vendor API
-
-Vendors receive and provide updates for the restaurant inventory and delivery services by using Azure API
-
-Management hosted APIs. Each vendor uses their own subscription to access each of the APIs.
-
-APIs must meet the following conditions:
-
-	- API usage must not exceed 5,000 calls and 50,000 kilobytes of bandwidth per hour per vendor.
-
-	- If a vendor is nearing the number of calls or bandwidth limit, the API must trigger email notifications to
-
-the vendor.
-
-	- API must prevent API usage spikes on a per-subscription basis by limiting the call rate to 100 calls per
-
-minute.
-
-	- The Inventory API must be written by using ASP.NET Core and Node.js.
-
-	- The API must be updated to provide an interface to Azure SQL Database objects must be managed by
-
-using code.
-
-	- The Delivery API must be protected by using the OAuth 2.0 protocol with Azure Active Directory (Azure
-
-AD) when called from the Azure web app. You register the Delivery API and web app in Azure AD. You
-
-enable OAuth 2.0 in the web app.
-
-	- The delivery API must update the Products table, the Vendor transactions table, and the Billing table in a
-
-single transaction.
-
-The Best For You Organics Company architecture team has created the following diagram depicting the
-
-expected deployments into Azure:
-
-![](image/image-656.webp)
-
-Architecture
-
-Issues
-
-Delivery API
-
-The Delivery API intermittently throws the following exception:
-
-"System.Data.Entity.Core.EntityCommandExecutionException: An error occurred
-
-while executing the command definition. See the inner exception for details. --
-
->System.Data.SqlClient.SqlException: A transport-level error has occurred when
-
-receiving results from the server. (provider: Session Provider, error: 19 –
-
-Physical connection is not usable)"
-
-Chatbot greeting
-
-The chatbot’s greeting does not show the user’s name. You need to debug the chatbot locally.
-
-Language processing
-
-Users report that the bot fails to understand when a customer attempts to order dishes that use Italian
-
-names.
-
-App code
-
-Relevant portions of the app files are shown below. Line numbers are included for reference only and
-
-include a two-character prefix that denotes the specific file to which they belong.
-
-![](image/image-657.webp)
+[Case-10](scenario.md#case-10)
 
 You need to resolve the delivery API error.
 
@@ -3628,143 +456,19 @@ What should you do?
 
 **SCENARIO:**
 
-TESTLET-10.
-
-Case Study
-
-Background
-
-Best For You Organics Company is a global restaurant franchise that has multiple locations. The company
-
-wants to enhance user experiences and vendor integrations. The company plans to implement automated
-
-mobile ordering and delivery services.
-
-Best For You Organics hosts an Azure web app at the URL https://www.bestforyouorganics.com. Users can
-
-use the web app to browse restaurant location, menu items, nutritional information, and company
-
-information. The company developed and deployed a cross-platform mobile app.
-
-Requirements
-
-Chatbot
-
-You must develop a chatbot by using the Bot Builder SDK and Language Understanding Intelligence
-
-Service (LUIS). The chatbot must allow users to order food for pickup or delivery.
-
-The chatbot must meet the following requirements:
-
-	- Ensure that chatbot is secure by using the Bot Framework connector.
-
-	- Use natural language processing and speech recognition so that users can interact with the chatbot by
-
-using text and voice. Processing must be server-based.
-
-	- Alert users about promotions at local restaurants.
-
-	- Enable users to place an order for delivery or pickup by using their voice.
-
-	- Greet the user upon sign-in by displaying a graphical interface that contains action buttons.
-
-	- The chatbot greeting interface must match the formatting of the following example:
-
-![](image/image-648.webp)
-
-Vendor API
-
-Vendors receive and provide updates for the restaurant inventory and delivery services by using Azure API
-
-Management hosted APIs. Each vendor uses their own subscription to access each of the APIs.
-
-APIs must meet the following conditions:
-
-	- API usage must not exceed 5,000 calls and 50,000 kilobytes of bandwidth per hour per vendor.
-
-	- If a vendor is nearing the number of calls or bandwidth limit, the API must trigger email notifications to
-
-the vendor.
-
-	- API must prevent API usage spikes on a per-subscription basis by limiting the call rate to 100 calls per
-
-minute.
-
-	- The Inventory API must be written by using ASP.NET Core and Node.js.
-
-	- The API must be updated to provide an interface to Azure SQL Database objects must be managed by
-
-using code.
-
-	- The Delivery API must be protected by using the OAuth 2.0 protocol with Azure Active Directory (Azure
-
-AD) when called from the Azure web app. You register the Delivery API and web app in Azure AD. You
-
-enable OAuth 2.0 in the web app.
-
-	- The delivery API must update the Products table, the Vendor transactions table, and the Billing table in a
-
-single transaction.
-
-The Best For You Organics Company architecture team has created the following diagram depicting the
-
-expected deployments into Azure:
-
-![](image/image-656.webp)
-
-Architecture
-
-Issues
-
-Delivery API
-
-The Delivery API intermittently throws the following exception:
-
-"System.Data.Entity.Core.EntityCommandExecutionException: An error occurred
-
-while executing the command definition. See the inner exception for details. --
-
->System.Data.SqlClient.SqlException: A transport-level error has occurred when
-
-receiving results from the server. (provider: Session Provider, error: 19 –
-
-Physical connection is not usable)"
-
-Chatbot greeting
-
-The chatbot’s greeting does not show the user’s name. You need to debug the chatbot locally.
-
-Language processing
-
-Users report that the bot fails to understand when a customer attempts to order dishes that use Italian
-
-names.
-
-App code
-
-Relevant portions of the app files are shown below. Line numbers are included for reference only and
-
-include a two-character prefix that denotes the specific file to which they belong.
-
-![](image/image-657.webp)
+[Case-10](scenario.md#case-10)
 
 You need to implement the purchase requirement.
 
 What should you do?
 
-* A: Use the Bot Framework REST API conversation operations to send the user’s voice and the Speech
-
-Service API to recognize intents.
+* A: Use the Bot Framework REST API conversation operations to send the user’s voice and the Speech Service API to recognize intents.
 
 * B: Use the Direct Line REST API to send the user’s voice and the Speech Service API to recognize intents.
 
-* C: Use the Speech Service API to send the user’s voice and the Bot Framework REST API conversation
+* C: Use the Speech Service API to send the user’s voice and the Bot Framework REST API conversation operations to recognize intents.
 
-operations to recognize intents.
-
-* D: Use the Bot Framework REST API attachment operations to send the user’s voice and the Speech
-
-Service API to recognize intents.
+* D: Use the Bot Framework REST API attachment operations to send the user’s voice and the Speech Service API to recognize intents.
 
 [See the answer](#answer-224)
 
@@ -3772,125 +476,7 @@ Service API to recognize intents.
 
 **SCENARIO:**
 
-TESTLET-10.
-
-Case Study
-
-Background
-
-Best For You Organics Company is a global restaurant franchise that has multiple locations. The company
-
-wants to enhance user experiences and vendor integrations. The company plans to implement automated
-
-mobile ordering and delivery services.
-
-Best For You Organics hosts an Azure web app at the URL https://www.bestforyouorganics.com. Users can
-
-use the web app to browse restaurant location, menu items, nutritional information, and company
-
-information. The company developed and deployed a cross-platform mobile app.
-
-Requirements
-
-Chatbot
-
-You must develop a chatbot by using the Bot Builder SDK and Language Understanding Intelligence
-
-Service (LUIS). The chatbot must allow users to order food for pickup or delivery.
-
-The chatbot must meet the following requirements:
-
-	- Ensure that chatbot is secure by using the Bot Framework connector.
-
-	- Use natural language processing and speech recognition so that users can interact with the chatbot by
-
-using text and voice. Processing must be server-based.
-
-	- Alert users about promotions at local restaurants.
-
-	- Enable users to place an order for delivery or pickup by using their voice.
-
-	- Greet the user upon sign-in by displaying a graphical interface that contains action buttons.
-
-	- The chatbot greeting interface must match the formatting of the following example:
-
-![](image/image-648.webp)
-
-Vendor API
-
-Vendors receive and provide updates for the restaurant inventory and delivery services by using Azure API
-
-Management hosted APIs. Each vendor uses their own subscription to access each of the APIs.
-
-APIs must meet the following conditions:
-
-	- API usage must not exceed 5,000 calls and 50,000 kilobytes of bandwidth per hour per vendor.
-
-	- If a vendor is nearing the number of calls or bandwidth limit, the API must trigger email notifications to
-
-the vendor.
-
-	- API must prevent API usage spikes on a per-subscription basis by limiting the call rate to 100 calls per
-
-minute.
-
-	- The Inventory API must be written by using ASP.NET Core and Node.js.
-
-	- The API must be updated to provide an interface to Azure SQL Database objects must be managed by
-
-using code.
-
-	- The Delivery API must be protected by using the OAuth 2.0 protocol with Azure Active Directory (Azure
-
-AD) when called from the Azure web app. You register the Delivery API and web app in Azure AD. You
-
-enable OAuth 2.0 in the web app.
-
-	- The delivery API must update the Products table, the Vendor transactions table, and the Billing table in a
-
-single transaction.
-
-The Best For You Organics Company architecture team has created the following diagram depicting the
-
-expected deployments into Azure:
-
-![](image/image-656.webp)
-
-Architecture
-
-Issues
-
-Delivery API
-
-The Delivery API intermittently throws the following exception:
-
-"System.Data.Entity.Core.EntityCommandExecutionException: An error occurred
-
-while executing the command definition. See the inner exception for details. --
-
->System.Data.SqlClient.SqlException: A transport-level error has occurred when
-
-receiving results from the server. (provider: Session Provider, error: 19 –
-
-Physical connection is not usable)"
-
-Chatbot greeting
-
-The chatbot’s greeting does not show the user’s name. You need to debug the chatbot locally.
-
-Language processing
-
-Users report that the bot fails to understand when a customer attempts to order dishes that use Italian
-
-names.
-
-App code
-
-Relevant portions of the app files are shown below. Line numbers are included for reference only and
-
-include a two-character prefix that denotes the specific file to which they belong.
-
-![](image/image-657.webp)
+[Case-10](scenario.md#case-10)
 
 You need to meet the security requirements.
 
@@ -3912,181 +498,9 @@ What should you use?
 
 **SCENARIO:**
 
-TESTLET-10.
+[Case-10](scenario.md#case-10)
 
-Case Study
-
-Background
-
-Best For You Organics Company is a global restaurant franchise that has multiple locations. The company
-
-wants to enhance user experiences and vendor integrations. The company plans to implement automated
-
-mobile ordering and delivery services.
-
-Best For You Organics hosts an Azure web app at the URL https://www.bestforyouorganics.com. Users can
-
-use the web app to browse restaurant location, menu items, nutritional information, and company
-
-information. The company developed and deployed a cross-platform mobile app.
-
-Requirements
-
-Chatbot
-
-You must develop a chatbot by using the Bot Builder SDK and Language Understanding Intelligence
-
-Service (LUIS). The chatbot must allow users to order food for pickup or delivery.
-
-The chatbot must meet the following requirements:
-
-	- Ensure that chatbot is secure by using the Bot Framework connector.
-
-	- Use natural language processing and speech recognition so that users can interact with the chatbot by
-
-using text and voice. Processing must be server-based.
-
-	- Alert users about promotions at local restaurants.
-
-	- Enable users to place an order for delivery or pickup by using their voice.
-
-	- Greet the user upon sign-in by displaying a graphical interface that contains action buttons.
-
-	- The chatbot greeting interface must match the formatting of the following example:
-
-![](image/image-648.webp)
-
-Vendor API
-
-Vendors receive and provide updates for the restaurant inventory and delivery services by using Azure API
-
-Management hosted APIs. Each vendor uses their own subscription to access each of the APIs.
-
-APIs must meet the following conditions:
-
-	- API usage must not exceed 5,000 calls and 50,000 kilobytes of bandwidth per hour per vendor.
-
-	- If a vendor is nearing the number of calls or bandwidth limit, the API must trigger email notifications to
-
-the vendor.
-
-	- API must prevent API usage spikes on a per-subscription basis by limiting the call rate to 100 calls per
-
-minute.
-
-	- The Inventory API must be written by using ASP.NET Core and Node.js.
-
-	- The API must be updated to provide an interface to Azure SQL Database objects must be managed by
-
-using code.
-
-	- The Delivery API must be protected by using the OAuth 2.0 protocol with Azure Active Directory (Azure
-
-AD) when called from the Azure web app. You register the Delivery API and web app in Azure AD. You
-
-enable OAuth 2.0 in the web app.
-
-	- The delivery API must update the Products table, the Vendor transactions table, and the Billing table in a
-
-single transaction.
-
-The Best For You Organics Company architecture team has created the following diagram depicting the
-
-expected deployments into Azure:
-
-![](image/image-656.webp)
-
-Architecture
-
-Issues
-
-Delivery API
-
-The Delivery API intermittently throws the following exception:
-
-"System.Data.Entity.Core.EntityCommandExecutionException: An error occurred
-
-while executing the command definition. See the inner exception for details. --
-
->System.Data.SqlClient.SqlException: A transport-level error has occurred when
-
-receiving results from the server. (provider: Session Provider, error: 19 –
-
-Physical connection is not usable)"
-
-Chatbot greeting
-
-The chatbot’s greeting does not show the user’s name. You need to debug the chatbot locally.
-
-Language processing
-
-Users report that the bot fails to understand when a customer attempts to order dishes that use Italian
-
-names.
-
-App code
-
-Relevant portions of the app files are shown below. Line numbers are included for reference only and
-
-include a two-character prefix that denotes the specific file to which they belong.
-
-![](image/image-657.webp)
-
-SIMULATION
-
-Click to expand each objective. To connect to the Azure portal, type https://portal.azure.com in the browser
-
-address bar.
-
-![](image/image-658.webp)
-
-![](image/image-659.webp)
-
-![](image/image-660.webp)
-
-![](image/image-661.webp)
-
-![](image/image-662.webp)
-
-![](image/image-663.webp)
-
-When you are finished performing all the tasks, click the ‘Next’ button.
-
-Note that you cannot return to the lab once you click the ‘Next’ button. Scoring occur in the background
-
-while you complete the rest of the exam.
-
-Overview 
-
-The following section of the exam is a lab. In this section, you will perform a set of tasks in a live
-
-environment. While most functionality will be available to you as it would be in a live environment, some
-
-functionality (e.g., copy and paste, ability to navigate to external websites) will not be possible by design.
-
-Scoring is based on the outcome of performing the tasks stated in the lab. In other words, it doesn’t matter
-
-how you accomplish the task, if you successfully perform it, you will earn credit for that task.
-
-Labs are not timed separately, and this exam may have more than one lab that you must complete. You
-
-can use as much time as you would like to complete each lab. But, you should manage your time
-
-appropriately to ensure that you are able to complete the lab(s) and all other sections of the exam in the
-
-time provided.
-
-Please note that once you submit your work by clicking the Next button within a lab, you will NOT be able to
-
-return to the lab.
-
-To start the lab
-
-You may start the lab by clicking the Next button.
-
-You need to create a web app named corp10217507n2 that can be scaled horizontally. The solution must
-
-use the lowest possible pricing tier for the App Service plan.
+You need to create a web app named corp10217507n2 that can be scaled horizontally. The solution must use the lowest possible pricing tier for the App Service plan.
 
 What should you do from the Azure portal?
 
@@ -4096,183 +510,13 @@ What should you do from the Azure portal?
 
 **SCENARIO:**
 
-TESTLET-10.
-
-Case Study
-
-Background
-
-Best For You Organics Company is a global restaurant franchise that has multiple locations. The company
-
-wants to enhance user experiences and vendor integrations. The company plans to implement automated
-
-mobile ordering and delivery services.
-
-Best For You Organics hosts an Azure web app at the URL https://www.bestforyouorganics.com. Users can
-
-use the web app to browse restaurant location, menu items, nutritional information, and company
-
-information. The company developed and deployed a cross-platform mobile app.
-
-Requirements
-
-Chatbot
-
-You must develop a chatbot by using the Bot Builder SDK and Language Understanding Intelligence
-
-Service (LUIS). The chatbot must allow users to order food for pickup or delivery.
-
-The chatbot must meet the following requirements:
-
-	- Ensure that chatbot is secure by using the Bot Framework connector.
-
-	- Use natural language processing and speech recognition so that users can interact with the chatbot by
-
-using text and voice. Processing must be server-based.
-
-	- Alert users about promotions at local restaurants.
-
-	- Enable users to place an order for delivery or pickup by using their voice.
-
-	- Greet the user upon sign-in by displaying a graphical interface that contains action buttons.
-
-	- The chatbot greeting interface must match the formatting of the following example:
-
-![](image/image-648.webp)
-
-Vendor API
-
-Vendors receive and provide updates for the restaurant inventory and delivery services by using Azure API
-
-Management hosted APIs. Each vendor uses their own subscription to access each of the APIs.
-
-APIs must meet the following conditions:
-
-	- API usage must not exceed 5,000 calls and 50,000 kilobytes of bandwidth per hour per vendor.
-
-	- If a vendor is nearing the number of calls or bandwidth limit, the API must trigger email notifications to
-
-the vendor.
-
-	- API must prevent API usage spikes on a per-subscription basis by limiting the call rate to 100 calls per
-
-minute.
-
-	- The Inventory API must be written by using ASP.NET Core and Node.js.
-
-	- The API must be updated to provide an interface to Azure SQL Database objects must be managed by
-
-using code.
-
-	- The Delivery API must be protected by using the OAuth 2.0 protocol with Azure Active Directory (Azure
-
-AD) when called from the Azure web app. You register the Delivery API and web app in Azure AD. You
-
-enable OAuth 2.0 in the web app.
-
-	- The delivery API must update the Products table, the Vendor transactions table, and the Billing table in a
-
-single transaction.
-
-The Best For You Organics Company architecture team has created the following diagram depicting the
-
-expected deployments into Azure:
-
-![](image/image-656.webp)
-
-Architecture
-
-Issues
-
-Delivery API
-
-The Delivery API intermittently throws the following exception:
-
-"System.Data.Entity.Core.EntityCommandExecutionException: An error occurred
-
-while executing the command definition. See the inner exception for details. --
-
->System.Data.SqlClient.SqlException: A transport-level error has occurred when
-
-receiving results from the server. (provider: Session Provider, error: 19 –
-
-Physical connection is not usable)"
-
-Chatbot greeting
-
-The chatbot’s greeting does not show the user’s name. You need to debug the chatbot locally.
-
-Language processing
-
-Users report that the bot fails to understand when a customer attempts to order dishes that use Italian
-
-names.
-
-App code
-
-Relevant portions of the app files are shown below. Line numbers are included for reference only and
-
-include a two-character prefix that denotes the specific file to which they belong.
-
-![](image/image-657.webp)
-
-SIMULATION
-
-Click to expand each objective. To connect to the Azure portal, type https://portal.azure.com in the browser
-
-address bar.
-
-![](image/image-664.webp)
-
-![](image/image-665.webp)
-
-![](image/image-666.webp)
-
-![](image/image-667.webp)
-
-![](image/image-668.webp)
-
-![](image/image-669.webp)
-
-When you are finished performing all the tasks, click the ‘Next’ button.
-
-Note that you cannot return to the lab once you click the ‘Next’ button. Scoring occur in the background
-
-while you complete the rest of the exam.
-
-Overview 
-
-The following section of the exam is a lab. In this section, you will perform a set of tasks in a live
-
-environment. While most functionality will be available to you as it would be in a live environment, some
-
-functionality (e.g., copy and paste, ability to navigate to external websites) will not be possible by design.
-
-Scoring is based on the outcome of performing the tasks stated in the lab. In other words, it doesn’t matter
-
-how you accomplish the task, if you successfully perform it, you will earn credit for that task.
-
-Labs are not timed separately, and this exam may have more than one lab that you must complete. You
-
-can use as much time as you would like to complete each lab. But, you should manage your time
-
-appropriately to ensure that you are able to complete the lab(s) and all other sections of the exam in the
-
-time provided.
-
-Please note that once you submit your work by clicking the Next button within a lab, you will NOT be able to
-
-return to the lab.
-
-To start the lab
-
-You may start the lab by clicking the Next button.
+[Case-10](scenario.md#case-10)
 
 You need to deploy an application gateway named appgw1015 to meet the following requirements:
 
-	- Load balance internal IP traffic to the Azure virtual machines connected to subnet0.
+- Load balance internal IP traffic to the Azure virtual machines connected to subnet0.
 
-	- Provide a Service Level Agreement (SLA) of 99,99 percent availability for the Azure virtual machines.
+- Provide a Service Level Agreement (SLA) of 99,99 percent availability for the Azure virtual machines.
 
 What should you do from the Azure portal?
 
@@ -4282,195 +526,17 @@ What should you do from the Azure portal?
 
 **SCENARIO:**
 
-TESTLET-10.
+[Case-10](scenario.md#case-10)
 
-Case Study
+You need to deploy an Azure load balancer named ib1016 to your Azure subscription. The solution must meet the following requirements:
 
-Background
+- Support the load balancing of IP traffic from the Internet to Azure virtual machines connected to VNET1016\subnet0.
 
-Best For You Organics Company is a global restaurant franchise that has multiple locations. The company
+- Provide a Service Level Agreement (SLA) of 99,99 percent availability for the Azure virtual machines.
 
-wants to enhance user experiences and vendor integrations. The company plans to implement automated
-
-mobile ordering and delivery services.
-
-Best For You Organics hosts an Azure web app at the URL https://www.bestforyouorganics.com. Users can
-
-use the web app to browse restaurant location, menu items, nutritional information, and company
-
-information. The company developed and deployed a cross-platform mobile app.
-
-Requirements
-
-Chatbot
-
-You must develop a chatbot by using the Bot Builder SDK and Language Understanding Intelligence
-
-Service (LUIS). The chatbot must allow users to order food for pickup or delivery.
-
-The chatbot must meet the following requirements:
-
-	- Ensure that chatbot is secure by using the Bot Framework connector.
-
-	- Use natural language processing and speech recognition so that users can interact with the chatbot by
-
-using text and voice. Processing must be server-based.
-
-	- Alert users about promotions at local restaurants.
-
-	- Enable users to place an order for delivery or pickup by using their voice.
-
-	- Greet the user upon sign-in by displaying a graphical interface that contains action buttons.
-
-	- The chatbot greeting interface must match the formatting of the following example:
-
-![](image/image-648.webp)
-
-Vendor API
-
-Vendors receive and provide updates for the restaurant inventory and delivery services by using Azure API
-
-Management hosted APIs. Each vendor uses their own subscription to access each of the APIs.
-
-APIs must meet the following conditions:
-
-	- API usage must not exceed 5,000 calls and 50,000 kilobytes of bandwidth per hour per vendor.
-
-	- If a vendor is nearing the number of calls or bandwidth limit, the API must trigger email notifications to
-
-the vendor.
-
-	- API must prevent API usage spikes on a per-subscription basis by limiting the call rate to 100 calls per
-
-minute.
-
-	- The Inventory API must be written by using ASP.NET Core and Node.js.
-
-	- The API must be updated to provide an interface to Azure SQL Database objects must be managed by
-
-using code.
-
-	- The Delivery API must be protected by using the OAuth 2.0 protocol with Azure Active Directory (Azure
-
-AD) when called from the Azure web app. You register the Delivery API and web app in Azure AD. You
-
-enable OAuth 2.0 in the web app.
-
-	- The delivery API must update the Products table, the Vendor transactions table, and the Billing table in a
-
-single transaction.
-
-The Best For You Organics Company architecture team has created the following diagram depicting the
-
-expected deployments into Azure:
-
-![](image/image-656.webp)
-
-Architecture
-
-Issues
-
-Delivery API
-
-The Delivery API intermittently throws the following exception:
-
-"System.Data.Entity.Core.EntityCommandExecutionException: An error occurred
-
-while executing the command definition. See the inner exception for details. --
-
->System.Data.SqlClient.SqlException: A transport-level error has occurred when
-
-receiving results from the server. (provider: Session Provider, error: 19 –
-
-Physical connection is not usable)"
-
-Chatbot greeting
-
-The chatbot’s greeting does not show the user’s name. You need to debug the chatbot locally.
-
-Language processing
-
-Users report that the bot fails to understand when a customer attempts to order dishes that use Italian
-
-names.
-
-App code
-
-Relevant portions of the app files are shown below. Line numbers are included for reference only and
-
-include a two-character prefix that denotes the specific file to which they belong.
-
-![](image/image-657.webp)
-
-SIMULATION
-
-Click to expand each objective. To connect to the Azure portal, type https://portal.azure.com in the browser
-
-address bar.
-
-![](image/image-673.webp)
-
-![](image/image-674.webp)
-
-![](image/image-675.webp)
-
-![](image/image-676.webp)
-
-![](image/image-677.webp)
-
-![](image/image-678.webp)
-
-When you are finished performing all the tasks, click the ‘Next’ button.
-
-Note that you cannot return to the lab once you click the ‘Next’ button. Scoring occur in the background
-
-while you complete the rest of the exam.
-
-Overview 
-
-The following section of the exam is a lab. In this section, you will perform a set of tasks in a live
-
-environment. While most functionality will be available to you as it would be in a live environment, some
-
-functionality (e.g., copy and paste, ability to navigate to external websites) will not be possible by design.
-
-Scoring is based on the outcome of performing the tasks stated in the lab. In other words, it doesn’t matter
-
-how you accomplish the task, if you successfully perform it, you will earn credit for that task.
-
-Labs are not timed separately, and this exam may have more than one lab that you must complete. You
-
-can use as much time as you would like to complete each lab. But, you should manage your time
-
-appropriately to ensure that you are able to complete the lab(s) and all other sections of the exam in the
-
-time provided.
-
-Please note that once you submit your work by clicking the Next button within a lab, you will NOT be able to
-
-return to the lab.
-
-To start the lab
-
-You may start the lab by clicking the Next button.
-
-You need to deploy an Azure load balancer named ib1016 to your Azure subscription. The solution must
-
-meet the following requirements:
-
-	- Support the load balancing of IP traffic from the Internet to Azure virtual machines connected to
-
-VNET1016\subnet0.
-
-	- Provide a Service Level Agreement (SLA) of 99,99 percent availability for the Azure virtual machines.
-
-	- Minimize Azure-related costs.
+- Minimize Azure-related costs.
 
 What should you do from the Azure portal?
-
-To complete this task, you do NOT need to wait for the deployment to complete. Once the
-
-deployment starts in Azure, you can move to the next task.
 
 [See the answer](#answer-228)
 
@@ -4478,133 +544,11 @@ deployment starts in Azure, you can move to the next task.
 
 **SCENARIO:**
 
-TESTLET-10.
+[Case-10](scenario.md#case-10)
 
-Case Study
+Your company is developing an e-commerce Azure App Service Web App to support hundreds of restaurant locations around the world.
 
-Background
-
-Best For You Organics Company is a global restaurant franchise that has multiple locations. The company
-
-wants to enhance user experiences and vendor integrations. The company plans to implement automated
-
-mobile ordering and delivery services.
-
-Best For You Organics hosts an Azure web app at the URL https://www.bestforyouorganics.com. Users can
-
-use the web app to browse restaurant location, menu items, nutritional information, and company
-
-information. The company developed and deployed a cross-platform mobile app.
-
-Requirements
-
-Chatbot
-
-You must develop a chatbot by using the Bot Builder SDK and Language Understanding Intelligence
-
-Service (LUIS). The chatbot must allow users to order food for pickup or delivery.
-
-The chatbot must meet the following requirements:
-
-	- Ensure that chatbot is secure by using the Bot Framework connector.
-
-	- Use natural language processing and speech recognition so that users can interact with the chatbot by
-
-using text and voice. Processing must be server-based.
-
-	- Alert users about promotions at local restaurants.
-
-	- Enable users to place an order for delivery or pickup by using their voice.
-
-	- Greet the user upon sign-in by displaying a graphical interface that contains action buttons.
-
-	- The chatbot greeting interface must match the formatting of the following example:
-
-![](image/image-648.webp)
-
-Vendor API
-
-Vendors receive and provide updates for the restaurant inventory and delivery services by using Azure API
-
-Management hosted APIs. Each vendor uses their own subscription to access each of the APIs.
-
-APIs must meet the following conditions:
-
-	- API usage must not exceed 5,000 calls and 50,000 kilobytes of bandwidth per hour per vendor.
-
-	- If a vendor is nearing the number of calls or bandwidth limit, the API must trigger email notifications to
-
-the vendor.
-
-	- API must prevent API usage spikes on a per-subscription basis by limiting the call rate to 100 calls per
-
-minute.
-
-	- The Inventory API must be written by using ASP.NET Core and Node.js.
-
-	- The API must be updated to provide an interface to Azure SQL Database objects must be managed by
-
-using code.
-
-	- The Delivery API must be protected by using the OAuth 2.0 protocol with Azure Active Directory (Azure
-
-AD) when called from the Azure web app. You register the Delivery API and web app in Azure AD. You
-
-enable OAuth 2.0 in the web app.
-
-	- The delivery API must update the Products table, the Vendor transactions table, and the Billing table in a
-
-single transaction.
-
-The Best For You Organics Company architecture team has created the following diagram depicting the
-
-expected deployments into Azure:
-
-![](image/image-656.webp)
-
-Architecture
-
-Issues
-
-Delivery API
-
-The Delivery API intermittently throws the following exception:
-
-"System.Data.Entity.Core.EntityCommandExecutionException: An error occurred
-
-while executing the command definition. See the inner exception for details. --
-
->System.Data.SqlClient.SqlException: A transport-level error has occurred when
-
-receiving results from the server. (provider: Session Provider, error: 19 –
-
-Physical connection is not usable)"
-
-Chatbot greeting
-
-The chatbot’s greeting does not show the user’s name. You need to debug the chatbot locally.
-
-Language processing
-
-Users report that the bot fails to understand when a customer attempts to order dishes that use Italian
-
-names.
-
-App code
-
-Relevant portions of the app files are shown below. Line numbers are included for reference only and
-
-include a two-character prefix that denotes the specific file to which they belong.
-
-![](image/image-657.webp)
-
-Your company is developing an e-commerce Azure App Service Web App to support hundreds of
-
-restaurant locations around the world.
-
-You are designing the messaging solution architecture to support the e-commerce transactions and
-
-messages. The solution will include the following features:
+You are designing the messaging solution architecture to support the e-commerce transactions and messages. The solution will include the following features:
 
 ![](image/image-682.webp)
 
@@ -4626,137 +570,15 @@ Which Azure service should you use?
 
 **SCENARIO:**
 
-TESTLET-10.
+[Case-10](scenario.md#case-10)
 
-Case Study
-
-Background
-
-Best For You Organics Company is a global restaurant franchise that has multiple locations. The company
-
-wants to enhance user experiences and vendor integrations. The company plans to implement automated
-
-mobile ordering and delivery services.
-
-Best For You Organics hosts an Azure web app at the URL https://www.bestforyouorganics.com. Users can
-
-use the web app to browse restaurant location, menu items, nutritional information, and company
-
-information. The company developed and deployed a cross-platform mobile app.
-
-Requirements
-
-Chatbot
-
-You must develop a chatbot by using the Bot Builder SDK and Language Understanding Intelligence
-
-Service (LUIS). The chatbot must allow users to order food for pickup or delivery.
-
-The chatbot must meet the following requirements:
-
-	- Ensure that chatbot is secure by using the Bot Framework connector.
-
-	- Use natural language processing and speech recognition so that users can interact with the chatbot by
-
-using text and voice. Processing must be server-based.
-
-	- Alert users about promotions at local restaurants.
-
-	- Enable users to place an order for delivery or pickup by using their voice.
-
-	- Greet the user upon sign-in by displaying a graphical interface that contains action buttons.
-
-	- The chatbot greeting interface must match the formatting of the following example:
-
-![](image/image-648.webp)
-
-Vendor API
-
-Vendors receive and provide updates for the restaurant inventory and delivery services by using Azure API
-
-Management hosted APIs. Each vendor uses their own subscription to access each of the APIs.
-
-APIs must meet the following conditions:
-
-	- API usage must not exceed 5,000 calls and 50,000 kilobytes of bandwidth per hour per vendor.
-
-	- If a vendor is nearing the number of calls or bandwidth limit, the API must trigger email notifications to
-
-the vendor.
-
-	- API must prevent API usage spikes on a per-subscription basis by limiting the call rate to 100 calls per
-
-minute.
-
-	- The Inventory API must be written by using ASP.NET Core and Node.js.
-
-	- The API must be updated to provide an interface to Azure SQL Database objects must be managed by
-
-using code.
-
-	- The Delivery API must be protected by using the OAuth 2.0 protocol with Azure Active Directory (Azure
-
-AD) when called from the Azure web app. You register the Delivery API and web app in Azure AD. You
-
-enable OAuth 2.0 in the web app.
-
-	- The delivery API must update the Products table, the Vendor transactions table, and the Billing table in a
-
-single transaction.
-
-The Best For You Organics Company architecture team has created the following diagram depicting the
-
-expected deployments into Azure:
-
-![](image/image-656.webp)
-
-Architecture
-
-Issues
-
-Delivery API
-
-The Delivery API intermittently throws the following exception:
-
-"System.Data.Entity.Core.EntityCommandExecutionException: An error occurred
-
-while executing the command definition. See the inner exception for details. --
-
->System.Data.SqlClient.SqlException: A transport-level error has occurred when
-
-receiving results from the server. (provider: Session Provider, error: 19 –
-
-Physical connection is not usable)"
-
-Chatbot greeting
-
-The chatbot’s greeting does not show the user’s name. You need to debug the chatbot locally.
-
-Language processing
-
-Users report that the bot fails to understand when a customer attempts to order dishes that use Italian
-
-names.
-
-App code
-
-Relevant portions of the app files are shown below. Line numbers are included for reference only and
-
-include a two-character prefix that denotes the specific file to which they belong.
-
-![](image/image-657.webp)
-
-You are responsible for mobile app development for a company. The company develops apps on Windows
-
-Mobile, IOS, and Android.
+You are responsible for mobile app development for a company. The company develops apps on Windows Mobile, IOS, and Android.
 
 You plan to integrate push notifications into every app.
 
 You need to be able to send users alerts from a backend server.
 
 Which two options can you use to achieve this goal? Each correct answer presents a complete solution.
-
-NOTE: Each correct selection is worth one point.
 
 * A: Azure Web App
 
@@ -4774,127 +596,7 @@ NOTE: Each correct selection is worth one point.
 
 **SCENARIO:**
 
-TESTLET-10.
-
-Case Study
-
-Background
-
-Best For You Organics Company is a global restaurant franchise that has multiple locations. The company
-
-wants to enhance user experiences and vendor integrations. The company plans to implement automated
-
-mobile ordering and delivery services.
-
-Best For You Organics hosts an Azure web app at the URL https://www.bestforyouorganics.com. Users can
-
-use the web app to browse restaurant location, menu items, nutritional information, and company
-
-information. The company developed and deployed a cross-platform mobile app.
-
-Requirements
-
-Chatbot
-
-You must develop a chatbot by using the Bot Builder SDK and Language Understanding Intelligence
-
-Service (LUIS). The chatbot must allow users to order food for pickup or delivery.
-
-The chatbot must meet the following requirements:
-
-	- Ensure that chatbot is secure by using the Bot Framework connector.
-
-	- Use natural language processing and speech recognition so that users can interact with the chatbot by
-
-using text and voice. Processing must be server-based.
-
-	- Alert users about promotions at local restaurants.
-
-	- Enable users to place an order for delivery or pickup by using their voice.
-
-	- Greet the user upon sign-in by displaying a graphical interface that contains action buttons.
-
-	- The chatbot greeting interface must match the formatting of the following example:
-
-![](image/image-648.webp)
-
-Vendor API
-
-Vendors receive and provide updates for the restaurant inventory and delivery services by using Azure API
-
-Management hosted APIs. Each vendor uses their own subscription to access each of the APIs.
-
-APIs must meet the following conditions:
-
-	- API usage must not exceed 5,000 calls and 50,000 kilobytes of bandwidth per hour per vendor.
-
-	- If a vendor is nearing the number of calls or bandwidth limit, the API must trigger email notifications to
-
-the vendor.
-
-	- API must prevent API usage spikes on a per-subscription basis by limiting the call rate to 100 calls per
-
-minute.
-
-	- The Inventory API must be written by using ASP.NET Core and Node.js.
-
-	- The API must be updated to provide an interface to Azure SQL Database objects must be managed by
-
-using code.
-
-	- The Delivery API must be protected by using the OAuth 2.0 protocol with Azure Active Directory (Azure
-
-AD) when called from the Azure web app. You register the Delivery API and web app in Azure AD. You
-
-enable OAuth 2.0 in the web app.
-
-	- The delivery API must update the Products table, the Vendor transactions table, and the Billing table in a
-
-single transaction.
-
-The Best For You Organics Company architecture team has created the following diagram depicting the
-
-expected deployments into Azure:
-
-![](image/image-656.webp)
-
-Architecture
-
-Issues
-
-Delivery API
-
-The Delivery API intermittently throws the following exception:
-
-"System.Data.Entity.Core.EntityCommandExecutionException: An error occurred
-
-while executing the command definition. See the inner exception for details. --
-
->System.Data.SqlClient.SqlException: A transport-level error has occurred when
-
-receiving results from the server. (provider: Session Provider, error: 19 –
-
-Physical connection is not usable)"
-
-Chatbot greeting
-
-The chatbot’s greeting does not show the user’s name. You need to debug the chatbot locally.
-
-Language processing
-
-Users report that the bot fails to understand when a customer attempts to order dishes that use Italian
-
-names.
-
-App code
-
-Relevant portions of the app files are shown below. Line numbers are included for reference only and
-
-include a two-character prefix that denotes the specific file to which they belong.
-
-![](image/image-657.webp)
-
-HOTSPOT
+[Case-10](scenario.md#case-10)
 
 You are developing an Azure Function that will be triggered using a webhook from an external application.
 
@@ -4910,10 +612,6 @@ You need to complete the attributes for the Azure Function.
 
 How should you complete the code? To answer, select the appropriate options in the answer area.
 
-NOTE: Each correct selection is worth one point.
-
-Hot Area:
-
 ![](image/image-688.webp)
 
 [See the answer](#answer-231)
@@ -4922,137 +620,11 @@ Hot Area:
 
 **SCENARIO:**
 
-TESTLET-10.
-
-Case Study
-
-Background
-
-Best For You Organics Company is a global restaurant franchise that has multiple locations. The company
-
-wants to enhance user experiences and vendor integrations. The company plans to implement automated
-
-mobile ordering and delivery services.
-
-Best For You Organics hosts an Azure web app at the URL https://www.bestforyouorganics.com. Users can
-
-use the web app to browse restaurant location, menu items, nutritional information, and company
-
-information. The company developed and deployed a cross-platform mobile app.
-
-Requirements
-
-Chatbot
-
-You must develop a chatbot by using the Bot Builder SDK and Language Understanding Intelligence
-
-Service (LUIS). The chatbot must allow users to order food for pickup or delivery.
-
-The chatbot must meet the following requirements:
-
-	- Ensure that chatbot is secure by using the Bot Framework connector.
-
-	- Use natural language processing and speech recognition so that users can interact with the chatbot by
-
-using text and voice. Processing must be server-based.
-
-	- Alert users about promotions at local restaurants.
-
-	- Enable users to place an order for delivery or pickup by using their voice.
-
-	- Greet the user upon sign-in by displaying a graphical interface that contains action buttons.
-
-	- The chatbot greeting interface must match the formatting of the following example:
-
-![](image/image-648.webp)
-
-Vendor API
-
-Vendors receive and provide updates for the restaurant inventory and delivery services by using Azure API
-
-Management hosted APIs. Each vendor uses their own subscription to access each of the APIs.
-
-APIs must meet the following conditions:
-
-	- API usage must not exceed 5,000 calls and 50,000 kilobytes of bandwidth per hour per vendor.
-
-	- If a vendor is nearing the number of calls or bandwidth limit, the API must trigger email notifications to
-
-the vendor.
-
-	- API must prevent API usage spikes on a per-subscription basis by limiting the call rate to 100 calls per
-
-minute.
-
-	- The Inventory API must be written by using ASP.NET Core and Node.js.
-
-	- The API must be updated to provide an interface to Azure SQL Database objects must be managed by
-
-using code.
-
-	- The Delivery API must be protected by using the OAuth 2.0 protocol with Azure Active Directory (Azure
-
-AD) when called from the Azure web app. You register the Delivery API and web app in Azure AD. You
-
-enable OAuth 2.0 in the web app.
-
-	- The delivery API must update the Products table, the Vendor transactions table, and the Billing table in a
-
-single transaction.
-
-The Best For You Organics Company architecture team has created the following diagram depicting the
-
-expected deployments into Azure:
-
-![](image/image-656.webp)
-
-Architecture
-
-Issues
-
-Delivery API
-
-The Delivery API intermittently throws the following exception:
-
-"System.Data.Entity.Core.EntityCommandExecutionException: An error occurred
-
-while executing the command definition. See the inner exception for details. --
-
->System.Data.SqlClient.SqlException: A transport-level error has occurred when
-
-receiving results from the server. (provider: Session Provider, error: 19 –
-
-Physical connection is not usable)"
-
-Chatbot greeting
-
-The chatbot’s greeting does not show the user’s name. You need to debug the chatbot locally.
-
-Language processing
-
-Users report that the bot fails to understand when a customer attempts to order dishes that use Italian
-
-names.
-
-App code
-
-Relevant portions of the app files are shown below. Line numbers are included for reference only and
-
-include a two-character prefix that denotes the specific file to which they belong.
-
-![](image/image-657.webp)
-
-HOTSPOT
+[Case-10](scenario.md#case-10)
 
 You are developing a workflow solution using Azure technologies.
 
-What should you implement to meet each requirement? To answer, select the appropriate options in the
-
-answer area.
-
-NOTE: Each correct selection is worth one point.
-
-Hot Area:
+What should you implement to meet each requirement? To answer, select the appropriate options in the answer area.
 
 ![](image/image-690.webp)
 
@@ -5062,145 +634,15 @@ Hot Area:
 
 **SCENARIO:**
 
-TESTLET-10.
+[Case-10](scenario.md#case-10)
 
-Case Study
+You are developing a SMS-based testing solution. The solution sends users a question by using SMS. Early responders may qualify for prizes.
 
-Background
-
-Best For You Organics Company is a global restaurant franchise that has multiple locations. The company
-
-wants to enhance user experiences and vendor integrations. The company plans to implement automated
-
-mobile ordering and delivery services.
-
-Best For You Organics hosts an Azure web app at the URL https://www.bestforyouorganics.com. Users can
-
-use the web app to browse restaurant location, menu items, nutritional information, and company
-
-information. The company developed and deployed a cross-platform mobile app.
-
-Requirements
-
-Chatbot
-
-You must develop a chatbot by using the Bot Builder SDK and Language Understanding Intelligence
-
-Service (LUIS). The chatbot must allow users to order food for pickup or delivery.
-
-The chatbot must meet the following requirements:
-
-	- Ensure that chatbot is secure by using the Bot Framework connector.
-
-	- Use natural language processing and speech recognition so that users can interact with the chatbot by
-
-using text and voice. Processing must be server-based.
-
-	- Alert users about promotions at local restaurants.
-
-	- Enable users to place an order for delivery or pickup by using their voice.
-
-	- Greet the user upon sign-in by displaying a graphical interface that contains action buttons.
-
-	- The chatbot greeting interface must match the formatting of the following example:
-
-![](image/image-648.webp)
-
-Vendor API
-
-Vendors receive and provide updates for the restaurant inventory and delivery services by using Azure API
-
-Management hosted APIs. Each vendor uses their own subscription to access each of the APIs.
-
-APIs must meet the following conditions:
-
-	- API usage must not exceed 5,000 calls and 50,000 kilobytes of bandwidth per hour per vendor.
-
-	- If a vendor is nearing the number of calls or bandwidth limit, the API must trigger email notifications to
-
-the vendor.
-
-	- API must prevent API usage spikes on a per-subscription basis by limiting the call rate to 100 calls per
-
-minute.
-
-	- The Inventory API must be written by using ASP.NET Core and Node.js.
-
-	- The API must be updated to provide an interface to Azure SQL Database objects must be managed by
-
-using code.
-
-	- The Delivery API must be protected by using the OAuth 2.0 protocol with Azure Active Directory (Azure
-
-AD) when called from the Azure web app. You register the Delivery API and web app in Azure AD. You
-
-enable OAuth 2.0 in the web app.
-
-	- The delivery API must update the Products table, the Vendor transactions table, and the Billing table in a
-
-single transaction.
-
-The Best For You Organics Company architecture team has created the following diagram depicting the
-
-expected deployments into Azure:
-
-![](image/image-656.webp)
-
-Architecture
-
-Issues
-
-Delivery API
-
-The Delivery API intermittently throws the following exception:
-
-"System.Data.Entity.Core.EntityCommandExecutionException: An error occurred
-
-while executing the command definition. See the inner exception for details. --
-
->System.Data.SqlClient.SqlException: A transport-level error has occurred when
-
-receiving results from the server. (provider: Session Provider, error: 19 –
-
-Physical connection is not usable)"
-
-Chatbot greeting
-
-The chatbot’s greeting does not show the user’s name. You need to debug the chatbot locally.
-
-Language processing
-
-Users report that the bot fails to understand when a customer attempts to order dishes that use Italian
-
-names.
-
-App code
-
-Relevant portions of the app files are shown below. Line numbers are included for reference only and
-
-include a two-character prefix that denotes the specific file to which they belong.
-
-![](image/image-657.webp)
-
-HOTSPOT
-
-You are developing a SMS-based testing solution. The solution sends users a question by using SMS. Early
-
-responders may qualify for prizes.
-
-Users must respond with an answer choice within 90 seconds. You must be able to track how long it takes
-
-each user to respond. You create a durable Azure Function named SendSmsQuizQuestion that uses Twilio
-
-to send messages.
+Users must respond with an answer choice within 90 seconds. You must be able to track how long it takes each user to respond. You create a durable Azure Function named SendSmsQuizQuestion that uses Twilio to send messages.
 
 You need to write the code for MessageQuiz.
 
 How should you complete the code? To answer, select the appropriate options in the answer area.
-
-NOTE: Each correct selection is worth one point.
-
-Hot Area:
 
 ![](image/image-692.webp)
 
@@ -5210,127 +652,7 @@ Hot Area:
 
 **SCENARIO:**
 
-TESTLET-10.
-
-Case Study
-
-Background
-
-Best For You Organics Company is a global restaurant franchise that has multiple locations. The company
-
-wants to enhance user experiences and vendor integrations. The company plans to implement automated
-
-mobile ordering and delivery services.
-
-Best For You Organics hosts an Azure web app at the URL https://www.bestforyouorganics.com. Users can
-
-use the web app to browse restaurant location, menu items, nutritional information, and company
-
-information. The company developed and deployed a cross-platform mobile app.
-
-Requirements
-
-Chatbot
-
-You must develop a chatbot by using the Bot Builder SDK and Language Understanding Intelligence
-
-Service (LUIS). The chatbot must allow users to order food for pickup or delivery.
-
-The chatbot must meet the following requirements:
-
-	- Ensure that chatbot is secure by using the Bot Framework connector.
-
-	- Use natural language processing and speech recognition so that users can interact with the chatbot by
-
-using text and voice. Processing must be server-based.
-
-	- Alert users about promotions at local restaurants.
-
-	- Enable users to place an order for delivery or pickup by using their voice.
-
-	- Greet the user upon sign-in by displaying a graphical interface that contains action buttons.
-
-	- The chatbot greeting interface must match the formatting of the following example:
-
-![](image/image-648.webp)
-
-Vendor API
-
-Vendors receive and provide updates for the restaurant inventory and delivery services by using Azure API
-
-Management hosted APIs. Each vendor uses their own subscription to access each of the APIs.
-
-APIs must meet the following conditions:
-
-	- API usage must not exceed 5,000 calls and 50,000 kilobytes of bandwidth per hour per vendor.
-
-	- If a vendor is nearing the number of calls or bandwidth limit, the API must trigger email notifications to
-
-the vendor.
-
-	- API must prevent API usage spikes on a per-subscription basis by limiting the call rate to 100 calls per
-
-minute.
-
-	- The Inventory API must be written by using ASP.NET Core and Node.js.
-
-	- The API must be updated to provide an interface to Azure SQL Database objects must be managed by
-
-using code.
-
-	- The Delivery API must be protected by using the OAuth 2.0 protocol with Azure Active Directory (Azure
-
-AD) when called from the Azure web app. You register the Delivery API and web app in Azure AD. You
-
-enable OAuth 2.0 in the web app.
-
-	- The delivery API must update the Products table, the Vendor transactions table, and the Billing table in a
-
-single transaction.
-
-The Best For You Organics Company architecture team has created the following diagram depicting the
-
-expected deployments into Azure:
-
-![](image/image-656.webp)
-
-Architecture
-
-Issues
-
-Delivery API
-
-The Delivery API intermittently throws the following exception:
-
-"System.Data.Entity.Core.EntityCommandExecutionException: An error occurred
-
-while executing the command definition. See the inner exception for details. --
-
->System.Data.SqlClient.SqlException: A transport-level error has occurred when
-
-receiving results from the server. (provider: Session Provider, error: 19 –
-
-Physical connection is not usable)"
-
-Chatbot greeting
-
-The chatbot’s greeting does not show the user’s name. You need to debug the chatbot locally.
-
-Language processing
-
-Users report that the bot fails to understand when a customer attempts to order dishes that use Italian
-
-names.
-
-App code
-
-Relevant portions of the app files are shown below. Line numbers are included for reference only and
-
-include a two-character prefix that denotes the specific file to which they belong.
-
-![](image/image-657.webp)
-
-HOTSPOT
+[Case-10](scenario.md#case-10)
 
 You are developing a solution that requires serverless code execution in Azure.
 
@@ -5340,10 +662,6 @@ You need to ensure that the second function can use the output from the first fu
 
 How should you complete the code? To answer, select the appropriate options in the answer area.
 
-NOTE: Each correct selection is worth one point.
-
-Hot Area:
-
 ![](image/image-694.webp)
 
 [See the answer](#answer-234)
@@ -5352,131 +670,11 @@ Hot Area:
 
 **SCENARIO:**
 
-TESTLET-10.
-
-Case Study
-
-Background
-
-Best For You Organics Company is a global restaurant franchise that has multiple locations. The company
-
-wants to enhance user experiences and vendor integrations. The company plans to implement automated
-
-mobile ordering and delivery services.
-
-Best For You Organics hosts an Azure web app at the URL https://www.bestforyouorganics.com. Users can
-
-use the web app to browse restaurant location, menu items, nutritional information, and company
-
-information. The company developed and deployed a cross-platform mobile app.
-
-Requirements
-
-Chatbot
-
-You must develop a chatbot by using the Bot Builder SDK and Language Understanding Intelligence
-
-Service (LUIS). The chatbot must allow users to order food for pickup or delivery.
-
-The chatbot must meet the following requirements:
-
-	- Ensure that chatbot is secure by using the Bot Framework connector.
-
-	- Use natural language processing and speech recognition so that users can interact with the chatbot by
-
-using text and voice. Processing must be server-based.
-
-	- Alert users about promotions at local restaurants.
-
-	- Enable users to place an order for delivery or pickup by using their voice.
-
-	- Greet the user upon sign-in by displaying a graphical interface that contains action buttons.
-
-	- The chatbot greeting interface must match the formatting of the following example:
-
-![](image/image-648.webp)
-
-Vendor API
-
-Vendors receive and provide updates for the restaurant inventory and delivery services by using Azure API
-
-Management hosted APIs. Each vendor uses their own subscription to access each of the APIs.
-
-APIs must meet the following conditions:
-
-	- API usage must not exceed 5,000 calls and 50,000 kilobytes of bandwidth per hour per vendor.
-
-	- If a vendor is nearing the number of calls or bandwidth limit, the API must trigger email notifications to
-
-the vendor.
-
-	- API must prevent API usage spikes on a per-subscription basis by limiting the call rate to 100 calls per
-
-minute.
-
-	- The Inventory API must be written by using ASP.NET Core and Node.js.
-
-	- The API must be updated to provide an interface to Azure SQL Database objects must be managed by
-
-using code.
-
-	- The Delivery API must be protected by using the OAuth 2.0 protocol with Azure Active Directory (Azure
-
-AD) when called from the Azure web app. You register the Delivery API and web app in Azure AD. You
-
-enable OAuth 2.0 in the web app.
-
-	- The delivery API must update the Products table, the Vendor transactions table, and the Billing table in a
-
-single transaction.
-
-The Best For You Organics Company architecture team has created the following diagram depicting the
-
-expected deployments into Azure:
-
-![](image/image-656.webp)
-
-Architecture
-
-Issues
-
-Delivery API
-
-The Delivery API intermittently throws the following exception:
-
-"System.Data.Entity.Core.EntityCommandExecutionException: An error occurred
-
-while executing the command definition. See the inner exception for details. --
-
->System.Data.SqlClient.SqlException: A transport-level error has occurred when
-
-receiving results from the server. (provider: Session Provider, error: 19 –
-
-Physical connection is not usable)"
-
-Chatbot greeting
-
-The chatbot’s greeting does not show the user’s name. You need to debug the chatbot locally.
-
-Language processing
-
-Users report that the bot fails to understand when a customer attempts to order dishes that use Italian
-
-names.
-
-App code
-
-Relevant portions of the app files are shown below. Line numbers are included for reference only and
-
-include a two-character prefix that denotes the specific file to which they belong.
-
-![](image/image-657.webp)
+[Case-10](scenario.md#case-10)
 
 You are developing an app that references data which is sharded across multiple Azure SQL databases.
 
-The app must guarantee transactional consistency for changes across several different sharding key
-
-values.
+The app must guarantee transactional consistency for changes across several different sharding key values.
 
 You need to manage the transactions.
 
@@ -5496,137 +694,13 @@ What should you implement?
 
 **SCENARIO:**
 
-TESTLET-10.
-
-Case Study
-
-Background
-
-Best For You Organics Company is a global restaurant franchise that has multiple locations. The company
-
-wants to enhance user experiences and vendor integrations. The company plans to implement automated
-
-mobile ordering and delivery services.
-
-Best For You Organics hosts an Azure web app at the URL https://www.bestforyouorganics.com. Users can
-
-use the web app to browse restaurant location, menu items, nutritional information, and company
-
-information. The company developed and deployed a cross-platform mobile app.
-
-Requirements
-
-Chatbot
-
-You must develop a chatbot by using the Bot Builder SDK and Language Understanding Intelligence
-
-Service (LUIS). The chatbot must allow users to order food for pickup or delivery.
-
-The chatbot must meet the following requirements:
-
-	- Ensure that chatbot is secure by using the Bot Framework connector.
-
-	- Use natural language processing and speech recognition so that users can interact with the chatbot by
-
-using text and voice. Processing must be server-based.
-
-	- Alert users about promotions at local restaurants.
-
-	- Enable users to place an order for delivery or pickup by using their voice.
-
-	- Greet the user upon sign-in by displaying a graphical interface that contains action buttons.
-
-	- The chatbot greeting interface must match the formatting of the following example:
-
-![](image/image-648.webp)
-
-Vendor API
-
-Vendors receive and provide updates for the restaurant inventory and delivery services by using Azure API
-
-Management hosted APIs. Each vendor uses their own subscription to access each of the APIs.
-
-APIs must meet the following conditions:
-
-	- API usage must not exceed 5,000 calls and 50,000 kilobytes of bandwidth per hour per vendor.
-
-	- If a vendor is nearing the number of calls or bandwidth limit, the API must trigger email notifications to
-
-the vendor.
-
-	- API must prevent API usage spikes on a per-subscription basis by limiting the call rate to 100 calls per
-
-minute.
-
-	- The Inventory API must be written by using ASP.NET Core and Node.js.
-
-	- The API must be updated to provide an interface to Azure SQL Database objects must be managed by
-
-using code.
-
-	- The Delivery API must be protected by using the OAuth 2.0 protocol with Azure Active Directory (Azure
-
-AD) when called from the Azure web app. You register the Delivery API and web app in Azure AD. You
-
-enable OAuth 2.0 in the web app.
-
-	- The delivery API must update the Products table, the Vendor transactions table, and the Billing table in a
-
-single transaction.
-
-The Best For You Organics Company architecture team has created the following diagram depicting the
-
-expected deployments into Azure:
-
-![](image/image-656.webp)
-
-Architecture
-
-Issues
-
-Delivery API
-
-The Delivery API intermittently throws the following exception:
-
-"System.Data.Entity.Core.EntityCommandExecutionException: An error occurred
-
-while executing the command definition. See the inner exception for details. --
-
->System.Data.SqlClient.SqlException: A transport-level error has occurred when
-
-receiving results from the server. (provider: Session Provider, error: 19 –
-
-Physical connection is not usable)"
-
-Chatbot greeting
-
-The chatbot’s greeting does not show the user’s name. You need to debug the chatbot locally.
-
-Language processing
-
-Users report that the bot fails to understand when a customer attempts to order dishes that use Italian
-
-names.
-
-App code
-
-Relevant portions of the app files are shown below. Line numbers are included for reference only and
-
-include a two-character prefix that denotes the specific file to which they belong.
-
-![](image/image-657.webp)
-
-HOTSPOT
+[Case-10](scenario.md#case-10)
 
 You are creating a bot for a company by using QnA Maker.
 
 You need to ensure that the company can update the bot without third-party assistance.
 
 What should you use? To answer, select the appropriate options in the answer area.
-
-NOTE: Each correct selection is worth one point.
-
-Hot Area:
 
 ![](image/image-696.webp)
 
@@ -5636,125 +710,7 @@ Hot Area:
 
 **SCENARIO:**
 
-TESTLET-10.
-
-Case Study
-
-Background
-
-Best For You Organics Company is a global restaurant franchise that has multiple locations. The company
-
-wants to enhance user experiences and vendor integrations. The company plans to implement automated
-
-mobile ordering and delivery services.
-
-Best For You Organics hosts an Azure web app at the URL https://www.bestforyouorganics.com. Users can
-
-use the web app to browse restaurant location, menu items, nutritional information, and company
-
-information. The company developed and deployed a cross-platform mobile app.
-
-Requirements
-
-Chatbot
-
-You must develop a chatbot by using the Bot Builder SDK and Language Understanding Intelligence
-
-Service (LUIS). The chatbot must allow users to order food for pickup or delivery.
-
-The chatbot must meet the following requirements:
-
-	- Ensure that chatbot is secure by using the Bot Framework connector.
-
-	- Use natural language processing and speech recognition so that users can interact with the chatbot by
-
-using text and voice. Processing must be server-based.
-
-	- Alert users about promotions at local restaurants.
-
-	- Enable users to place an order for delivery or pickup by using their voice.
-
-	- Greet the user upon sign-in by displaying a graphical interface that contains action buttons.
-
-	- The chatbot greeting interface must match the formatting of the following example:
-
-![](image/image-648.webp)
-
-Vendor API
-
-Vendors receive and provide updates for the restaurant inventory and delivery services by using Azure API
-
-Management hosted APIs. Each vendor uses their own subscription to access each of the APIs.
-
-APIs must meet the following conditions:
-
-	- API usage must not exceed 5,000 calls and 50,000 kilobytes of bandwidth per hour per vendor.
-
-	- If a vendor is nearing the number of calls or bandwidth limit, the API must trigger email notifications to
-
-the vendor.
-
-	- API must prevent API usage spikes on a per-subscription basis by limiting the call rate to 100 calls per
-
-minute.
-
-	- The Inventory API must be written by using ASP.NET Core and Node.js.
-
-	- The API must be updated to provide an interface to Azure SQL Database objects must be managed by
-
-using code.
-
-	- The Delivery API must be protected by using the OAuth 2.0 protocol with Azure Active Directory (Azure
-
-AD) when called from the Azure web app. You register the Delivery API and web app in Azure AD. You
-
-enable OAuth 2.0 in the web app.
-
-	- The delivery API must update the Products table, the Vendor transactions table, and the Billing table in a
-
-single transaction.
-
-The Best For You Organics Company architecture team has created the following diagram depicting the
-
-expected deployments into Azure:
-
-![](image/image-656.webp)
-
-Architecture
-
-Issues
-
-Delivery API
-
-The Delivery API intermittently throws the following exception:
-
-"System.Data.Entity.Core.EntityCommandExecutionException: An error occurred
-
-while executing the command definition. See the inner exception for details. --
-
->System.Data.SqlClient.SqlException: A transport-level error has occurred when
-
-receiving results from the server. (provider: Session Provider, error: 19 –
-
-Physical connection is not usable)"
-
-Chatbot greeting
-
-The chatbot’s greeting does not show the user’s name. You need to debug the chatbot locally.
-
-Language processing
-
-Users report that the bot fails to understand when a customer attempts to order dishes that use Italian
-
-names.
-
-App code
-
-Relevant portions of the app files are shown below. Line numbers are included for reference only and
-
-include a two-character prefix that denotes the specific file to which they belong.
-
-![](image/image-657.webp)
+[Case-10](scenario.md#case-10)
 
 You are developing a speech-enabled home automation control bot.
 
@@ -5778,143 +734,15 @@ What should you implement?
 
 **SCENARIO:**
 
-TESTLET-10.
+[Case-10](scenario.md#case-10)
 
-Case Study
-
-Background
-
-Best For You Organics Company is a global restaurant franchise that has multiple locations. The company
-
-wants to enhance user experiences and vendor integrations. The company plans to implement automated
-
-mobile ordering and delivery services.
-
-Best For You Organics hosts an Azure web app at the URL https://www.bestforyouorganics.com. Users can
-
-use the web app to browse restaurant location, menu items, nutritional information, and company
-
-information. The company developed and deployed a cross-platform mobile app.
-
-Requirements
-
-Chatbot
-
-You must develop a chatbot by using the Bot Builder SDK and Language Understanding Intelligence
-
-Service (LUIS). The chatbot must allow users to order food for pickup or delivery.
-
-The chatbot must meet the following requirements:
-
-	- Ensure that chatbot is secure by using the Bot Framework connector.
-
-	- Use natural language processing and speech recognition so that users can interact with the chatbot by
-
-using text and voice. Processing must be server-based.
-
-	- Alert users about promotions at local restaurants.
-
-	- Enable users to place an order for delivery or pickup by using their voice.
-
-	- Greet the user upon sign-in by displaying a graphical interface that contains action buttons.
-
-	- The chatbot greeting interface must match the formatting of the following example:
-
-![](image/image-648.webp)
-
-Vendor API
-
-Vendors receive and provide updates for the restaurant inventory and delivery services by using Azure API
-
-Management hosted APIs. Each vendor uses their own subscription to access each of the APIs.
-
-APIs must meet the following conditions:
-
-	- API usage must not exceed 5,000 calls and 50,000 kilobytes of bandwidth per hour per vendor.
-
-	- If a vendor is nearing the number of calls or bandwidth limit, the API must trigger email notifications to
-
-the vendor.
-
-	- API must prevent API usage spikes on a per-subscription basis by limiting the call rate to 100 calls per
-
-minute.
-
-	- The Inventory API must be written by using ASP.NET Core and Node.js.
-
-	- The API must be updated to provide an interface to Azure SQL Database objects must be managed by
-
-using code.
-
-	- The Delivery API must be protected by using the OAuth 2.0 protocol with Azure Active Directory (Azure
-
-AD) when called from the Azure web app. You register the Delivery API and web app in Azure AD. You
-
-enable OAuth 2.0 in the web app.
-
-	- The delivery API must update the Products table, the Vendor transactions table, and the Billing table in a
-
-single transaction.
-
-The Best For You Organics Company architecture team has created the following diagram depicting the
-
-expected deployments into Azure:
-
-![](image/image-656.webp)
-
-Architecture
-
-Issues
-
-Delivery API
-
-The Delivery API intermittently throws the following exception:
-
-"System.Data.Entity.Core.EntityCommandExecutionException: An error occurred
-
-while executing the command definition. See the inner exception for details. --
-
->System.Data.SqlClient.SqlException: A transport-level error has occurred when
-
-receiving results from the server. (provider: Session Provider, error: 19 –
-
-Physical connection is not usable)"
-
-Chatbot greeting
-
-The chatbot’s greeting does not show the user’s name. You need to debug the chatbot locally.
-
-Language processing
-
-Users report that the bot fails to understand when a customer attempts to order dishes that use Italian
-
-names.
-
-App code
-
-Relevant portions of the app files are shown below. Line numbers are included for reference only and
-
-include a two-character prefix that denotes the specific file to which they belong.
-
-![](image/image-657.webp)
-
-DRAG DROP
-
-Your company develops a bot that uses QnA Maker knowledge bases and Language Understanding
-
-Intelligence Services  (LUIS). You create the QnA Maker service, knowledge bases, and the LUIS app.
+Your company develops a bot that uses QnA Maker knowledge bases and Language Understanding Intelligence Services  (LUIS). You create the QnA Maker service, knowledge bases, and the LUIS app.
 
 The bot application must use LUIS to determine which QnA Maker knowledge base to use.
 
-You need to integrate LUIS with the QnA Maker knowledge bases and maximize the effectiveness for
+You need to integrate LUIS with the QnA Maker knowledge bases and maximize the effectiveness for selecting the QnA Maker knowledge bases before testing the bot.
 
-selecting the QnA Maker knowledge bases before testing the bot.
-
-Which four actions should you perform in sequence? To answer, move the appropriate actions from the list
-
-of actions to the answer area and arrange them in the correct order.
-
-Select and Place:
+Which four actions should you perform in sequence? To answer, move the appropriate actions from the list of actions to the answer area and arrange them in the correct order.
 
 ![](image/image-698.webp)
 
@@ -5924,141 +752,13 @@ Select and Place:
 
 **SCENARIO:**
 
-TESTLET-10.
+[Case-10](scenario.md#case-10)
 
-Case Study
-
-Background
-
-Best For You Organics Company is a global restaurant franchise that has multiple locations. The company
-
-wants to enhance user experiences and vendor integrations. The company plans to implement automated
-
-mobile ordering and delivery services.
-
-Best For You Organics hosts an Azure web app at the URL https://www.bestforyouorganics.com. Users can
-
-use the web app to browse restaurant location, menu items, nutritional information, and company
-
-information. The company developed and deployed a cross-platform mobile app.
-
-Requirements
-
-Chatbot
-
-You must develop a chatbot by using the Bot Builder SDK and Language Understanding Intelligence
-
-Service (LUIS). The chatbot must allow users to order food for pickup or delivery.
-
-The chatbot must meet the following requirements:
-
-	- Ensure that chatbot is secure by using the Bot Framework connector.
-
-	- Use natural language processing and speech recognition so that users can interact with the chatbot by
-
-using text and voice. Processing must be server-based.
-
-	- Alert users about promotions at local restaurants.
-
-	- Enable users to place an order for delivery or pickup by using their voice.
-
-	- Greet the user upon sign-in by displaying a graphical interface that contains action buttons.
-
-	- The chatbot greeting interface must match the formatting of the following example:
-
-![](image/image-648.webp)
-
-Vendor API
-
-Vendors receive and provide updates for the restaurant inventory and delivery services by using Azure API
-
-Management hosted APIs. Each vendor uses their own subscription to access each of the APIs.
-
-APIs must meet the following conditions:
-
-	- API usage must not exceed 5,000 calls and 50,000 kilobytes of bandwidth per hour per vendor.
-
-	- If a vendor is nearing the number of calls or bandwidth limit, the API must trigger email notifications to
-
-the vendor.
-
-	- API must prevent API usage spikes on a per-subscription basis by limiting the call rate to 100 calls per
-
-minute.
-
-	- The Inventory API must be written by using ASP.NET Core and Node.js.
-
-	- The API must be updated to provide an interface to Azure SQL Database objects must be managed by
-
-using code.
-
-	- The Delivery API must be protected by using the OAuth 2.0 protocol with Azure Active Directory (Azure
-
-AD) when called from the Azure web app. You register the Delivery API and web app in Azure AD. You
-
-enable OAuth 2.0 in the web app.
-
-	- The delivery API must update the Products table, the Vendor transactions table, and the Billing table in a
-
-single transaction.
-
-The Best For You Organics Company architecture team has created the following diagram depicting the
-
-expected deployments into Azure:
-
-![](image/image-656.webp)
-
-Architecture
-
-Issues
-
-Delivery API
-
-The Delivery API intermittently throws the following exception:
-
-"System.Data.Entity.Core.EntityCommandExecutionException: An error occurred
-
-while executing the command definition. See the inner exception for details. --
-
->System.Data.SqlClient.SqlException: A transport-level error has occurred when
-
-receiving results from the server. (provider: Session Provider, error: 19 –
-
-Physical connection is not usable)"
-
-Chatbot greeting
-
-The chatbot’s greeting does not show the user’s name. You need to debug the chatbot locally.
-
-Language processing
-
-Users report that the bot fails to understand when a customer attempts to order dishes that use Italian
-
-names.
-
-App code
-
-Relevant portions of the app files are shown below. Line numbers are included for reference only and
-
-include a two-character prefix that denotes the specific file to which they belong.
-
-![](image/image-657.webp)
-
-HOTSPOT
-
-You create a virtual machine scale set named Scale1. Scale1 is configured as shown in the following
-
-exhibit.
+You create a virtual machine scale set named Scale1. Scale1 is configured as shown in the following exhibit.
 
 ![](image/image-700.webp)
 
-Use the drop-down menus to select the answer choice that completes each statement based on the
-
-information presented in the graphic.
-
-NOTE: Each correct selection is worth one point.
-
-Hot Area:
+Use the drop-down menus to select the answer choice that completes each statement based on the information presented in the graphic.
 
 ![](image/image-701.webp)
 
@@ -6068,131 +768,9 @@ Hot Area:
 
 **SCENARIO:**
 
-TESTLET-10.
+[Case-10](scenario.md#case-10)
 
-Case Study
-
-Background
-
-Best For You Organics Company is a global restaurant franchise that has multiple locations. The company
-
-wants to enhance user experiences and vendor integrations. The company plans to implement automated
-
-mobile ordering and delivery services.
-
-Best For You Organics hosts an Azure web app at the URL https://www.bestforyouorganics.com. Users can
-
-use the web app to browse restaurant location, menu items, nutritional information, and company
-
-information. The company developed and deployed a cross-platform mobile app.
-
-Requirements
-
-Chatbot
-
-You must develop a chatbot by using the Bot Builder SDK and Language Understanding Intelligence
-
-Service (LUIS). The chatbot must allow users to order food for pickup or delivery.
-
-The chatbot must meet the following requirements:
-
-	- Ensure that chatbot is secure by using the Bot Framework connector.
-
-	- Use natural language processing and speech recognition so that users can interact with the chatbot by
-
-using text and voice. Processing must be server-based.
-
-	- Alert users about promotions at local restaurants.
-
-	- Enable users to place an order for delivery or pickup by using their voice.
-
-	- Greet the user upon sign-in by displaying a graphical interface that contains action buttons.
-
-	- The chatbot greeting interface must match the formatting of the following example:
-
-![](image/image-648.webp)
-
-Vendor API
-
-Vendors receive and provide updates for the restaurant inventory and delivery services by using Azure API
-
-Management hosted APIs. Each vendor uses their own subscription to access each of the APIs.
-
-APIs must meet the following conditions:
-
-	- API usage must not exceed 5,000 calls and 50,000 kilobytes of bandwidth per hour per vendor.
-
-	- If a vendor is nearing the number of calls or bandwidth limit, the API must trigger email notifications to
-
-the vendor.
-
-	- API must prevent API usage spikes on a per-subscription basis by limiting the call rate to 100 calls per
-
-minute.
-
-	- The Inventory API must be written by using ASP.NET Core and Node.js.
-
-	- The API must be updated to provide an interface to Azure SQL Database objects must be managed by
-
-using code.
-
-	- The Delivery API must be protected by using the OAuth 2.0 protocol with Azure Active Directory (Azure
-
-AD) when called from the Azure web app. You register the Delivery API and web app in Azure AD. You
-
-enable OAuth 2.0 in the web app.
-
-	- The delivery API must update the Products table, the Vendor transactions table, and the Billing table in a
-
-single transaction.
-
-The Best For You Organics Company architecture team has created the following diagram depicting the
-
-expected deployments into Azure:
-
-![](image/image-656.webp)
-
-Architecture
-
-Issues
-
-Delivery API
-
-The Delivery API intermittently throws the following exception:
-
-"System.Data.Entity.Core.EntityCommandExecutionException: An error occurred
-
-while executing the command definition. See the inner exception for details. --
-
->System.Data.SqlClient.SqlException: A transport-level error has occurred when
-
-receiving results from the server. (provider: Session Provider, error: 19 –
-
-Physical connection is not usable)"
-
-Chatbot greeting
-
-The chatbot’s greeting does not show the user’s name. You need to debug the chatbot locally.
-
-Language processing
-
-Users report that the bot fails to understand when a customer attempts to order dishes that use Italian
-
-names.
-
-App code
-
-Relevant portions of the app files are shown below. Line numbers are included for reference only and
-
-include a two-character prefix that denotes the specific file to which they belong.
-
-![](image/image-657.webp)
-
-HOTSPOT
-
-Your company hosts multiple website by using Azure virtual machine scale sets (VMSS) that run Internet
-
-Information Server (IIS).
+Your company hosts multiple website by using Azure virtual machine scale sets (VMSS) that run Internet Information Server (IIS).
 
 All network communications must be secured by using end to end Secure Socket Layer (SSL) encryption.
 
@@ -6204,10 +782,6 @@ The image shown depicts the network traffic flow for the web sites to the VMSS.
 
 Use the drop-down menus to select the answer choice that answers each question.
 
-NOTE: Each correct selection is worth one point.
-
-Hot Area:
-
 ![](image/image-704.webp)
 
 [See the answer](#answer-240)
@@ -6216,187 +790,15 @@ Hot Area:
 
 **SCENARIO:**
 
-TESTLET-10.
+[Case-10](scenario.md#case-10)
 
-Case Study
+You need to create a virtual network named VNET1008 that contains three subnets named subnet0, subnet1, and subnet2. The solution must meet the following requirements:
 
-Background
+- Connections from any of the subnets to the Internet must be blocked
 
-Best For You Organics Company is a global restaurant franchise that has multiple locations. The company
+- Connections from the Internet to any of the subnets must be blocked
 
-wants to enhance user experiences and vendor integrations. The company plans to implement automated
-
-mobile ordering and delivery services.
-
-Best For You Organics hosts an Azure web app at the URL https://www.bestforyouorganics.com. Users can
-
-use the web app to browse restaurant location, menu items, nutritional information, and company
-
-information. The company developed and deployed a cross-platform mobile app.
-
-Requirements
-
-Chatbot
-
-You must develop a chatbot by using the Bot Builder SDK and Language Understanding Intelligence
-
-Service (LUIS). The chatbot must allow users to order food for pickup or delivery.
-
-The chatbot must meet the following requirements:
-
-	- Ensure that chatbot is secure by using the Bot Framework connector.
-
-	- Use natural language processing and speech recognition so that users can interact with the chatbot by
-
-using text and voice. Processing must be server-based.
-
-	- Alert users about promotions at local restaurants.
-
-	- Enable users to place an order for delivery or pickup by using their voice.
-
-	- Greet the user upon sign-in by displaying a graphical interface that contains action buttons.
-
-	- The chatbot greeting interface must match the formatting of the following example:
-
-![](image/image-648.webp)
-
-Vendor API
-
-Vendors receive and provide updates for the restaurant inventory and delivery services by using Azure API
-
-Management hosted APIs. Each vendor uses their own subscription to access each of the APIs.
-
-APIs must meet the following conditions:
-
-	- API usage must not exceed 5,000 calls and 50,000 kilobytes of bandwidth per hour per vendor.
-
-	- If a vendor is nearing the number of calls or bandwidth limit, the API must trigger email notifications to
-
-the vendor.
-
-	- API must prevent API usage spikes on a per-subscription basis by limiting the call rate to 100 calls per
-
-minute.
-
-	- The Inventory API must be written by using ASP.NET Core and Node.js.
-
-	- The API must be updated to provide an interface to Azure SQL Database objects must be managed by
-
-using code.
-
-	- The Delivery API must be protected by using the OAuth 2.0 protocol with Azure Active Directory (Azure
-
-AD) when called from the Azure web app. You register the Delivery API and web app in Azure AD. You
-
-enable OAuth 2.0 in the web app.
-
-	- The delivery API must update the Products table, the Vendor transactions table, and the Billing table in a
-
-single transaction.
-
-The Best For You Organics Company architecture team has created the following diagram depicting the
-
-expected deployments into Azure:
-
-![](image/image-656.webp)
-
-Architecture
-
-Issues
-
-Delivery API
-
-The Delivery API intermittently throws the following exception:
-
-"System.Data.Entity.Core.EntityCommandExecutionException: An error occurred
-
-while executing the command definition. See the inner exception for details. --
-
->System.Data.SqlClient.SqlException: A transport-level error has occurred when
-
-receiving results from the server. (provider: Session Provider, error: 19 –
-
-Physical connection is not usable)"
-
-Chatbot greeting
-
-The chatbot’s greeting does not show the user’s name. You need to debug the chatbot locally.
-
-Language processing
-
-Users report that the bot fails to understand when a customer attempts to order dishes that use Italian
-
-names.
-
-App code
-
-Relevant portions of the app files are shown below. Line numbers are included for reference only and
-
-include a two-character prefix that denotes the specific file to which they belong.
-
-![](image/image-657.webp)
-
-SIMULATION
-
-Click to expand each objective. To connect to the Azure portal, type https://portal.azure.com in the browser
-
-address bar.
-
-![](image/image-707.webp)
-
-![](image/image-708.webp)
-
-![](image/image-709.webp)
-
-![](image/image-710.webp)
-
-![](image/image-711.webp)
-
-![](image/image-712.webp)
-
-When you are finished performing all the tasks, click the ‘Next’ button.
-
-Note that you cannot return to the lab once you click the ‘Next’ button. Scoring occur in the background
-
-while you complete the rest of the exam.
-
-Overview 
-
-The following section of the exam is a lab. In this section, you will perform a set of tasks in a live
-
-environment. While most functionality will be available to you as it would be in a live environment, some
-
-functionality (e.g., copy and paste, ability to navigate to external websites) will not be possible by design.
-
-Scoring is based on the outcome of performing the tasks stated in the lab. In other words, it doesn’t matter
-
-how you accomplish the task, if you successfully perform it, you will earn credit for that task.
-
-Labs are not timed separately, and this exam may have more than one lab that you must complete. You
-
-can use as much time as you would like to complete each lab. But, you should manage your time
-
-appropriately to ensure that you are able to complete the lab(s) and all other sections of the exam in the
-
-time provided.
-
-Please note that once you submit your work by clicking the Next button within a lab, you will NOT be able to
-
-return to the lab.
-
-To start the lab
-
-You may start the lab by clicking the Next button.
-
-You need to create a virtual network named VNET1008 that contains three subnets named subnet0,
-
-subnet1, and subnet2. The solution must meet the following requirements:
-
-	- Connections from any of the subnets to the Internet must be blocked
-
-	- Connections from the Internet to any of the subnets must be blocked
-
-	- The number of network security groups (NSGs) and NSG rules must be minimized
+- The number of network security groups (NSGs) and NSG rules must be minimized
 
 What should you do from the Azure portal?
 
@@ -6406,135 +808,13 @@ What should you do from the Azure portal?
 
 **SCENARIO:**
 
-TESTLET-10.
-
-Case Study
-
-Background
-
-Best For You Organics Company is a global restaurant franchise that has multiple locations. The company
-
-wants to enhance user experiences and vendor integrations. The company plans to implement automated
-
-mobile ordering and delivery services.
-
-Best For You Organics hosts an Azure web app at the URL https://www.bestforyouorganics.com. Users can
-
-use the web app to browse restaurant location, menu items, nutritional information, and company
-
-information. The company developed and deployed a cross-platform mobile app.
-
-Requirements
-
-Chatbot
-
-You must develop a chatbot by using the Bot Builder SDK and Language Understanding Intelligence
-
-Service (LUIS). The chatbot must allow users to order food for pickup or delivery.
-
-The chatbot must meet the following requirements:
-
-	- Ensure that chatbot is secure by using the Bot Framework connector.
-
-	- Use natural language processing and speech recognition so that users can interact with the chatbot by
-
-using text and voice. Processing must be server-based.
-
-	- Alert users about promotions at local restaurants.
-
-	- Enable users to place an order for delivery or pickup by using their voice.
-
-	- Greet the user upon sign-in by displaying a graphical interface that contains action buttons.
-
-	- The chatbot greeting interface must match the formatting of the following example:
-
-![](image/image-648.webp)
-
-Vendor API
-
-Vendors receive and provide updates for the restaurant inventory and delivery services by using Azure API
-
-Management hosted APIs. Each vendor uses their own subscription to access each of the APIs.
-
-APIs must meet the following conditions:
-
-	- API usage must not exceed 5,000 calls and 50,000 kilobytes of bandwidth per hour per vendor.
-
-	- If a vendor is nearing the number of calls or bandwidth limit, the API must trigger email notifications to
-
-the vendor.
-
-	- API must prevent API usage spikes on a per-subscription basis by limiting the call rate to 100 calls per
-
-minute.
-
-	- The Inventory API must be written by using ASP.NET Core and Node.js.
-
-	- The API must be updated to provide an interface to Azure SQL Database objects must be managed by
-
-using code.
-
-	- The Delivery API must be protected by using the OAuth 2.0 protocol with Azure Active Directory (Azure
-
-AD) when called from the Azure web app. You register the Delivery API and web app in Azure AD. You
-
-enable OAuth 2.0 in the web app.
-
-	- The delivery API must update the Products table, the Vendor transactions table, and the Billing table in a
-
-single transaction.
-
-The Best For You Organics Company architecture team has created the following diagram depicting the
-
-expected deployments into Azure:
-
-![](image/image-656.webp)
-
-Architecture
-
-Issues
-
-Delivery API
-
-The Delivery API intermittently throws the following exception:
-
-"System.Data.Entity.Core.EntityCommandExecutionException: An error occurred
-
-while executing the command definition. See the inner exception for details. --
-
->System.Data.SqlClient.SqlException: A transport-level error has occurred when
-
-receiving results from the server. (provider: Session Provider, error: 19 –
-
-Physical connection is not usable)"
-
-Chatbot greeting
-
-The chatbot’s greeting does not show the user’s name. You need to debug the chatbot locally.
-
-Language processing
-
-Users report that the bot fails to understand when a customer attempts to order dishes that use Italian
-
-names.
-
-App code
-
-Relevant portions of the app files are shown below. Line numbers are included for reference only and
-
-include a two-character prefix that denotes the specific file to which they belong.
-
-![](image/image-657.webp)
+[Case-10](scenario.md#case-10)
 
 A company is migrating an existing on-premises third-party website to Azure. The website is stateless.
 
-The company does not have access to the source code for the website. They do not have the original
+The company does not have access to the source code for the website. They do not have the original installer.
 
-installer.
-
-The number of visitors at the website varies throughout the year. The on-premises infrastructure was
-
-resized to accommodate peaks but the extra capacity was not used.
+The number of visitors at the website varies throughout the year. The on-premises infrastructure was resized to accommodate peaks but the extra capacity was not used.
 
 You need to implement a virtual machine scale set instance.
 
@@ -6558,131 +838,11 @@ What should you do?
 
 **SCENARIO:**
 
-TESTLET-10.
-
-Case Study
-
-Background
-
-Best For You Organics Company is a global restaurant franchise that has multiple locations. The company
-
-wants to enhance user experiences and vendor integrations. The company plans to implement automated
-
-mobile ordering and delivery services.
-
-Best For You Organics hosts an Azure web app at the URL https://www.bestforyouorganics.com. Users can
-
-use the web app to browse restaurant location, menu items, nutritional information, and company
-
-information. The company developed and deployed a cross-platform mobile app.
-
-Requirements
-
-Chatbot
-
-You must develop a chatbot by using the Bot Builder SDK and Language Understanding Intelligence
-
-Service (LUIS). The chatbot must allow users to order food for pickup or delivery.
-
-The chatbot must meet the following requirements:
-
-	- Ensure that chatbot is secure by using the Bot Framework connector.
-
-	- Use natural language processing and speech recognition so that users can interact with the chatbot by
-
-using text and voice. Processing must be server-based.
-
-	- Alert users about promotions at local restaurants.
-
-	- Enable users to place an order for delivery or pickup by using their voice.
-
-	- Greet the user upon sign-in by displaying a graphical interface that contains action buttons.
-
-	- The chatbot greeting interface must match the formatting of the following example:
-
-![](image/image-648.webp)
-
-Vendor API
-
-Vendors receive and provide updates for the restaurant inventory and delivery services by using Azure API
-
-Management hosted APIs. Each vendor uses their own subscription to access each of the APIs.
-
-APIs must meet the following conditions:
-
-	- API usage must not exceed 5,000 calls and 50,000 kilobytes of bandwidth per hour per vendor.
-
-	- If a vendor is nearing the number of calls or bandwidth limit, the API must trigger email notifications to
-
-the vendor.
-
-	- API must prevent API usage spikes on a per-subscription basis by limiting the call rate to 100 calls per
-
-minute.
-
-	- The Inventory API must be written by using ASP.NET Core and Node.js.
-
-	- The API must be updated to provide an interface to Azure SQL Database objects must be managed by
-
-using code.
-
-	- The Delivery API must be protected by using the OAuth 2.0 protocol with Azure Active Directory (Azure
-
-AD) when called from the Azure web app. You register the Delivery API and web app in Azure AD. You
-
-enable OAuth 2.0 in the web app.
-
-	- The delivery API must update the Products table, the Vendor transactions table, and the Billing table in a
-
-single transaction.
-
-The Best For You Organics Company architecture team has created the following diagram depicting the
-
-expected deployments into Azure:
-
-![](image/image-656.webp)
-
-Architecture
-
-Issues
-
-Delivery API
-
-The Delivery API intermittently throws the following exception:
-
-"System.Data.Entity.Core.EntityCommandExecutionException: An error occurred
-
-while executing the command definition. See the inner exception for details. --
-
->System.Data.SqlClient.SqlException: A transport-level error has occurred when
-
-receiving results from the server. (provider: Session Provider, error: 19 –
-
-Physical connection is not usable)"
-
-Chatbot greeting
-
-The chatbot’s greeting does not show the user’s name. You need to debug the chatbot locally.
-
-Language processing
-
-Users report that the bot fails to understand when a customer attempts to order dishes that use Italian
-
-names.
-
-App code
-
-Relevant portions of the app files are shown below. Line numbers are included for reference only and
-
-include a two-character prefix that denotes the specific file to which they belong.
-
-![](image/image-657.webp)
+[Case-10](scenario.md#case-10)
 
 You have an Azure subscription named Subscription1.
 
-You create several Azure virtual machines in Subscription1. All of the virtual machines belong to the same
-
-virtual network.
+You create several Azure virtual machines in Subscription1. All of the virtual machines belong to the same virtual network.
 
 You have an on-premises Hyper-V server named Server1. Server1 hosts a virtual machine named VM1.
 
@@ -6691,8 +851,6 @@ You plan to replicate VM1 to Azure.
 You need to create additional objects in Subscription1 to support the planned deployment.
 
 Which three objects should you create? Each correct answer presents part of the solution.
-
-NOTE: Each correct selection is worth one point.
 
 * A: Hyper-V site
 
@@ -6712,133 +870,11 @@ NOTE: Each correct selection is worth one point.
 
 **SCENARIO:**
 
-TESTLET-10.
+[Case-10](scenario.md#case-10)
 
-Case Study
+Your company is developing an e-commerce Azure App Service Web App to support hundreds of restaurant locations around the world.
 
-Background
-
-Best For You Organics Company is a global restaurant franchise that has multiple locations. The company
-
-wants to enhance user experiences and vendor integrations. The company plans to implement automated
-
-mobile ordering and delivery services.
-
-Best For You Organics hosts an Azure web app at the URL https://www.bestforyouorganics.com. Users can
-
-use the web app to browse restaurant location, menu items, nutritional information, and company
-
-information. The company developed and deployed a cross-platform mobile app.
-
-Requirements
-
-Chatbot
-
-You must develop a chatbot by using the Bot Builder SDK and Language Understanding Intelligence
-
-Service (LUIS). The chatbot must allow users to order food for pickup or delivery.
-
-The chatbot must meet the following requirements:
-
-	- Ensure that chatbot is secure by using the Bot Framework connector.
-
-	- Use natural language processing and speech recognition so that users can interact with the chatbot by
-
-using text and voice. Processing must be server-based.
-
-	- Alert users about promotions at local restaurants.
-
-	- Enable users to place an order for delivery or pickup by using their voice.
-
-	- Greet the user upon sign-in by displaying a graphical interface that contains action buttons.
-
-	- The chatbot greeting interface must match the formatting of the following example:
-
-![](image/image-648.webp)
-
-Vendor API
-
-Vendors receive and provide updates for the restaurant inventory and delivery services by using Azure API
-
-Management hosted APIs. Each vendor uses their own subscription to access each of the APIs.
-
-APIs must meet the following conditions:
-
-	- API usage must not exceed 5,000 calls and 50,000 kilobytes of bandwidth per hour per vendor.
-
-	- If a vendor is nearing the number of calls or bandwidth limit, the API must trigger email notifications to
-
-the vendor.
-
-	- API must prevent API usage spikes on a per-subscription basis by limiting the call rate to 100 calls per
-
-minute.
-
-	- The Inventory API must be written by using ASP.NET Core and Node.js.
-
-	- The API must be updated to provide an interface to Azure SQL Database objects must be managed by
-
-using code.
-
-	- The Delivery API must be protected by using the OAuth 2.0 protocol with Azure Active Directory (Azure
-
-AD) when called from the Azure web app. You register the Delivery API and web app in Azure AD. You
-
-enable OAuth 2.0 in the web app.
-
-	- The delivery API must update the Products table, the Vendor transactions table, and the Billing table in a
-
-single transaction.
-
-The Best For You Organics Company architecture team has created the following diagram depicting the
-
-expected deployments into Azure:
-
-![](image/image-656.webp)
-
-Architecture
-
-Issues
-
-Delivery API
-
-The Delivery API intermittently throws the following exception:
-
-"System.Data.Entity.Core.EntityCommandExecutionException: An error occurred
-
-while executing the command definition. See the inner exception for details. --
-
->System.Data.SqlClient.SqlException: A transport-level error has occurred when
-
-receiving results from the server. (provider: Session Provider, error: 19 –
-
-Physical connection is not usable)"
-
-Chatbot greeting
-
-The chatbot’s greeting does not show the user’s name. You need to debug the chatbot locally.
-
-Language processing
-
-Users report that the bot fails to understand when a customer attempts to order dishes that use Italian
-
-names.
-
-App code
-
-Relevant portions of the app files are shown below. Line numbers are included for reference only and
-
-include a two-character prefix that denotes the specific file to which they belong.
-
-![](image/image-657.webp)
-
-Your company is developing an e-commerce Azure App Service Web App to support hundreds of
-
-restaurant locations around the world.
-
-You are designing the messaging solution architecture to support the e-commerce transactions and
-
-messages. The e-commerce application has the following features and requirements:
+You are designing the messaging solution architecture to support the e-commerce transactions and messages. The e-commerce application has the following features and requirements:
 
 ![](image/image-716.webp)
 
@@ -6860,133 +896,13 @@ Which Azure service should you use?
 
 **SCENARIO:**
 
-TESTLET-10.
-
-Case Study
-
-Background
-
-Best For You Organics Company is a global restaurant franchise that has multiple locations. The company
-
-wants to enhance user experiences and vendor integrations. The company plans to implement automated
-
-mobile ordering and delivery services.
-
-Best For You Organics hosts an Azure web app at the URL https://www.bestforyouorganics.com. Users can
-
-use the web app to browse restaurant location, menu items, nutritional information, and company
-
-information. The company developed and deployed a cross-platform mobile app.
-
-Requirements
-
-Chatbot
-
-You must develop a chatbot by using the Bot Builder SDK and Language Understanding Intelligence
-
-Service (LUIS). The chatbot must allow users to order food for pickup or delivery.
-
-The chatbot must meet the following requirements:
-
-	- Ensure that chatbot is secure by using the Bot Framework connector.
-
-	- Use natural language processing and speech recognition so that users can interact with the chatbot by
-
-using text and voice. Processing must be server-based.
-
-	- Alert users about promotions at local restaurants.
-
-	- Enable users to place an order for delivery or pickup by using their voice.
-
-	- Greet the user upon sign-in by displaying a graphical interface that contains action buttons.
-
-	- The chatbot greeting interface must match the formatting of the following example:
-
-![](image/image-648.webp)
-
-Vendor API
-
-Vendors receive and provide updates for the restaurant inventory and delivery services by using Azure API
-
-Management hosted APIs. Each vendor uses their own subscription to access each of the APIs.
-
-APIs must meet the following conditions:
-
-	- API usage must not exceed 5,000 calls and 50,000 kilobytes of bandwidth per hour per vendor.
-
-	- If a vendor is nearing the number of calls or bandwidth limit, the API must trigger email notifications to
-
-the vendor.
-
-	- API must prevent API usage spikes on a per-subscription basis by limiting the call rate to 100 calls per
-
-minute.
-
-	- The Inventory API must be written by using ASP.NET Core and Node.js.
-
-	- The API must be updated to provide an interface to Azure SQL Database objects must be managed by
-
-using code.
-
-	- The Delivery API must be protected by using the OAuth 2.0 protocol with Azure Active Directory (Azure
-
-AD) when called from the Azure web app. You register the Delivery API and web app in Azure AD. You
-
-enable OAuth 2.0 in the web app.
-
-	- The delivery API must update the Products table, the Vendor transactions table, and the Billing table in a
-
-single transaction.
-
-The Best For You Organics Company architecture team has created the following diagram depicting the
-
-expected deployments into Azure:
-
-![](image/image-656.webp)
-
-Architecture
-
-Issues
-
-Delivery API
-
-The Delivery API intermittently throws the following exception:
-
-"System.Data.Entity.Core.EntityCommandExecutionException: An error occurred
-
-while executing the command definition. See the inner exception for details. --
-
->System.Data.SqlClient.SqlException: A transport-level error has occurred when
-
-receiving results from the server. (provider: Session Provider, error: 19 –
-
-Physical connection is not usable)"
-
-Chatbot greeting
-
-The chatbot’s greeting does not show the user’s name. You need to debug the chatbot locally.
-
-Language processing
-
-Users report that the bot fails to understand when a customer attempts to order dishes that use Italian
-
-names.
-
-App code
-
-Relevant portions of the app files are shown below. Line numbers are included for reference only and
-
-include a two-character prefix that denotes the specific file to which they belong.
-
-![](image/image-657.webp)
+[Case-10](scenario.md#case-10)
 
 A company is migrating an existing on-premises third-party website to Azure. The website is stateless.
 
 The company does not have access to the source code for the website. They have the original installer.
 
-The number of visitors at the website varies throughout the year. The on-premises infrastructure was
-
-resized to accommodate peaks but the extra capacity was not used.
+The number of visitors at the website varies throughout the year. The on-premises infrastructure was resized to accommodate peaks but the extra capacity was not used.
 
 You need to implement a virtual machine scale set instance.
 
@@ -7006,139 +922,9 @@ What should you do
 
 **SCENARIO:**
 
-TESTLET-10.
+[Case-10](scenario.md#case-10)
 
-Case Study
-
-Background
-
-Best For You Organics Company is a global restaurant franchise that has multiple locations. The company
-
-wants to enhance user experiences and vendor integrations. The company plans to implement automated
-
-mobile ordering and delivery services.
-
-Best For You Organics hosts an Azure web app at the URL https://www.bestforyouorganics.com. Users can
-
-use the web app to browse restaurant location, menu items, nutritional information, and company
-
-information. The company developed and deployed a cross-platform mobile app.
-
-Requirements
-
-Chatbot
-
-You must develop a chatbot by using the Bot Builder SDK and Language Understanding Intelligence
-
-Service (LUIS). The chatbot must allow users to order food for pickup or delivery.
-
-The chatbot must meet the following requirements:
-
-	- Ensure that chatbot is secure by using the Bot Framework connector.
-
-	- Use natural language processing and speech recognition so that users can interact with the chatbot by
-
-using text and voice. Processing must be server-based.
-
-	- Alert users about promotions at local restaurants.
-
-	- Enable users to place an order for delivery or pickup by using their voice.
-
-	- Greet the user upon sign-in by displaying a graphical interface that contains action buttons.
-
-	- The chatbot greeting interface must match the formatting of the following example:
-
-![](image/image-648.webp)
-
-Vendor API
-
-Vendors receive and provide updates for the restaurant inventory and delivery services by using Azure API
-
-Management hosted APIs. Each vendor uses their own subscription to access each of the APIs.
-
-APIs must meet the following conditions:
-
-	- API usage must not exceed 5,000 calls and 50,000 kilobytes of bandwidth per hour per vendor.
-
-	- If a vendor is nearing the number of calls or bandwidth limit, the API must trigger email notifications to
-
-the vendor.
-
-	- API must prevent API usage spikes on a per-subscription basis by limiting the call rate to 100 calls per
-
-minute.
-
-	- The Inventory API must be written by using ASP.NET Core and Node.js.
-
-	- The API must be updated to provide an interface to Azure SQL Database objects must be managed by
-
-using code.
-
-	- The Delivery API must be protected by using the OAuth 2.0 protocol with Azure Active Directory (Azure
-
-AD) when called from the Azure web app. You register the Delivery API and web app in Azure AD. You
-
-enable OAuth 2.0 in the web app.
-
-	- The delivery API must update the Products table, the Vendor transactions table, and the Billing table in a
-
-single transaction.
-
-The Best For You Organics Company architecture team has created the following diagram depicting the
-
-expected deployments into Azure:
-
-![](image/image-656.webp)
-
-Architecture
-
-Issues
-
-Delivery API
-
-The Delivery API intermittently throws the following exception:
-
-"System.Data.Entity.Core.EntityCommandExecutionException: An error occurred
-
-while executing the command definition. See the inner exception for details. --
-
->System.Data.SqlClient.SqlException: A transport-level error has occurred when
-
-receiving results from the server. (provider: Session Provider, error: 19 –
-
-Physical connection is not usable)"
-
-Chatbot greeting
-
-The chatbot’s greeting does not show the user’s name. You need to debug the chatbot locally.
-
-Language processing
-
-Users report that the bot fails to understand when a customer attempts to order dishes that use Italian
-
-names.
-
-App code
-
-Relevant portions of the app files are shown below. Line numbers are included for reference only and
-
-include a two-character prefix that denotes the specific file to which they belong.
-
-![](image/image-657.webp)
-
-Note: This question is part of series of questions that present the same scenario. Each question in
-
-the series contains a unique solution that might meet the stated goals. Some question sets might
-
-have more than one correct solution, while others might not have a correct solution.
-
-After you answer a question in this section, you will NOT be able to return to it. As a result, these
-
-questions will not appear in the review screen.
-
-You have an Azure Cosmos DB database that contains a container named Container1. The partition key for
-
-Container1 is set to /day. Container1 contains the items shown in the following table.
+You have an Azure Cosmos DB database that contains a container named Container1. The partition key for Container1 is set to /day. Container1 contains the items shown in the following table.
 
 ![](image/image-721.webp)
 
@@ -7162,139 +948,9 @@ Does this meet the goal?
 
 **SCENARIO:**
 
-TESTLET-10.
+[Case-10](scenario.md#case-10)
 
-Case Study
-
-Background
-
-Best For You Organics Company is a global restaurant franchise that has multiple locations. The company
-
-wants to enhance user experiences and vendor integrations. The company plans to implement automated
-
-mobile ordering and delivery services.
-
-Best For You Organics hosts an Azure web app at the URL https://www.bestforyouorganics.com. Users can
-
-use the web app to browse restaurant location, menu items, nutritional information, and company
-
-information. The company developed and deployed a cross-platform mobile app.
-
-Requirements
-
-Chatbot
-
-You must develop a chatbot by using the Bot Builder SDK and Language Understanding Intelligence
-
-Service (LUIS). The chatbot must allow users to order food for pickup or delivery.
-
-The chatbot must meet the following requirements:
-
-	- Ensure that chatbot is secure by using the Bot Framework connector.
-
-	- Use natural language processing and speech recognition so that users can interact with the chatbot by
-
-using text and voice. Processing must be server-based.
-
-	- Alert users about promotions at local restaurants.
-
-	- Enable users to place an order for delivery or pickup by using their voice.
-
-	- Greet the user upon sign-in by displaying a graphical interface that contains action buttons.
-
-	- The chatbot greeting interface must match the formatting of the following example:
-
-![](image/image-648.webp)
-
-Vendor API
-
-Vendors receive and provide updates for the restaurant inventory and delivery services by using Azure API
-
-Management hosted APIs. Each vendor uses their own subscription to access each of the APIs.
-
-APIs must meet the following conditions:
-
-	- API usage must not exceed 5,000 calls and 50,000 kilobytes of bandwidth per hour per vendor.
-
-	- If a vendor is nearing the number of calls or bandwidth limit, the API must trigger email notifications to
-
-the vendor.
-
-	- API must prevent API usage spikes on a per-subscription basis by limiting the call rate to 100 calls per
-
-minute.
-
-	- The Inventory API must be written by using ASP.NET Core and Node.js.
-
-	- The API must be updated to provide an interface to Azure SQL Database objects must be managed by
-
-using code.
-
-	- The Delivery API must be protected by using the OAuth 2.0 protocol with Azure Active Directory (Azure
-
-AD) when called from the Azure web app. You register the Delivery API and web app in Azure AD. You
-
-enable OAuth 2.0 in the web app.
-
-	- The delivery API must update the Products table, the Vendor transactions table, and the Billing table in a
-
-single transaction.
-
-The Best For You Organics Company architecture team has created the following diagram depicting the
-
-expected deployments into Azure:
-
-![](image/image-656.webp)
-
-Architecture
-
-Issues
-
-Delivery API
-
-The Delivery API intermittently throws the following exception:
-
-"System.Data.Entity.Core.EntityCommandExecutionException: An error occurred
-
-while executing the command definition. See the inner exception for details. --
-
->System.Data.SqlClient.SqlException: A transport-level error has occurred when
-
-receiving results from the server. (provider: Session Provider, error: 19 –
-
-Physical connection is not usable)"
-
-Chatbot greeting
-
-The chatbot’s greeting does not show the user’s name. You need to debug the chatbot locally.
-
-Language processing
-
-Users report that the bot fails to understand when a customer attempts to order dishes that use Italian
-
-names.
-
-App code
-
-Relevant portions of the app files are shown below. Line numbers are included for reference only and
-
-include a two-character prefix that denotes the specific file to which they belong.
-
-![](image/image-657.webp)
-
-Note: This question is part of series of questions that present the same scenario. Each question in
-
-the series contains a unique solution that might meet the stated goals. Some question sets might
-
-have more than one correct solution, while others might not have a correct solution.
-
-After you answer a question in this section, you will NOT be able to return to it. As a result, these
-
-questions will not appear in the review screen.
-
-You have an Azure Cosmos DB database that contains a container named Container1. The partition key for
-
-Container1 is set to /day. Container1 contains the items shown in the following table.
+You have an Azure Cosmos DB database that contains a container named Container1. The partition key for Container1 is set to /day. Container1 contains the items shown in the following table.
 
 ![](image/image-723.webp)
 
@@ -7318,139 +974,9 @@ Does this meet the goal?
 
 **SCENARIO:**
 
-TESTLET-10.
+[Case-10](scenario.md#case-10)
 
-Case Study
-
-Background
-
-Best For You Organics Company is a global restaurant franchise that has multiple locations. The company
-
-wants to enhance user experiences and vendor integrations. The company plans to implement automated
-
-mobile ordering and delivery services.
-
-Best For You Organics hosts an Azure web app at the URL https://www.bestforyouorganics.com. Users can
-
-use the web app to browse restaurant location, menu items, nutritional information, and company
-
-information. The company developed and deployed a cross-platform mobile app.
-
-Requirements
-
-Chatbot
-
-You must develop a chatbot by using the Bot Builder SDK and Language Understanding Intelligence
-
-Service (LUIS). The chatbot must allow users to order food for pickup or delivery.
-
-The chatbot must meet the following requirements:
-
-	- Ensure that chatbot is secure by using the Bot Framework connector.
-
-	- Use natural language processing and speech recognition so that users can interact with the chatbot by
-
-using text and voice. Processing must be server-based.
-
-	- Alert users about promotions at local restaurants.
-
-	- Enable users to place an order for delivery or pickup by using their voice.
-
-	- Greet the user upon sign-in by displaying a graphical interface that contains action buttons.
-
-	- The chatbot greeting interface must match the formatting of the following example:
-
-![](image/image-648.webp)
-
-Vendor API
-
-Vendors receive and provide updates for the restaurant inventory and delivery services by using Azure API
-
-Management hosted APIs. Each vendor uses their own subscription to access each of the APIs.
-
-APIs must meet the following conditions:
-
-	- API usage must not exceed 5,000 calls and 50,000 kilobytes of bandwidth per hour per vendor.
-
-	- If a vendor is nearing the number of calls or bandwidth limit, the API must trigger email notifications to
-
-the vendor.
-
-	- API must prevent API usage spikes on a per-subscription basis by limiting the call rate to 100 calls per
-
-minute.
-
-	- The Inventory API must be written by using ASP.NET Core and Node.js.
-
-	- The API must be updated to provide an interface to Azure SQL Database objects must be managed by
-
-using code.
-
-	- The Delivery API must be protected by using the OAuth 2.0 protocol with Azure Active Directory (Azure
-
-AD) when called from the Azure web app. You register the Delivery API and web app in Azure AD. You
-
-enable OAuth 2.0 in the web app.
-
-	- The delivery API must update the Products table, the Vendor transactions table, and the Billing table in a
-
-single transaction.
-
-The Best For You Organics Company architecture team has created the following diagram depicting the
-
-expected deployments into Azure:
-
-![](image/image-656.webp)
-
-Architecture
-
-Issues
-
-Delivery API
-
-The Delivery API intermittently throws the following exception:
-
-"System.Data.Entity.Core.EntityCommandExecutionException: An error occurred
-
-while executing the command definition. See the inner exception for details. --
-
->System.Data.SqlClient.SqlException: A transport-level error has occurred when
-
-receiving results from the server. (provider: Session Provider, error: 19 –
-
-Physical connection is not usable)"
-
-Chatbot greeting
-
-The chatbot’s greeting does not show the user’s name. You need to debug the chatbot locally.
-
-Language processing
-
-Users report that the bot fails to understand when a customer attempts to order dishes that use Italian
-
-names.
-
-App code
-
-Relevant portions of the app files are shown below. Line numbers are included for reference only and
-
-include a two-character prefix that denotes the specific file to which they belong.
-
-![](image/image-657.webp)
-
-Note: This question is part of series of questions that present the same scenario. Each question in
-
-the series contains a unique solution that might meet the stated goals. Some question sets might
-
-have more than one correct solution, while others might not have a correct solution.
-
-After you answer a question in this section, you will NOT be able to return to it. As a result, these
-
-questions will not appear in the review screen.
-
-You have an Azure Cosmos DB database that contains a container named Container1. The partition key for
-
-Container1 is set to /day. Container1 contains the items shown in the following table.
+You have an Azure Cosmos DB database that contains a container named Container1. The partition key for Container1 is set to /day. Container1 contains the items shown in the following table.
 
 ![](image/image-725.webp)
 
@@ -7474,127 +1000,7 @@ Does this meet the goal?
 
 **SCENARIO:**
 
-TESTLET-10.
-
-Case Study
-
-Background
-
-Best For You Organics Company is a global restaurant franchise that has multiple locations. The company
-
-wants to enhance user experiences and vendor integrations. The company plans to implement automated
-
-mobile ordering and delivery services.
-
-Best For You Organics hosts an Azure web app at the URL https://www.bestforyouorganics.com. Users can
-
-use the web app to browse restaurant location, menu items, nutritional information, and company
-
-information. The company developed and deployed a cross-platform mobile app.
-
-Requirements
-
-Chatbot
-
-You must develop a chatbot by using the Bot Builder SDK and Language Understanding Intelligence
-
-Service (LUIS). The chatbot must allow users to order food for pickup or delivery.
-
-The chatbot must meet the following requirements:
-
-	- Ensure that chatbot is secure by using the Bot Framework connector.
-
-	- Use natural language processing and speech recognition so that users can interact with the chatbot by
-
-using text and voice. Processing must be server-based.
-
-	- Alert users about promotions at local restaurants.
-
-	- Enable users to place an order for delivery or pickup by using their voice.
-
-	- Greet the user upon sign-in by displaying a graphical interface that contains action buttons.
-
-	- The chatbot greeting interface must match the formatting of the following example:
-
-![](image/image-648.webp)
-
-Vendor API
-
-Vendors receive and provide updates for the restaurant inventory and delivery services by using Azure API
-
-Management hosted APIs. Each vendor uses their own subscription to access each of the APIs.
-
-APIs must meet the following conditions:
-
-	- API usage must not exceed 5,000 calls and 50,000 kilobytes of bandwidth per hour per vendor.
-
-	- If a vendor is nearing the number of calls or bandwidth limit, the API must trigger email notifications to
-
-the vendor.
-
-	- API must prevent API usage spikes on a per-subscription basis by limiting the call rate to 100 calls per
-
-minute.
-
-	- The Inventory API must be written by using ASP.NET Core and Node.js.
-
-	- The API must be updated to provide an interface to Azure SQL Database objects must be managed by
-
-using code.
-
-	- The Delivery API must be protected by using the OAuth 2.0 protocol with Azure Active Directory (Azure
-
-AD) when called from the Azure web app. You register the Delivery API and web app in Azure AD. You
-
-enable OAuth 2.0 in the web app.
-
-	- The delivery API must update the Products table, the Vendor transactions table, and the Billing table in a
-
-single transaction.
-
-The Best For You Organics Company architecture team has created the following diagram depicting the
-
-expected deployments into Azure:
-
-![](image/image-656.webp)
-
-Architecture
-
-Issues
-
-Delivery API
-
-The Delivery API intermittently throws the following exception:
-
-"System.Data.Entity.Core.EntityCommandExecutionException: An error occurred
-
-while executing the command definition. See the inner exception for details. --
-
->System.Data.SqlClient.SqlException: A transport-level error has occurred when
-
-receiving results from the server. (provider: Session Provider, error: 19 –
-
-Physical connection is not usable)"
-
-Chatbot greeting
-
-The chatbot’s greeting does not show the user’s name. You need to debug the chatbot locally.
-
-Language processing
-
-Users report that the bot fails to understand when a customer attempts to order dishes that use Italian
-
-names.
-
-App code
-
-Relevant portions of the app files are shown below. Line numbers are included for reference only and
-
-include a two-character prefix that denotes the specific file to which they belong.
-
-![](image/image-657.webp)
-
-HOTSPOT
+[Case-10](scenario.md#case-10)
 
 From Azure Cosmos DB, you create the containers shown in the following table.
 
@@ -7612,10 +1018,6 @@ You need to identify which items can be added successfully to Container1 and Con
 
 What should you identify for each container? To answer, select the appropriate options in the answer area.
 
-NOTE: Each correct selection is worth one point.
-
-Hot Area:
-
 ![](image/image-730.webp)
 
 [See the answer](#answer-249)
@@ -7624,139 +1026,9 @@ Hot Area:
 
 **SCENARIO:**
 
-TESTLET-10.
+[Case-10](scenario.md#case-10)
 
-Case Study
-
-Background
-
-Best For You Organics Company is a global restaurant franchise that has multiple locations. The company
-
-wants to enhance user experiences and vendor integrations. The company plans to implement automated
-
-mobile ordering and delivery services.
-
-Best For You Organics hosts an Azure web app at the URL https://www.bestforyouorganics.com. Users can
-
-use the web app to browse restaurant location, menu items, nutritional information, and company
-
-information. The company developed and deployed a cross-platform mobile app.
-
-Requirements
-
-Chatbot
-
-You must develop a chatbot by using the Bot Builder SDK and Language Understanding Intelligence
-
-Service (LUIS). The chatbot must allow users to order food for pickup or delivery.
-
-The chatbot must meet the following requirements:
-
-	- Ensure that chatbot is secure by using the Bot Framework connector.
-
-	- Use natural language processing and speech recognition so that users can interact with the chatbot by
-
-using text and voice. Processing must be server-based.
-
-	- Alert users about promotions at local restaurants.
-
-	- Enable users to place an order for delivery or pickup by using their voice.
-
-	- Greet the user upon sign-in by displaying a graphical interface that contains action buttons.
-
-	- The chatbot greeting interface must match the formatting of the following example:
-
-![](image/image-648.webp)
-
-Vendor API
-
-Vendors receive and provide updates for the restaurant inventory and delivery services by using Azure API
-
-Management hosted APIs. Each vendor uses their own subscription to access each of the APIs.
-
-APIs must meet the following conditions:
-
-	- API usage must not exceed 5,000 calls and 50,000 kilobytes of bandwidth per hour per vendor.
-
-	- If a vendor is nearing the number of calls or bandwidth limit, the API must trigger email notifications to
-
-the vendor.
-
-	- API must prevent API usage spikes on a per-subscription basis by limiting the call rate to 100 calls per
-
-minute.
-
-	- The Inventory API must be written by using ASP.NET Core and Node.js.
-
-	- The API must be updated to provide an interface to Azure SQL Database objects must be managed by
-
-using code.
-
-	- The Delivery API must be protected by using the OAuth 2.0 protocol with Azure Active Directory (Azure
-
-AD) when called from the Azure web app. You register the Delivery API and web app in Azure AD. You
-
-enable OAuth 2.0 in the web app.
-
-	- The delivery API must update the Products table, the Vendor transactions table, and the Billing table in a
-
-single transaction.
-
-The Best For You Organics Company architecture team has created the following diagram depicting the
-
-expected deployments into Azure:
-
-![](image/image-656.webp)
-
-Architecture
-
-Issues
-
-Delivery API
-
-The Delivery API intermittently throws the following exception:
-
-"System.Data.Entity.Core.EntityCommandExecutionException: An error occurred
-
-while executing the command definition. See the inner exception for details. --
-
->System.Data.SqlClient.SqlException: A transport-level error has occurred when
-
-receiving results from the server. (provider: Session Provider, error: 19 –
-
-Physical connection is not usable)"
-
-Chatbot greeting
-
-The chatbot’s greeting does not show the user’s name. You need to debug the chatbot locally.
-
-Language processing
-
-Users report that the bot fails to understand when a customer attempts to order dishes that use Italian
-
-names.
-
-App code
-
-Relevant portions of the app files are shown below. Line numbers are included for reference only and
-
-include a two-character prefix that denotes the specific file to which they belong.
-
-![](image/image-657.webp)
-
-Note: This question is part of series of questions that present the same scenario. Each question in
-
-the series contains a unique solution that might meet the stated goals. Some question sets might
-
-have more than one correct solution, while others might not have a correct solution.
-
-After you answer a question in this section, you will NOT be able to return to it. As a result, these
-
-questions will not appear in the review screen.
-
-You have an Azure Cosmos DB database that contains a container named Container1. The partition key for
-
-Container1 is set to /day. Container1 contains the items shown in the following table.
+You have an Azure Cosmos DB database that contains a container named Container1. The partition key for Container1 is set to /day. Container1 contains the items shown in the following table.
 
 ![](image/image-732.webp)
 
@@ -7782,8 +1054,6 @@ Does this meet the goal?
 
 ![](image/image-577.webp)
 
-**Explanation:**
-
 [Back to question](#question-201)
 
 ### Answer 202
@@ -7792,19 +1062,15 @@ Does this meet the goal?
 
 **Explanation:**
 
-You can't delete a Recovery Services vault if it is registered to a server and holds backup data. If you try to
-
-delete a vault, but can't, the vault is still configured to receive backup data.
+You can't delete a Recovery Services vault if it is registered to a server and holds backup data. If you try to delete a vault, but can't, the vault is still configured to receive backup data.
 
 Remove vault dependencies and delete vault
 
-In the vault dashboard menu, scroll down to the Protected Items section, and click Backup Items. In this
-
-menu, you can stop and delete Azure File Servers, SQL Servers in Azure VM, and Azure virtual machines.
+In the vault dashboard menu, scroll down to the Protected Items section, and click Backup Items. In this menu, you can stop and delete Azure File Servers, SQL Servers in Azure VM, and Azure virtual machines.
 
 ![](image/image-578.webp)
 
-References:
+**Reference:**
 
 https://docs.microsoft.com/en-us/azure/backup/backup-azure-delete-vault
 
@@ -7816,23 +1082,14 @@ https://docs.microsoft.com/en-us/azure/backup/backup-azure-delete-vault
 
 **Explanation:**
 
-Explanation: 
-
 Instead you should customize the default synchronization rule.
 
-Note: 
-
-To delete a custom domain name, you must first ensure that no resources in your directory rely on the
-
-domain name. You can't delete a domain name from your directory if:
-
+>**Note:** To delete a custom domain name, you must first ensure that no resources in your directory rely on the domain name. You can't delete a domain name from your directory if:
 	- Any user has a user name, email address, or proxy address that includes the domain name.
+	-Any group has an email address or proxy address that includes the domain name.
+	-Any application in your Azure AD has an app ID URI that includes the domain name.
 
--Any group has an email address or proxy address that includes the domain name.-
-
-Any application in your Azure AD has an app ID URI that includes the domain name.
-
-References:
+**Reference:**
 
 https://docs.microsoft.com/en-us/azure/active-directory/hybrid/how-to-connect-create-custom-sync-rule
 
@@ -7844,9 +1101,7 @@ https://docs.microsoft.com/en-us/azure/active-directory/hybrid/how-to-connect-cr
 
 ![](image/image-584.webp)
 
-**Explanation:**
-
-References:
+**Reference:**
 
 https://docs.microsoft.com/en-us/azure/sql-database/transparent-data-encryption-azure-sql
 
@@ -7858,13 +1113,9 @@ https://docs.microsoft.com/en-us/azure/sql-database/transparent-data-encryption-
 
 **Explanation:**
 
-A Recovery Services vault is a storage entity in Azure that houses data. The data is typically copies of data,
+A Recovery Services vault is a storage entity in Azure that houses data. The data is typically copies of data, or configuration information for virtual machines (VMs), workloads, servers, or workstations. You can use Recovery Services vaults to hold backup data for various Azure services
 
-or configuration information for virtual machines (VMs), workloads, servers, or workstations. You can use
-
-Recovery Services vaults to hold backup data for various Azure services
-
-References:
+**Reference:**
 
 https://docs.microsoft.com/en-us/azure/site-recovery/azure-to-azure-tutorial-enable-replication
 
@@ -7878,37 +1129,27 @@ https://docs.microsoft.com/en-us/azure/site-recovery/azure-to-azure-tutorial-ena
 
 Assign a role to a user
 
-1. Sign in to the Azure portal with an account that's a global admin or privileged role admin for the
-
-directory.
+1. Sign in to the Azure portal with an account that's a global admin or privileged role admin for the directory.
 
 2. Select Azure Active Directory, select Users, and then select a specific user from the list.
 
-3. For the selected user, select Directory role, select Add role, and then pick the appropriate admin roles
-
-from the Directory roles list, such as Conditional access administrator.
+3. For the selected user, select Directory role, select Add role, and then pick the appropriate admin roles from the Directory roles list, such as Conditional access administrator.
 
 4. Press Select to save.
 
-References:
+**Reference:**
 
-https://docs.microsoft.com/en-us/azure/active-directory/fundamentals/active-directory-users-assign-role-
-
-azure-portal
+https://docs.microsoft.com/en-us/azure/active-directory/fundamentals/active-directory-users-assign-role-azure-portal
 
 [Back to question](#question-206)
 
 ### Answer 207
 
-**CORRECT ANSWER:** A
-
-**Explanation:**
+**CORRECT ANSWER:**
 
 Task A: Create a Recovery Services vault (if a vault already exists skip this task, go to Task B below)
 
-A1. From Azure Portal, On the Hub menu, click All services and in the list of resources, type Recovery
-
-Services and click Recovery Services vaults.
+A1. From Azure Portal, On the Hub menu, click All services and in the list of resources, type Recovery Services and click Recovery Services vaults.
 
 ![](image/image-592.webp)
 
@@ -7918,21 +1159,15 @@ A2. On the Recovery Services vaults menu, click Add.
 
 ![](image/image-593.webp)
 
-A3. The Recovery Services vault blade opens, prompting you to provide a Name, Subscription, Resource
-
-group, and Location
+A3. The Recovery Services vault blade opens, prompting you to provide a Name, Subscription, Resource group, and Location
 
 Task B. Create a backup goal
 
-B1. On the Recovery Services vault blade (for the vault you just created), in the Getting Started section,
-
-click Backup, then on the Getting Started with Backup blade, select Backup goal.
+B1. On the Recovery Services vault blade (for the vault you just created), in the Getting Started section, click Backup, then on the Getting Started with Backup blade, select Backup goal.
 
 ![](image/image-594.webp)
 
-The Backup Goal blade opens. If the Recovery Services vault has been previously configured, then the
-
-Backup Goal blades opens when you click Backup on the Recovery Services vault blade.
+The Backup Goal blade opens. If the Recovery Services vault has been previously configured, then the Backup Goal blades opens when you click Backup on the Recovery Services vault blade.
 
 B2. From the Where is your workload running? drop-down menu, select Azure.
 
@@ -7944,9 +1179,7 @@ B4. Finish the Wizard.
 
 Task C. create a backup schedule
 
-C1. Open the Microsoft Azure Backup agent. You can find it by searching your machine for Microsoft Azure
-
-Backup.
+C1. Open the Microsoft Azure Backup agent. You can find it by searching your machine for Microsoft Azure Backup.
 
 ![](image/image-596.webp)
 
@@ -7956,15 +1189,11 @@ C2. In the Backup agent's Actions pane, click Schedule Backup to launch the Sche
 
 C3. On the Getting started page of the Schedule Backup Wizard, click Next.
 
-C4. On the Select Items to Backup page, click Add Items.
-
-The Select Items dialog opens.
+C4. On the Select Items to Backup page, click Add Items. The Select Items dialog opens.
 
 C5. Select Blob Storage you want to protect, and then click OK.
 
-C6.In the Select Items to Backup page, click Next.
-
-On the Specify Backup Schedule page, specify Schedule a backup every day, and click Next.
+C6. In the Select Items to Backup page, click Next. On the Specify Backup Schedule page, specify Schedule a backup every day, and click Next.
 
 ![](image/image-598.webp)
 
@@ -7974,7 +1203,7 @@ C7. On the Select Retention Policy page, set it to 14 days, and click Next.
 
 C8. Finish the Wizard.
 
-References:
+**Reference:**
 
 https://docs.microsoft.com/en-us/azure/backup/backup-configure-vault
 
@@ -7988,7 +1217,7 @@ https://docs.microsoft.com/en-us/azure/backup/backup-configure-vault
 
 Your key vault and VMs must reside in the same Azure region and subscription.
 
-References:
+**Reference:**
 
 https://docs.microsoft.com/en-us/azure/virtual-machines/windows/disk-encryption-overview
 
@@ -8002,11 +1231,7 @@ https://docs.microsoft.com/en-us/azure/virtual-machines/windows/disk-encryption-
 
 Change the subscription directory in the Azure portal.
 
-The classic portal feature Edit Directory, that allows you to associate an existing subscription to your Azure
-
-Active Directory (AAD), is now available in Azure portal. It used to be available only to Service Admins with
-
-Microsoft accounts, but now it's available to users with AAD accounts as well.
+The classic portal feature Edit Directory, that allows you to associate an existing subscription to your Azure Active Directory (AAD), is now available in Azure portal. It used to be available only to Service Admins with Microsoft accounts, but now it's available to users with AAD accounts as well.
 
 To get started:
 
@@ -8018,11 +1243,9 @@ To get started:
 
 Incorrect Answers:
 
-C: The Set-AzureRmContext cmdlet sets authentication information for cmdlets that you run in the current
+C: The Set-AzureRmContext cmdlet sets authentication information for cmdlets that you run in the current session. The context includes tenant, subscription, and environment information.
 
-session. The context includes tenant, subscription, and environment information.
-
-References:
+**Reference:**
 
 https://azure.microsoft.com/en-us/updates/edit-directory-now-in-new-portal/
 
@@ -8044,27 +1267,15 @@ AD DS Enterprise Administrator credentials
 
 Azure AD Global Administrator credentials
 
-The AD DS Enterprise Admin account is used to configure your on-premises Active Directory. These
-
-credentials are only used during the installation and are not used after the installation has completed. The
-
-Enterprise Admin, not the Domain Admin should make sure the permissions in Active Directory can be set
-
-in all domains.
+The AD DS Enterprise Admin account is used to configure your on-premises Active Directory. These credentials are only used during the installation and are not used after the installation has completed. The Enterprise Admin, not the Domain Admin should make sure the permissions in Active Directory can be set in all domains.
 
 Box 2: UserA
 
-Azure AD Global Admin credentials are only used during the installation and are not used after the
+Azure AD Global Admin credentials are only used during the installation and are not used after the installation has completed. It is used to create the Azure AD Connector account used for synchronizing changes to Azure AD. The account also enables sync as a feature in Azure AD.
 
-installation has completed. It is used to create the Azure AD Connector account used for synchronizing
+**Reference:**
 
-changes to Azure AD. The account also enables sync as a feature in Azure AD.
-
-References:
-
-https://docs.microsoft.com/en-us/azure/active-directory/connect/active-directory-aadconnect-accounts-
-
-permissions
+https://docs.microsoft.com/en-us/azure/active-directory/connect/active-directory-aadconnect-accounts-permissions
 
 [Back to question](#question-210)
 
@@ -8074,19 +1285,12 @@ permissions
 
 **Explanation:**
 
-When you connect a Windows device with Azure AD using an Azure AD join, Azure AD adds the following
+When you connect a Windows device with Azure AD using an Azure AD join, Azure AD adds the following security principles to the local administrators group on the device:
+- The Azure AD global administrator role
+- The Azure AD device administrator role
+- The user performing the Azure AD join
 
-security principles to the local administrators group on the device:
-
-	- The Azure AD global administrator role
-
-	- The Azure AD device administrator role
-
-	- The user performing the Azure AD join
-
-In the Azure portal, you can manage the device administrator role on the Devices page. To open the
-
-Devices page:
+In the Azure portal, you can manage the device administrator role on the Devices page. To open the Devices page:
 
 1. Sign in to your Azure portal as a global administrator or device administrator.
 
@@ -8096,11 +1300,9 @@ Devices page:
 
 4. On the Devices page, click Device settings.
 
-5. To modify the device administrator role, configure Additional local administrators on Azure AD joined
+5. To modify the device administrator role, configure Additional local administrators on Azure AD joined devices.
 
-devices.
-
-References:
+**Reference:**
 
 https://docs.microsoft.com/en-us/azure/active-directory/devices/assign-local-admin
 
@@ -8108,17 +1310,11 @@ https://docs.microsoft.com/en-us/azure/active-directory/devices/assign-local-adm
 
 ### Answer 212
 
-**CORRECT ANSWER:** A
-
-**Explanation:**
+**CORRECT ANSWER:**
 
 First, create Recovery Services vault.
 
-Step 1: On the left-hand menu, select All services and in the services list, type Recovery Services. As you
-
-type, the list of resources filters. When you see Recovery Services vaults in the list, select it to open the
-
-Recovery Services vaults menu.
+Step 1: On the left-hand menu, select All services and in the services list, type Recovery Services. As you type, the list of resources filters. When you see Recovery Services vaults in the list, select it to open the Recovery Services vaults menu.
 
 ![](image/image-614.webp)
 
@@ -8126,23 +1322,17 @@ Step 2: In the Recovery Services vaults menu, click Add to open the Recovery Ser
 
 ![](image/image-615.webp)
 
-Step 3: In the Recovery Services vault menu, for example, 
+Step 3: In the Recovery Services vault menu, for example, Type myRecoveryServicesVault in Name.
 
-Type myRecoveryServicesVault in Name.
+The current subscription ID appears in Subscription. If you have additional subscriptions, you could choose another subscription for the new vault.
 
-The current subscription ID appears in Subscription. If you have additional subscriptions, you could choose
-
-another subscription for the new vault.
-
-For Resource group select Use existing and choose myResourceGroup. If myResourceGroup doesn't exist,
-
-select Create new and type myResourceGroup.
+For Resource group select Use existing and choose myResourceGroup. If myResourceGroup doesn't exist, select Create new and type myResourceGroup.
 
 From the Location drop-down menu, choose West Europe.
 
 Click Create to create your Recovery Services vault.
 
-References:
+**Reference:**
 
 https://docs.microsoft.com/en-us/azure/backup/tutorial-backup-vm-at-scale
 
@@ -8154,15 +1344,9 @@ https://docs.microsoft.com/en-us/azure/backup/tutorial-backup-vm-at-scale
 
 **Explanation:**
 
-B: Seamless SSO works with any method of cloud authentication - Password Hash Synchronization or
+B: Seamless SSO works with any method of cloud authentication - Password Hash Synchronization or Pass-through Authentication, and can be enabled via Azure AD Connect.
 
-Pass-through Authentication, and can be enabled via Azure AD Connect.
-
-E: You can gradually roll out Seamless SSO to your users. You start by adding the following Azure AD URL
-
-to all or selected users' Intranet zone settings by using Group Policy in Active Directory: https://
-
-autologon.microsoftazuread-sso.com
+E: You can gradually roll out Seamless SSO to your users. You start by adding the following Azure AD URL to all or selected users' Intranet zone settings by using Group Policy in Active Directory: https://autologon.microsoftazuread-sso.com
 
 Incorrect Answers:
 
@@ -8170,19 +1354,13 @@ A: Azure AD connect does not port 8080. It uses port 443.
 
 C: Seamless SSO is not applicable to Active Directory Federation Services (ADFS).
 
-D: Seamless SSO needs the user's device to be domain-joined, but doesn't need for the device to be Azure
+D: Seamless SSO needs the user's device to be domain-joined, but doesn't need for the device to be Azure AD Joined.
 
-AD Joined.
+Scenario: Users in the Miami office must use Azure Active Directory Seamless Single Sign-on (Azure AD Seamless SSO) when accessing resources in Azure.
 
-Scenario: Users in the Miami office must use Azure Active Directory Seamless Single Sign-on (Azure AD
+Planned Azure AD Infrastructure include: The on-premises Active Directory domain will be synchronized to Azure AD.
 
-Seamless SSO) when accessing resources in Azure.
-
-Planned Azure AD Infrastructure include: The on-premises Active Directory domain will be synchronized to
-
-Azure AD.
-
-References:
+**Reference:**
 
 https://docs.microsoft.com/en-us/azure/active-directory/connect/active-directory-aadconnect-sso-quick-start
 
@@ -8194,25 +1372,17 @@ https://docs.microsoft.com/en-us/azure/active-directory/connect/active-directory
 
 **Explanation:**
 
-You can opt in and configure additional recipients to receive your Azure invoice in an email. This feature
+You can opt in and configure additional recipients to receive your Azure invoice in an email. This feature may not be available for certain subscriptions such as support offers, Enterprise Agreements, or Azure in Open.
 
-may not be available for certain subscriptions such as support offers, Enterprise Agreements, or Azure in
-
-Open.
-
-1. Select your subscription from the Subscriptions page. Opt-in for each subscription you own. Click
-
-Invoices then Email my invoice.
+1. Select your subscription from the Subscriptions page. Opt-in for each subscription you own. Click Invoices then Email my invoice.
 
 ![](image/image-622.webp)
 
 2. Click Opt in and accept the terms.
 
-Scenario: During the testing phase, auditors in the finance department must be able to review all Azure
+Scenario: During the testing phase, auditors in the finance department must be able to review all Azure costs from the past week.
 
-costs from the past week.
-
-References:
+**Reference:**
 
 https://docs.microsoft.com/en-us/azure/billing/billing-download-azure-invoice-daily-usage-date
 
@@ -8226,11 +1396,9 @@ https://docs.microsoft.com/en-us/azure/billing/billing-download-azure-invoice-da
 
 Scenario: Enable Azure Multi-Factor Authentication (MFA) for the users in the finance department only.
 
-The recommendation is to use conditional access policies that can then be targeted to groups of users,
+The recommendation is to use conditional access policies that can then be targeted to groups of users, specific applications, or other conditions.
 
-specific applications, or other conditions.
-
-References:
+**Reference:**
 
 https://docs.microsoft.com/en-us/azure/active-directory/authentication/howto-mfa-userstates
 
@@ -8256,7 +1424,7 @@ Scenario: Migrate the virtual machines hosted on Server1 and Server2 to Azure.
 
 Server2 has the Hyper-V host role.
 
-References:
+**Reference:**
 
 https://docs.microsoft.com/en-us/azure/site-recovery/migrate-tutorial-on-premises-azure
 
@@ -8270,21 +1438,11 @@ https://docs.microsoft.com/en-us/azure/site-recovery/migrate-tutorial-on-premise
 
 Scenario: Contoso must meet technical requirements including:
 
-Ensure that VM3 can establish outbound connections over TCP port 8080 to the applications servers in the
+Ensure that VM3 can establish outbound connections over TCP port 8080 to the applications servers in the Montreal office.
 
-Montreal office.
+IP flow verify checks if a packet is allowed or denied to or from a virtual machine. The information consists of direction, protocol, local IP, remote IP, local port, and remote port. If the packet is denied by a security group, the name of the rule that denied the packet is returned. While any source or destination IP can be chosen, IP flow verify helps administrators quickly diagnose connectivity issues from or to the internet and from or to the on-premises environment.
 
-IP flow verify checks if a packet is allowed or denied to or from a virtual machine. The information consists
-
-of direction, protocol, local IP, remote IP, local port, and remote port. If the packet is denied by a security
-
-group, the name of the rule that denied the packet is returned. While any source or destination IP can be
-
-chosen, IP flow verify helps administrators quickly diagnose connectivity issues from or to the internet and
-
-from or to the on-premises environment.
-
-References:
+**Reference:**
 
 https://docs.microsoft.com/en-us/azure/network-watcher/network-watcher-ip-flow-verify-overview
 
@@ -8296,17 +1454,13 @@ https://docs.microsoft.com/en-us/azure/network-watcher/network-watcher-ip-flow-v
 
 ![](image/image-641.webp)
 
-**Explanation:**
-
 [Back to question](#question-218)
 
 ### Answer 219
 
 **CORRECT ANSWER:** B
 
-**Explanation:**
-
-References:
+**Reference:**
 
 https://docs.microsoft.com/en-us/azure/api-management/api-management-howto-configure-notifications
 
@@ -8316,9 +1470,7 @@ https://docs.microsoft.com/en-us/azure/api-management/api-management-howto-confi
 
 **CORRECT ANSWER:** A
 
-**Explanation:**
-
-References:
+**Reference:**
 
 https://docs.microsoft.com/en-us/azure/api-management/api-management-howto-configure-notifications
 
@@ -8328,9 +1480,7 @@ https://docs.microsoft.com/en-us/azure/api-management/api-management-howto-confi
 
 **CORRECT ANSWER:** B
 
-**Explanation:**
-
-References:
+**Reference:**
 
 https://docs.microsoft.com/en-us/azure/api-management/api-management-howto-configure-notifications
 
@@ -8340,9 +1490,7 @@ https://docs.microsoft.com/en-us/azure/api-management/api-management-howto-confi
 
 **CORRECT ANSWER:** B
 
-**Explanation:**
-
-References:
+**Reference:**
 
 https://docs.microsoft.com/en-us/azure/api-management/api-management-howto-configure-notifications
 
@@ -8352,9 +1500,7 @@ https://docs.microsoft.com/en-us/azure/api-management/api-management-howto-confi
 
 **CORRECT ANSWER:** B
 
-**Explanation:**
-
-References:
+**Reference:**
 
 https://docs.microsoft.com/en-us/azure/sql-database/sql-database-develop-error-messages
 
@@ -8363,8 +1509,6 @@ https://docs.microsoft.com/en-us/azure/sql-database/sql-database-develop-error-m
 ### Answer 224
 
 **CORRECT ANSWER:** A
-
-
 
 [Back to question](#question-224)
 
@@ -8380,35 +1524,25 @@ Question Set 2
 
 ### Answer 226
 
-**CORRECT ANSWER:** A
+**CORRECT ANSWER:**
 
-**Explanation:**
+Step 1: In the Azure Portal, click Create a resource > Web + Mobile > Web App.
 
-Step 1:
+Step 2: Use the Webb app settings as listed below.
 
-In the Azure Portal, click Create a resource > Web + Mobile > Web App.
-
-Step 2:
-
-Use the Webb app settings as listed below.
-
-Web App name:             corp10217507n2
-
-Hosting plan:                 Azure App Service plan
-
-Pricing tier of the Pricing Tier:     Standard
+| Field | Value |
+| --- | --- |
+| Web App name | corp10217507n2 |
+| Hosting plan | Azure App Service plan |
+| Pricing tier of the Pricing Tier | Standard |
 
 Change your hosting plan to Standard, you can't setup auto-scaling below standard tier.
 
-Step 3:
+Step 3: Select Create to provision and deploy the Web app.
 
-Select Create to provision and deploy the Web app.
+**Reference:**
 
-References:
-
-https://docs.microsoft.com/en-us/azure/app-service/environment/app-service-web-how-to-create-a-web-
-
-app-in-an-ase
+https://docs.microsoft.com/en-us/azure/app-service/environment/app-service-web-how-to-create-a-web-app-in-an-ase
 
 https://azure.microsoft.com/en-us/pricing/details/app-service/plans/
 
@@ -8416,23 +1550,13 @@ https://azure.microsoft.com/en-us/pricing/details/app-service/plans/
 
 ### Answer 227
 
-**CORRECT ANSWER:** A
+**CORRECT ANSWER:**
 
-**Explanation:**
+Step 1: Click New found on the upper left-hand corner of the Azure portal.
 
-Step 1:
+Step 2: Select Networking and then select Application Gateway in the Featured list.
 
-Click New found on the upper left-hand corner of the Azure portal.
-
-Step 2:
-
-Select Networking and then select Application Gateway in the Featured list.
-
-Step 3:
-
-Enter these values for the application gateway:
-
-appgw1015 - for the name of the application gateway.
+Step 3: Enter these values for the application gateway: appgw1015 - for the name of the application gateway.
 
 SKU Size: Standard_V2
 
@@ -8440,15 +1564,11 @@ The new SKU [Standard_V2] offers autoscaling and other critical performance enha
 
 ![](image/image-672.webp)
 
-Step 4:
+Step 4: Accept the default values for the other settings and then click OK.
 
-Accept the default values for the other settings and then click OK.
+Step 5: Click Choose a virtual network, and select subnet0.
 
-Step 5:
-
-Click Choose a virtual network, and select subnet0.
-
-References:
+**Reference:**
 
 https://docs.microsoft.com/en-us/azure/application-gateway/application-gateway-create-gateway-portal
 
@@ -8456,17 +1576,11 @@ https://docs.microsoft.com/en-us/azure/application-gateway/application-gateway-c
 
 ### Answer 228
 
-**CORRECT ANSWER:** A
+**CORRECT ANSWER:**
 
-**Explanation:**
+Step 1: On the top left-hand side of the screen, click Create a resource > Networking > Load Balancer.
 
-Step 1:
-
-On the top left-hand side of the screen, click Create a resource > Networking > Load Balancer.
-
-Step 2:
-
-In the Create a load balancer page enter these values for the load balancer:
+Step 2: In the Create a load balancer page enter these values for the load balancer:
 
 myLoadBalancer - for the name of the load balancer.
 
@@ -8488,21 +1602,13 @@ Step 3: Accept the default values for the other settings and click Create to cre
 
 **Explanation:**
 
-Microsoft Azure Service Bus is a fully managed enterprise integration message broker. Service Bus is most
+Microsoft Azure Service Bus is a fully managed enterprise integration message broker. Service Bus is most commonly used to decouple applications and services from each other, and is a reliable and secure platform for asynchronous data and state transfer.
 
-commonly used to decouple applications and services from each other, and is a reliable and secure
-
-platform for asynchronous data and state transfer.
-
-One common messaging scenario is Messaging: transfer business data, such as sales or purchase orders,
-
-journals, or inventory movements.
+One common messaging scenario is Messaging: transfer business data, such as sales or purchase orders, journals, or inventory movements.
 
 Incorrect Answers:
 
-B: The Azure Relay service enables you to securely expose services that run in your corporate network to
-
-the public cloud.
+B: The Azure Relay service enables you to securely expose services that run in your corporate network to the public cloud.
 
 **Reference:**
 
@@ -8520,21 +1626,19 @@ The Mobile Apps client enables you to register for push notifications with Azure
 
 The following platforms are supported:
 
-	- Xamarin Android releases for API 19 through 24 (KitKat through Nougat)
+- Xamarin Android releases for API 19 through 24 (KitKat through Nougat)
 
-	- Xamarin iOS releases for iOS versions 8.0 and later
+- Xamarin iOS releases for iOS versions 8.0 and later
 
-	- Universal Windows Platform
+- Universal Windows Platform
 
-	- Windows Phone 8.1
+- Windows Phone 8.1
 
-	- Windows Phone 8.0 except for Silverlight applications
+- Windows Phone 8.0 except for Silverlight applications
 
-References:
+**Reference:**
 
-https://docs.microsoft.com/en-us/azure/app-service-mobile/app-service-mobile-dotnet-how-to-use-client-
-
-library
+https://docs.microsoft.com/en-us/azure/app-service-mobile/app-service-mobile-dotnet-how-to-use-client-library
 
 [Back to question](#question-230)
 
@@ -8544,8 +1648,6 @@ library
 
 ![](image/image-689.webp)
 
-**Explanation:**
-
 [Back to question](#question-231)
 
 ### Answer 232
@@ -8553,8 +1655,6 @@ library
 **CORRECT ANSWER:**
 
 ![](image/image-691.webp)
-
-**Explanation:**
 
 [Back to question](#question-232)
 
@@ -8564,8 +1664,6 @@ library
 
 ![](image/image-693.webp)
 
-**Explanation:**
-
 [Back to question](#question-233)
 
 ### Answer 234
@@ -8574,21 +1672,15 @@ library
 
 ![](image/image-695.webp)
 
-**Explanation:**
-
 [Back to question](#question-234)
 
 ### Answer 235
 
 **CORRECT ANSWER:** A
 
-**Explanation:**
+**Reference:**
 
-References:
-
-https://docs.microsoft.com/mt-mt/azure/sql-database/sql-database-elastic-transactions-overview?
-
-view=azurermps-6.13.0
+https://docs.microsoft.com/mt-mt/azure/sql-database/sql-database-elastic-transactions-overview?view=azurermps-6.13.0
 
 [Back to question](#question-235)
 
@@ -8598,9 +1690,7 @@ view=azurermps-6.13.0
 
 ![](image/image-697.webp)
 
-**Explanation:**
-
-References:
+**Reference:**
 
 https://docs.microsoft.com/en-us/azure/cognitive-services/qnamaker/overview/overview
 
@@ -8610,8 +1700,6 @@ https://docs.microsoft.com/en-us/azure/cognitive-services/qnamaker/overview/over
 
 **CORRECT ANSWER:** B
 
-
-
 [Back to question](#question-237)
 
 ### Answer 238
@@ -8619,8 +1707,6 @@ https://docs.microsoft.com/en-us/azure/cognitive-services/qnamaker/overview/over
 **CORRECT ANSWER:**
 
 ![](image/image-699.webp)
-
-**Explanation:**
 
 [Back to question](#question-238)
 
@@ -8634,19 +1720,13 @@ https://docs.microsoft.com/en-us/azure/cognitive-services/qnamaker/overview/over
 
 Box 1:
 
-The Autoscale scale out rule increases the number of VMs by 2 if the CPU threshold is 80% or higher. The
-
-initial instance count is 4 and rises to 6 when the 2 extra instances of VMs are added.
+The Autoscale scale out rule increases the number of VMs by 2 if the CPU threshold is 80% or higher. The initial instance count is 4 and rises to 6 when the 2 extra instances of VMs are added.
 
 Box 2:
 
-The Autoscale scale in rule decreases the number of VMs by 4 if the CPU threshold is 30% or lower. The
+The Autoscale scale in rule decreases the number of VMs by 4 if the CPU threshold is 30% or lower. The initial instance count is 4 and thus cannot be reduced to 0 as the minimum instances is set to 2. Instances are only added when the CPU threshold reaches 80%.
 
-initial instance count is 4 and thus cannot be reduced to 0 as the minimum instances is set to 2. Instances
-
-are only added when the CPU threshold reaches 80%.
-
-References:
+**Reference:**
 
 https://docs.microsoft.com/en-us/azure/azure-monitor/platform/autoscale-overview
 
@@ -8666,9 +1746,7 @@ https://docs.microsoft.com/en-us/azure/azure-monitor/platform/autoscale-common-s
 
 Box 1: Public
 
-The following example shows site traffic coming from both ports 8080 and 8081 and being directed to the
-
-same backend pools.
+The following example shows site traffic coming from both ports 8080 and 8081 and being directed to the same backend pools.
 
 ![](image/image-706.webp)
 
@@ -8678,7 +1756,7 @@ You can create an application gateway with URL path-based redirection using Azur
 
 Box 3: Path-based redirection and Websockets
 
-References:
+**Reference:**
 
 https://docs.microsoft.com/bs-latn-ba/azure//application-gateway/tutorial-url-redirect-powershell
 
@@ -8686,47 +1764,32 @@ https://docs.microsoft.com/bs-latn-ba/azure//application-gateway/tutorial-url-re
 
 ### Answer 241
 
-**CORRECT ANSWER:** A
-
-**Explanation:**
+**CORRECT ANSWER:**
 
 Step 1: Click Create a resource in the portal.
 
-Step 2: Enter Virtual network in the Search the Marketplace box at the top of the New pane that appears.
+Step 2: Enter Virtual network in the Search the Marketplace box at the top of the New pane that appears. Click Virtual network when it appears in the search results.
 
-Click Virtual network when it appears in the search results.
-
-Step 3: Select Classic in the Select a deployment model box in the Virtual Network pane that appears, then
-
-click Create.
+Step 3: Select Classic in the Select a deployment model box in the Virtual Network pane that appears, then click Create.
 
 Step 4: Enter the following values on the Create virtual network (classic) pane and then click Create:
 
-Name:                                 VNET1008
+| Field | Value |
+| --- | --- |
+| Name | VNET1008 |
+| Address space | 10.0.0.0/16 |
+| Subnet name | subnet0 |
+| Resource group | Create new |
+| Subnet address range | 10.0.0.0/24 |
+| Subscription and location | Select your subscription and location |
 
-Address space:                   10.0.0.0/16
-
-Subnet name:                      subnet0
-
-Resource group:                   Create new
-
-Subnet address range:          10.0.0.0/24
-
-Subscription and location:     Select your subscription and location.
-
-Step 5: In the portal, you can create only one subnet when you create a virtual network. Click Subnets (in
-
-the SETTINGS section) on the Create virtual network (classic) pane that appears.
-
-Click +Add on the VNET1008 - Subnets pane that appears.
+Step 5: In the portal, you can create only one subnet when you create a virtual network. Click Subnets (in the SETTINGS section) on the Create virtual network (classic) pane that appears. Click +Add on the VNET1008 - Subnets pane that appears.
 
 Step 6: Enter subnet1 for Name on the Add subnet pane. Enter 10.0.1.0/24 for Address range. Click OK.
 
-Step 7: Create the third subnet: Click +Add on the VNET1008 - Subnets pane that appears. Enter subnet2
+Step 7: Create the third subnet: Click +Add on the VNET1008 - Subnets pane that appears. Enter subnet2 for Name on the Add subnet pane. Enter 10.0.2.0/24 for Address range. Click OK.
 
-for Name on the Add subnet pane. Enter 10.0.2.0/24 for Address range. Click OK.
-
-References:
+**Reference:**
 
 https://docs.microsoft.com/en-us/azure/virtual-network/create-virtual-network-classic
 
@@ -8738,11 +1801,9 @@ https://docs.microsoft.com/en-us/azure/virtual-network/create-virtual-network-cl
 
 **Explanation:**
 
-Explanation: 
-
 Azure Monitor autoscale can be used on Virtual Machine Scale Sets.
 
-References:
+**Reference:**
 
 https://docs.microsoft.com/en-us/azure/azure-monitor/platform/autoscale-custom-metric
 
@@ -8752,8 +1813,6 @@ https://docs.microsoft.com/en-us/azure/azure-monitor/platform/autoscale-custom-m
 
 **CORRECT ANSWER:** A, B, D
 
-
-
 [Back to question](#question-243)
 
 ### Answer 244
@@ -8762,33 +1821,18 @@ https://docs.microsoft.com/en-us/azure/azure-monitor/platform/autoscale-custom-m
 
 **Explanation:**
 
-Explanation: 
-
-Azure Event Hubs is a big data pipeline. It facilitates the capture, retention, and replay of telemetry and
-
-event stream data. The data can come from many concurrent sources. Event Hubs allows telemetry and
-
-event data to be made available to a variety of stream-processing infrastructures and analytics services. It
-
-is available either as data streams or bundled event batches. This service provides a single solution that
-
-enables rapid data retrieval for real-time processing as well as repeated replay of stored raw data. It can
-
-capture the streaming data into a file for processing and analysis.
+Azure Event Hubs is a big data pipeline. It facilitates the capture, retention, and replay of telemetry and event stream data. The data can come from many concurrent sources. Event Hubs allows telemetry and event data to be made available to a variety of stream-processing infrastructures and analytics services. It is available either as data streams or bundled event batches. This service provides a single solution that enables rapid data retrieval for real-time processing as well as repeated replay of stored raw data. It can capture the streaming data into a file for processing and analysis.
 
 It has the following characteristics:
+- low latency
+- capable of receiving and processing millions of events per second
+- at least once delivery
 
-	- low latency
-
-	- capable of receiving and processing millions of events per second
-
-	- at least once delivery
-
-Note: Comparison of services
+>**Note:** Comparison of services
 
 ![](image/image-720.webp)
 
-References:
+**Reference:**
 
 https://docs.microsoft.com/en-us/azure/event-grid/compare-messaging-services
 
@@ -8800,25 +1844,11 @@ https://docs.microsoft.com/en-us/azure/event-grid/compare-messaging-services
 
 **Explanation:**
 
-Explanation: 
-
-In-guest VM metrics with the Azure diagnostics extension
-
-The Azure diagnostics extension is an agent that runs inside a VM instance. The agent monitors and saves
-
-performance metrics to Azure storage. These performance metrics contain more detailed information about
-
-the status of the VM, such as AverageReadTime for disks or PercentIdleTime for CPU. You can create
-
-autoscale rules based on a more detailed awareness of the VM performance, not just the percentage of
-
-CPU usage or memory consumption.
+In-guest VM metrics with the Azure diagnostics extension The Azure diagnostics extension is an agent that runs inside a VM instance. The agent monitors and saves performance metrics to Azure storage. These performance metrics contain more detailed information about the status of the VM, such as AverageReadTime for disks or PercentIdleTime for CPU. You can create autoscale rules based on a more detailed awareness of the VM performance, not just the percentage of CPU usage or memory consumption.
 
 **Reference:**
 
-https://docs.microsoft.com/en-us/azure/virtual-machine-scale-sets/virtual-machine-scale-sets-autoscale-
-
-overview
+https://docs.microsoft.com/en-us/azure/virtual-machine-scale-sets/virtual-machine-scale-sets-autoscale-overview
 
 [Back to question](#question-245)
 
@@ -8828,17 +1858,13 @@ overview
 
 **Explanation:**
 
-Returns Item1 only as EnableCrossPartitionQuery property to False. If EnableCrossPartitionQuery property
-
-is set to true, it will return Item1 and Item3.
+Returns Item1 only as EnableCrossPartitionQuery property to False. If EnableCrossPartitionQuery property is set to true, it will return Item1 and Item3.
 
 **Reference:**
 
 https://docs.microsoft.com/en-us/azure/cosmos-db/sql-query-where
 
-https://docs.microsoft.com/en-us/dotnet/api/
-
-microsoft.azure.documents.client.feedoptions.enablecrosspartitionquery?view=azure-dotnet
+https://docs.microsoft.com/en-us/dotnet/api/microsoft.azure.documents.client.feedoptions.enablecrosspartitionquery?view=azure-dotnet
 
 [Back to question](#question-246)
 
@@ -8854,9 +1880,7 @@ Returns Item1, Item2, Item3, and Item4.
 
 https://docs.microsoft.com/en-us/azure/cosmos-db/sql-query-where
 
-https://docs.microsoft.com/en-us/dotnet/api/
-
-microsoft.azure.documents.client.feedoptions.enablecrosspartitionquery?view=azure-dotnet
+https://docs.microsoft.com/en-us/dotnet/api/microsoft.azure.documents.client.feedoptions.enablecrosspartitionquery?view=azure-dotnet
 
 [Back to question](#question-247)
 
@@ -8872,9 +1896,7 @@ Returns Item1 and Item2 only.
 
 https://docs.microsoft.com/en-us/azure/cosmos-db/sql-query-where
 
-https://docs.microsoft.com/en-us/dotnet/api/
-
-microsoft.azure.documents.client.feedoptions.enablecrosspartitionquery?view=azure-dotnet
+https://docs.microsoft.com/en-us/dotnet/api/microsoft.azure.documents.client.feedoptions.enablecrosspartitionquery?view=azure-dotnet
 
 [Back to question](#question-248)
 
@@ -8884,8 +1906,6 @@ microsoft.azure.documents.client.feedoptions.enablecrosspartitionquery?view=azur
 
 ![](image/image-731.webp)
 
-**Explanation:**
-
 [Back to question](#question-249)
 
 ### Answer 250
@@ -8894,17 +1914,12 @@ microsoft.azure.documents.client.feedoptions.enablecrosspartitionquery?view=azur
 
 **Explanation:**
 
-Returns Item1 only as EnableCrossPartitionQuery property to False. If EnableCrossPartitionQuery property
-
-is set to true, it will return Item1, Item2, and Item3.
+Returns Item1 only as EnableCrossPartitionQuery property to False. If EnableCrossPartitionQuery property is set to true, it will return Item1, Item2, and Item3.
 
 **Reference:**
 
 https://docs.microsoft.com/en-us/azure/cosmos-db/sql-query-where
 
-https://docs.microsoft.com/en-us/dotnet/api/
-
-microsoft.azure.documents.client.feedoptions.enablecrosspartitionquery?view=azure-dotnet
+https://docs.microsoft.com/en-us/dotnet/api/microsoft.azure.documents.client.feedoptions.enablecrosspartitionquery?view=azure-dotnet
 
 [Back to question](#question-250)
-
