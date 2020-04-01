@@ -2,6 +2,7 @@
 
 ## Skills Measured
 * [Manage Azure identities and governance](az-104/identities-and-governance.md)
+* [Implement and manage storage](az-104/storage.md)
 
 # AZ-300: Microsoft Azure Architect Technologies
 
